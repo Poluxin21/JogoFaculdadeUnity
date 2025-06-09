@@ -41,5 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: fundo
+    uniqueID: 4063868731
+    locked: 0
+  - name: terreno
+    uniqueID: 3829869323
+    locked: 0
+  - name: player
+    uniqueID: 801170877
+    locked: 0
+  - name: frente
+    uniqueID: 1861801907
+    locked: 0
   m_RenderingLayers:
   - Default
