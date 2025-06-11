@@ -1,0 +1,110 @@
+# Este arquivo .gitignore deve ser colocado na raiz do diretório do seu projeto Unity
+#
+# Obtenha a versão mais recente em https://github.com/github/gitignore/blob/main/Unity.gitignore 
+#
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Rider ignored files
+/.idea.My project.iml
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Unity-related ignored files and directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# Ignorar diretórios específicos na raiz do projeto
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Logs/
+/UserSettings/
+
+# Por padrão, o Unity suporta importação de arquivos Blender. Arquivos *.blend1 não precisam ser versionados.
+*.blend1
+*.blend1.meta
+
+# Capturas de memória podem ficar excessivamente grandes.
+# Também podem conter dados extremamente sensíveis
+/[Mm]emoryCaptures/
+
+# Gravações podem ficar excessivamente grandes
+/[Rr]ecordings/
+
+# Descomente esta linha se quiser ignorar o plugin de ferramentas da Asset Store
+# /[Aa]ssets/AssetStoreTools*
+
+# Plugin autogerado do Jetbrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Diretório de cache do Visual Studio
+.vs/
+
+# Diretório de cache do Gradle
+.gradle/
+
+# Arquivos de solução e projeto autogerados para VS/MD/Consulo
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Arquivos meta gerados pelo Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Arquivo gerado pelo Unity3D em relatórios de falhas
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Arquivo gerado pelo Crashlytics
+crashlytics-build.properties
+
+# Addressables compactados
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Assets temporários autogerados para Android
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Arquivos autogerados do Visual Scripting
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
