@@ -15,7 +15,7 @@ D:/Projetos_de_Jogos/ProjetoJogoUvaUnity/JogoFaculdadeUnity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52415
+49226
 -job-worker-count
 2
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Projetos_de_Jogos/ProjetoJogoUvaUnity/JogoFaculdadeUnity
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8068]  Target information:
+Player connection [13640]  Target information:
 
-Player connection [8068]  * "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 3993773556 [EditorId] 3993773556 [Version] 1048832 [Id] WindowsEditor(7,FamiliaCruz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13640]  * "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 3567279423 [EditorId] 3567279423 [Version] 1048832 [Id] WindowsEditor(7,FamiliaCruz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8068] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8068] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13640] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13640] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 2
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.41f1 (46e447368a18)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
@@ -93,45 +93,45 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/Editor/6000.0.41f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011076 seconds.
-- Loaded All Assemblies, in  0.597 seconds
+Registered in 0.011172 seconds.
+- Loaded All Assemblies, in  0.600 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.437 seconds
-Domain Reload Profiling: 1023ms
-	BeginReloadAssembly (217ms)
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 1031ms
+	BeginReloadAssembly (213ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (219ms)
-		LoadAssemblies (207ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (196ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (194ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (438ms)
+	FinalizeReload (442ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
+		SetupLoadedEditorAssemblies (387ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (78ms)
+			InitializePlatformSupportModulesInManaged (77ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (172ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,14 +140,14 @@ Domain Reload Profiling: 1023ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.330 seconds
-Refreshing native plugins compatible for Editor in 4.52 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.294 seconds
+Refreshing native plugins compatible for Editor in 4.72 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.148 seconds
-Domain Reload Profiling: 2455ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  1.187 seconds
+Domain Reload Profiling: 3461ms
+	BeginReloadAssembly (253ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
@@ -156,638 +156,986 @@ Domain Reload Profiling: 2455ms
 	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (15ms)
 	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (921ms)
-		LoadAssemblies (731ms)
+	LoadAllAssembliesAndSetupDomain (1891ms)
+		LoadAssemblies (1454ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (361ms)
-			TypeCache.Refresh (250ms)
-				TypeCache.ScanAssembly (229ms)
-			BuildScriptInfoCaches (94ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1149ms)
+		AnalyzeDomain (597ms)
+			TypeCache.Refresh (345ms)
+				TypeCache.ScanAssembly (308ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (1187ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (977ms)
+		SetupLoadedEditorAssemblies (1005ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (202ms)
-			ProcessInitializeOnLoadAttributes (603ms)
-			ProcessInitializeOnLoadMethodAttributes (129ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (617ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
 			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6566 unused Assets / (4.4 MB). Loaded Objects now: 7282.
-Memory consumption went from 173.6 MB to 169.3 MB.
-Total: 9.582900 ms (FindLiveObjects: 0.713500 ms CreateObjectMapping: 1.026400 ms MarkObjects: 5.540800 ms  DeleteObjects: 2.301500 ms)
+Unloading 208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6566 unused Assets / (4.6 MB). Loaded Objects now: 7283.
+Memory consumption went from 173.9 MB to 169.2 MB.
+Total: 10.059000 ms (FindLiveObjects: 0.755600 ms CreateObjectMapping: 1.238900 ms MarkObjects: 5.400200 ms  DeleteObjects: 2.663500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70035.675196 seconds.
-  path: Assets/Sprites/bg_solid_colors.png
-  artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12b6f07cd9073f998d6f001d25f4c807') in 0.1224168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 8851.246333 seconds.
+  path: Assets/Tiles/Floresta Esquecida/sunken temple v1 32x32
+  artifactKey: Guid(78e6f6ce93f50f640b06223725faded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/sunken temple v1 32x32 using Guid(78e6f6ce93f50f640b06223725faded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bbf022deb50ef585a84cfd965f5cd54') in 0.0056327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.026709 seconds.
-  path: Assets/Sprites/bg_solid_colors.png
-  artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeba8553231b63e3871d04da47973e26') in 0.0121135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 145.426302 seconds.
+  path: Assets/Sprites/Floresta Esquecida/sunken_temple_v1 32x32/sunken_blocky.png
+  artifactKey: Guid(ea11790dc16ad3042872ed16370e096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/sunken_temple_v1 32x32/sunken_blocky.png using Guid(ea11790dc16ad3042872ed16370e096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43cf9cc04eee727b2c2c075f19f7b687') in 0.7916356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 376
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.586204 seconds.
+  Time since last request: 21.783375 seconds.
   path: Assets/Sprites/bg_solid_colors.png
   artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad4169e60c0f89a593510525e55bf93') in 0.2961413 seconds
+Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85422151b03b2eeaffe1a154f41c2b41') in 0.1925713 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.576575 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf169d80eed09b29f2d035cfc52b995e') in 0.0017142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 879.247589 seconds.
-  path: Assets/Sprites/mapa1_(cenario1_cenario2).png
-  artifactKey: Guid(f285056cd4663e040ae854cba3e153d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/mapa1_(cenario1_cenario2).png using Guid(f285056cd4663e040ae854cba3e153d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c45ae8e1d669a5c3ed237c49019f3bfe') in 0.0284519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 268.466139 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Tiles.png
+  artifactKey: Guid(48f433f7350d3cc48b0a7838f1b04972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Tiles.png using Guid(48f433f7350d3cc48b0a7838f1b04972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '121b57b6aac267136491f9bcfc051a91') in 0.8661892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 514
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/mapa2_(cenario1_e_cenario4).png
-  artifactKey: Guid(3d65f18535e360e4da6bb94c2b9b6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/mapa2_(cenario1_e_cenario4).png using Guid(3d65f18535e360e4da6bb94c2b9b6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e1d712bd552bb16b928041a32fb95df') in 0.0198477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Background.png
+  artifactKey: Guid(1a0b7481b64d6cd4f9d9328d89d43fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Background.png using Guid(1a0b7481b64d6cd4f9d9328d89d43fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc010c4151fb862d280843a74195dd6') in 0.5542042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 296
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/referencia_mapa.png
-  artifactKey: Guid(b233704e723502e4da8d69d03106cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/referencia_mapa.png using Guid(b233704e723502e4da8d69d03106cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '615ec4086d66c8152ac4cd35ebffb496') in 0.0259816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Props.png
+  artifactKey: Guid(a49b21eaa032b2949a2ddae1d68b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Props.png using Guid(a49b21eaa032b2949a2ddae1d68b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5966c44b6d54aa2847fc59440c83cc51') in 0.3226463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
 
 ========================================================================
 Received Import Request.
-  Time since last request: 205.217040 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91bacdd8969775377c5c02581277a082') in 0.0009253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.086783 seconds.
-  path: Assets/Scenes/SampleScene 1.unity
-  artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene 1.unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '130315cb373e630170030f9ecac5ebd5') in 0.0007099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.172229 seconds.
-  path: Assets/Scenes/mapa1(cenario1_cenario2).unity
-  artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75b9381d30eca5812067381f52979ece') in 0.0007757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.199 seconds
-Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.179 seconds
-Domain Reload Profiling: 2359ms
-	BeginReloadAssembly (299ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (768ms)
-		LoadAssemblies (669ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (256ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (231ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1180ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (930ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (211ms)
-			ProcessInitializeOnLoadAttributes (593ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6565 unused Assets / (4.5 MB). Loaded Objects now: 7300.
-Memory consumption went from 143.1 MB to 138.6 MB.
-Total: 10.489000 ms (FindLiveObjects: 0.786300 ms CreateObjectMapping: 1.187800 ms MarkObjects: 5.983900 ms  DeleteObjects: 2.529700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1477.493814 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93d58c1f1d5a7d441f8152abc6e2264d') in 0.0283138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.349349 seconds.
-  path: Assets/Tiles/cores sólidas fundo
-  artifactKey: Guid(36f95c42ba613544fa9b4a6569cde7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo using Guid(36f95c42ba613544fa9b4a6569cde7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4edf92bbd154c1c4131926080455f696') in 0.0006521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.557991 seconds.
-  path: Assets/Tiles/cores sólidas fundo/cores sólidas fundo.prefab
-  artifactKey: Guid(9d09621b77cb884439b2ac3f151946eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/cores sólidas fundo.prefab using Guid(9d09621b77cb884439b2ac3f151946eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f4fec65bd6968886a0fbc347b07f97f') in 0.5466283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.850027 seconds.
-  path: Assets/Tiles/cores sólidas fundo/cores sólidas fundo.prefab
-  artifactKey: Guid(9d09621b77cb884439b2ac3f151946eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/cores sólidas fundo.prefab using Guid(9d09621b77cb884439b2ac3f151946eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '641597a826725d810d53b6c4cf3c7a47') in 0.0394818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.264792 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_0.asset
-  artifactKey: Guid(9953303202bd41d45a3f055de90f4c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_0.asset using Guid(9953303202bd41d45a3f055de90f4c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70b43d40df3720025dfab1e4c2c8b259') in 0.1622722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_19.asset
-  artifactKey: Guid(ec3f1ac4b53cb5048ae6179bbad81fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_19.asset using Guid(ec3f1ac4b53cb5048ae6179bbad81fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '182cf08cc99f5ac7832253b0216ca73b') in 0.0115055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_26.asset
-  artifactKey: Guid(5a7463d83f1dbe3458cd619da837be23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_26.asset using Guid(5a7463d83f1dbe3458cd619da837be23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a25884e4361657161a9a67a1c5d9b76a') in 0.0118639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_13.asset
-  artifactKey: Guid(a4418ed7cb5a5f046987d87a5b711b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_13.asset using Guid(a4418ed7cb5a5f046987d87a5b711b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a13dbd0fb0f75eb58d04f09d78a76549') in 0.0116997 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_20.asset
-  artifactKey: Guid(3cdb53a3822b86946acf7354320fc33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_20.asset using Guid(3cdb53a3822b86946acf7354320fc33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ca74cc1020b42fa8570961b52e0f09b') in 0.011888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_12.asset
-  artifactKey: Guid(3e3227841dc116646a8a31a08fc559ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_12.asset using Guid(3e3227841dc116646a8a31a08fc559ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bfead7f2c5baa30e559e5c21e7b7f78') in 0.0115595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_16.asset
-  artifactKey: Guid(2c9e72398f063cc408a996f16bd0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_16.asset using Guid(2c9e72398f063cc408a996f16bd0d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04521c8c01e16da9605a010826c1f18d') in 0.0119512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_9.asset
-  artifactKey: Guid(810cc37291c10a3439606536a6453c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_9.asset using Guid(810cc37291c10a3439606536a6453c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b975c2eecab4d23b160c6ce4aa78c4f') in 0.0111678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_25.asset
-  artifactKey: Guid(e652ced18d3c7764b8daed4d654e617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_25.asset using Guid(e652ced18d3c7764b8daed4d654e617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05aef94ec5c1dc657aa180a883fed174') in 0.0123621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 87.719153 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Tiles.png
+  artifactKey: Guid(48f433f7350d3cc48b0a7838f1b04972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Tiles.png using Guid(48f433f7350d3cc48b0a7838f1b04972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5083279af0d58630f71c0ba965e7fb95') in 1.7018996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 514
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_22.asset
-  artifactKey: Guid(79d926268806996428dcf240254b7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_22.asset using Guid(79d926268806996428dcf240254b7f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe86c1860b2a95d796d94fde463f19ea') in 0.0117428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Background.png
+  artifactKey: Guid(1a0b7481b64d6cd4f9d9328d89d43fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Background.png using Guid(1a0b7481b64d6cd4f9d9328d89d43fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db19bde86fae5d8128b2137374e26b94') in 0.6303067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 296
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_1.asset
-  artifactKey: Guid(a3fde8f75df06ab41a6832384d8ea2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_1.asset using Guid(a3fde8f75df06ab41a6832384d8ea2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94344bffad46d13b03db212db969d5e4') in 0.0135393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Props.png
+  artifactKey: Guid(a49b21eaa032b2949a2ddae1d68b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Props.png using Guid(a49b21eaa032b2949a2ddae1d68b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03fe654e8a6dd27d540917e2aceca6ab') in 0.3459179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.186021 seconds.
+  path: Assets/Sprites/bg_solid_colors.png
+  artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b06c1cf8c31773ddc50646e3bea79fa2') in 0.9225156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.607693 seconds.
+  path: Assets/Sprites/Floresta Esquecida/sunken_temple_v1 32x32/sunken_blocky.png
+  artifactKey: Guid(ea11790dc16ad3042872ed16370e096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/sunken_temple_v1 32x32/sunken_blocky.png using Guid(ea11790dc16ad3042872ed16370e096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca817b4da1f15662b2583c1be4667e59') in 0.7082163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 376
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.189764 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Tiles.png
+  artifactKey: Guid(48f433f7350d3cc48b0a7838f1b04972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Tiles.png using Guid(48f433f7350d3cc48b0a7838f1b04972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f201aa534dd18133de8f50ba149f1e0e') in 1.386775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 514
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Background.png
+  artifactKey: Guid(1a0b7481b64d6cd4f9d9328d89d43fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Background.png using Guid(1a0b7481b64d6cd4f9d9328d89d43fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a279ae54019742f17c51b36b2f921e3') in 0.657592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 296
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Props.png
+  artifactKey: Guid(a49b21eaa032b2949a2ddae1d68b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sala do Trono/Hero's journey - Castle Hall 32x32/Props.png using Guid(a49b21eaa032b2949a2ddae1d68b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4949db2fb6a1ef4444784db807835f6') in 0.3458494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 1228.276158 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png
+  artifactKey: Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png using Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1fc10a9682271f6f7015dba46b20086') in 0.0382741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png
+  artifactKey: Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png using Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57d76f8681a096fadfd797674770273f') in 0.0466205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png
+  artifactKey: Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png using Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b18649d6f49676d0be4347215cb9ac86') in 0.0452563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png
+  artifactKey: Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png using Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff32df57562e7ba82618580183e3f5dc') in 0.0553597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png
+  artifactKey: Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png using Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f94137116e32f0975e2c53661b83581f') in 0.0442667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png
+  artifactKey: Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png using Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fe325a29714c0c4923a3a2493a23509') in 0.1178353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.090613 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png
+  artifactKey: Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png using Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23454fbfcbccb6d0320cb54f114900be') in 5.5130146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3041
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.881155 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png
+  artifactKey: Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png using Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7bdce9481dc4a647fd6a8408d9490db') in 0.0490223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png
+  artifactKey: Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png using Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb2860eabecaa546b91e01cddf2e7473') in 5.6226457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3041
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png
+  artifactKey: Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png using Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4163682d58ca95b51e324084347a4f3') in 0.0420391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png
+  artifactKey: Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png using Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0835473445f7ca8f7dec95a29895194') in 0.0448227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png
+  artifactKey: Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png using Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fe7199d3312feba3dd881fab5ae6515') in 0.031122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png
+  artifactKey: Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png using Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a559bc5698b53cdfa01789399b178c9f') in 0.0981747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.544716 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png
+  artifactKey: Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png using Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d758d57aa1ab1cbc8081b3c597994d8') in 4.5955542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2544
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.484951 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png
+  artifactKey: Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png using Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cefddddb63e6d6c3ff997e61cab85af9') in 0.0395855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png
+  artifactKey: Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - TileSet.png using Guid(56ea7973f20265b41a5139b4049645a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fa99852b3842cac3ac8cb7ec0787200') in 5.6211383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3041
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_3.asset
-  artifactKey: Guid(e7952fd3d303d9a40b0db85bd7dbb815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_3.asset using Guid(e7952fd3d303d9a40b0db85bd7dbb815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eea8696959814486700b9829cdb8197') in 0.0116839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_8.asset
-  artifactKey: Guid(233c70626b096404095d898d4e130512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_8.asset using Guid(233c70626b096404095d898d4e130512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efe4ee00782cf73a58971d528beb1348') in 0.0131106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_5.asset
-  artifactKey: Guid(12f8de519ffa4974593ff499bddcbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_5.asset using Guid(12f8de519ffa4974593ff499bddcbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcbdecaad942547da4d0e9d63da0366d') in 0.0116428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png
+  artifactKey: Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png using Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e615884e19f4b2e347dce6f9278d245') in 0.0419376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_2.asset
-  artifactKey: Guid(da3cbab07737c6e45b04374c00cd1488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_2.asset using Guid(da3cbab07737c6e45b04374c00cd1488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f308e8cbfbff2f3ea303700858bffcfb') in 0.0112504 seconds
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png
+  artifactKey: Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png using Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4010e9a04e34e92e4abbbd8dffe588fb') in 0.0428518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png
+  artifactKey: Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - BackgroundDecoration.png using Guid(4f58272e8dcc0ee41a3df488d174b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c91f6817c56eff3133db39f9d0f3508') in 4.8223258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2544
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png
+  artifactKey: Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png using Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c6f37c72716e23ff5a1921c4beaa97') in 0.191002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.483740 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png
+  artifactKey: Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Decorations&Hazards.png using Guid(489f2ec81b065fc489c0a1bf972f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '695f575e607ea14ecc99f050dcaa5e11') in 3.2975442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1795
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.396589 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png
+  artifactKey: Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - FloatingPlatforms.png using Guid(a26acbb2d722db548ae3bb83735cb8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf364db796a3f79fd64ceb38d7dfe6be') in 1.8638246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 861
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.083109 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png
+  artifactKey: Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - Hanging Plants.png using Guid(54000e9d8ae2e5742a4895d4b3ece3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0b2937df7a74795602c0f8a6851b52') in 1.4888942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 730
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.968838 seconds.
+  path: Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png
+  artifactKey: Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floresta Esquecida/Mossy Tileset/Mossy - MossyHills.png using Guid(00ca7d3f87444a840b7f0fe605de4b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9412070935ee3fea1673899eb4f2e3e3') in 1.2776241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 637
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.878886 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset
+  artifactKey: Guid(73f705d8eab952249987c140bdb94b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset using Guid(73f705d8eab952249987c140bdb94b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcf10d7cb05287a19296a04ab815abad') in 0.0006328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.441162 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64
+  artifactKey: Guid(8f75033a752f75d47ad104d864913634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64 using Guid(8f75033a752f75d47ad104d864913634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c289167928638db0559b0bffa8c837a2') in 0.0006573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001648 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy Tileset.prefab
+  artifactKey: Guid(5a8b3727641186e4d8a0e76e7ec60cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy Tileset.prefab using Guid(5a8b3727641186e4d8a0e76e7ec60cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c9fcb59d078142a656b83549c1c1bd') in 0.531022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.025908 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy Tileset 64x61.prefab
+  artifactKey: Guid(ebc30776989b4cd45aa45e9dc0e2f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy Tileset 64x61.prefab using Guid(ebc30776989b4cd45aa45e9dc0e2f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fffd11b1c9667f7029d9ec895b4db5fe') in 0.0179126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 666.250158 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_0.asset
+  artifactKey: Guid(56d4e378dca54c94f935b13249fa3f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_0.asset using Guid(56d4e378dca54c94f935b13249fa3f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5904dd8e77c3341257ad9b8d7009738') in 0.0335387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_2.asset
+  artifactKey: Guid(db5167ab191f8a645889b4580b793cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_2.asset using Guid(db5167ab191f8a645889b4580b793cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f9ac6ea92e6b50bc325e5cbe7c14817') in 0.0177993 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_14.asset
-  artifactKey: Guid(722c455fb3230dc48b970a96e6d53537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_14.asset using Guid(722c455fb3230dc48b970a96e6d53537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df3c2e885d029fba96626eeabcd7b154') in 0.011367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_21.asset
-  artifactKey: Guid(6fbafe56a3791d540941473c86032b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_21.asset using Guid(6fbafe56a3791d540941473c86032b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a90a1121a5b2d7d0bb70abc33538e1b') in 0.0120505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_4.asset
-  artifactKey: Guid(6c019948dbca29e49bdcd9ac2b2b6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_4.asset using Guid(6c019948dbca29e49bdcd9ac2b2b6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c64163d548d9ac3678319ece5aa249e') in 0.0118523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_6.asset
-  artifactKey: Guid(5a3bd972428dab242807cbb92af69196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_6.asset using Guid(5a3bd972428dab242807cbb92af69196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00307704cbe22aacfe15fa9e98771339') in 0.011372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_7.asset
-  artifactKey: Guid(38145142472604f469f24f102a464773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_7.asset using Guid(38145142472604f469f24f102a464773) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '433a6186c62ea66a77c036c5c8f02bfd') in 0.011332 seconds
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_23.asset
+  artifactKey: Guid(74053a817374cb24ca7273dc4c47735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_23.asset using Guid(74053a817374cb24ca7273dc4c47735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ea4842b9050c5438c95c67e710f156') in 0.0139731 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_18.asset
-  artifactKey: Guid(0d358952326f9f748b3ce4388759d53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_18.asset using Guid(0d358952326f9f748b3ce4388759d53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8593eba7cc30abfa20e78461ba09960b') in 0.0120644 seconds
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_36.asset
+  artifactKey: Guid(0e5b5a20eec9aad43b0465d6ac462b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_36.asset using Guid(0e5b5a20eec9aad43b0465d6ac462b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c82b0372c7ca705a510ca87528e95fe4') in 0.0145798 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_23.asset
-  artifactKey: Guid(61f900147fd1cc443828c7550c1af81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_23.asset using Guid(61f900147fd1cc443828c7550c1af81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213cc050b668ac5f5fd3e0997f968f83') in 0.0117281 seconds
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_13.asset
+  artifactKey: Guid(dccd28edb879da4458983c7764f523e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_13.asset using Guid(dccd28edb879da4458983c7764f523e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dea56b1dcd029b882278c1be7e9ad91') in 0.0175445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_4.asset
+  artifactKey: Guid(cb303511b7f902a40ab8d3655aad0c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_4.asset using Guid(cb303511b7f902a40ab8d3655aad0c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3929b464f336a4fdfd16d5bfce16ab6') in 0.0136813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_28.asset
+  artifactKey: Guid(a314b951f2f2c1b49a0b64176bc739e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_28.asset using Guid(a314b951f2f2c1b49a0b64176bc739e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e524494629143608a8650e91800259') in 0.0161644 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_17.asset
-  artifactKey: Guid(b3168e15953c7744a889f018083011c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_17.asset using Guid(b3168e15953c7744a889f018083011c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0338042d6d241ef9ce14b5a91209c5c7') in 0.0119299 seconds
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_1.asset
+  artifactKey: Guid(3ae1163ac3970ec428d4a9ba59bb4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_1.asset using Guid(3ae1163ac3970ec428d4a9ba59bb4b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b00497e669b999fae0e29e652605380') in 0.0276694 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_15.asset
-  artifactKey: Guid(6f9547678a4fffb45a3d509c269c4183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_15.asset using Guid(6f9547678a4fffb45a3d509c269c4183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44e8babad41a231f84eebf473fe13496') in 0.0116118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_24.asset
-  artifactKey: Guid(4b3ce78d09621ba489897b7f26a0c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_24.asset using Guid(4b3ce78d09621ba489897b7f26a0c14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ce6ced393266ed4a8b5156a6b1cca4a') in 0.0122088 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_19.asset
+  artifactKey: Guid(8f6fe2c500fdc3445a2532d74659d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_19.asset using Guid(8f6fe2c500fdc3445a2532d74659d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '062050fad076d2db3457a963c8ea8dc9') in 0.0155022 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_10.asset
-  artifactKey: Guid(0d7dc689b82bd724cbec33618c00b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_10.asset using Guid(0d7dc689b82bd724cbec33618c00b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c23010c71e8696a3510ffcc03c20c060') in 0.0124743 seconds
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_21.asset
+  artifactKey: Guid(88c5fcf816159264b86898e4b13129d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_21.asset using Guid(88c5fcf816159264b86898e4b13129d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fbdd7c59af8f865900a82545194ba8d') in 0.0128737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_35.asset
+  artifactKey: Guid(093eac7e78b257f469fba51332e8e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_35.asset using Guid(093eac7e78b257f469fba51332e8e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c8e0081ff5f97d1deda9d358e2a58bd') in 0.0137615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_34.asset
+  artifactKey: Guid(fd03c0f0fce2748468be4ff05f143357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_34.asset using Guid(fd03c0f0fce2748468be4ff05f143357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dce2fdf563830cbde881b1e612d4eb45') in 0.0145319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_10.asset
+  artifactKey: Guid(59c94547e70e03b46b55878dfb6f650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_10.asset using Guid(59c94547e70e03b46b55878dfb6f650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3f4d7e1293e6b09565b374a18300c9e') in 0.0158803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_14.asset
+  artifactKey: Guid(72de254131cce96489022e963497f538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_14.asset using Guid(72de254131cce96489022e963497f538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f0fea3e06a9d8c65d84c31d31fc0465') in 0.0156923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_26.asset
+  artifactKey: Guid(86e4cfb0927371142bf438d47ecc4274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_26.asset using Guid(86e4cfb0927371142bf438d47ecc4274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75b0c65404c67990bfe34457faa55423') in 0.0135063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_30.asset
+  artifactKey: Guid(0421cc5fd1e159447b4c81e115ea9075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_30.asset using Guid(0421cc5fd1e159447b4c81e115ea9075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cddd17c3ad3d919514f8fdd5798ee0f') in 0.0132693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_12.asset
+  artifactKey: Guid(cedb00af637fab34f85450722aa457fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_12.asset using Guid(cedb00af637fab34f85450722aa457fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a74c06d41f3aa7148170ece47f11bda5') in 0.0131104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_33.asset
+  artifactKey: Guid(d80154cfc3d88f542adb410f6843123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_33.asset using Guid(d80154cfc3d88f542adb410f6843123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5960d5b537aeb95e246d946a2b5bd683') in 0.0131121 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_11.asset
-  artifactKey: Guid(711b00ee00ed01640918a0d6ec82761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_11.asset using Guid(711b00ee00ed01640918a0d6ec82761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '460463da7c4c218840c7ad1c32340a54') in 0.0138974 seconds
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_22.asset
+  artifactKey: Guid(d1b33deb5d657324bbb513d51d0916bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_22.asset using Guid(d1b33deb5d657324bbb513d51d0916bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5935af407f83975ea5c23e22d81de05b') in 0.013195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_18.asset
+  artifactKey: Guid(005266df986421d4b921db433998982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_18.asset using Guid(005266df986421d4b921db433998982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a07817a1ec3e89844cee9b2aa9d48a6') in 0.0141887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_5.asset
+  artifactKey: Guid(e91e0658c43947f4295ef09bf450e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_5.asset using Guid(e91e0658c43947f4295ef09bf450e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '052757e3d7532f5dd38a57ee4758d957') in 0.0127223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_29.asset
+  artifactKey: Guid(7c2eee584af89474aa5805fabc72b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_29.asset using Guid(7c2eee584af89474aa5805fabc72b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab01c24afce7ca752e3dc18ae1d57e90') in 0.0131492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_11.asset
+  artifactKey: Guid(247e1ccbbb72e11479e26f9d5eac36de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_11.asset using Guid(247e1ccbbb72e11479e26f9d5eac36de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '057d308d9e3a0160b9f1d476948ef315') in 0.0137013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_15.asset
+  artifactKey: Guid(b2eeb3a914562a04d8c9d54068c6ea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_15.asset using Guid(b2eeb3a914562a04d8c9d54068c6ea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '530242b9649f65921d8fd80538777fee') in 0.0137264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_32.asset
+  artifactKey: Guid(21cf244d77126064db2a6554950d9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_32.asset using Guid(21cf244d77126064db2a6554950d9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a35bddd3102c6a0295268455cb0f5723') in 0.0137615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_25.asset
+  artifactKey: Guid(fd2ac7c646aa2f247b58d40177be87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_25.asset using Guid(fd2ac7c646aa2f247b58d40177be87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29a7b69eae2604e4ef9d968c59e6170d') in 0.013443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_7.asset
+  artifactKey: Guid(4587deab316977142b7464a99ba977c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_7.asset using Guid(4587deab316977142b7464a99ba977c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc544107ad12ea29b7b1d8a5d6afdc3d') in 0.013205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_8.asset
+  artifactKey: Guid(2d106fead35ccde4896f0a035733fa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_8.asset using Guid(2d106fead35ccde4896f0a035733fa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a8a21b531c5d72a1926cd5956c91bf') in 0.0130781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_9.asset
+  artifactKey: Guid(28741028198f19d4ea6e221c3b5d1098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_9.asset using Guid(28741028198f19d4ea6e221c3b5d1098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0129e5886d5863639202648e4458100') in 0.0132264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_31.asset
+  artifactKey: Guid(ecb1b2d4c9239f942b412fbb8fa5da29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_31.asset using Guid(ecb1b2d4c9239f942b412fbb8fa5da29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d5e10cb3eadcf9af4deba080128e106') in 0.0137288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_17.asset
+  artifactKey: Guid(b32cc4fdcef377b44834540f1cf2d82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_17.asset using Guid(b32cc4fdcef377b44834540f1cf2d82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df676e80f8e22d7de37ba907516c5c8') in 0.0137672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_6.asset
+  artifactKey: Guid(7a2e980c77b360e4a8c80c0d0c18c389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_6.asset using Guid(7a2e980c77b360e4a8c80c0d0c18c389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6ce59b298868a8e2fdd7703b4999e72') in 0.0129098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_16.asset
+  artifactKey: Guid(f4341cd8b8c954c4496d184ee8c11bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_16.asset using Guid(f4341cd8b8c954c4496d184ee8c11bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd39b644ae17a2ca93b188123456ebdb1') in 0.0137222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_20.asset
+  artifactKey: Guid(1694f900bf597484bada377050d6bf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_20.asset using Guid(1694f900bf597484bada377050d6bf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49071ce259c702dbcca12e8da173f56a') in 0.0132869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_27.asset
+  artifactKey: Guid(43d13754994c2814c9b5c266a50a31a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_27.asset using Guid(43d13754994c2814c9b5c266a50a31a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d22623afbd31a0370f41b96311dd4f0') in 0.0137916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_3.asset
+  artifactKey: Guid(f8006de7123d5294dab5900368454383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_3.asset using Guid(f8006de7123d5294dab5900368454383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11282ef248abbd057a70e6ba3704f279') in 0.0126242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_24.asset
+  artifactKey: Guid(5217ae57cd61d9143b70c4868d1116dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Floresta Esquecida/Mossy Tileset 64 X 64/Mossy - BackgroundDecoration_24.asset using Guid(5217ae57cd61d9143b70c4868d1116dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29222af1692f9f30033592266b6e5fb4') in 0.0128671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.927502 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_0.asset
+  artifactKey: Guid(a3fb203a441911747b45c7b3b0670cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_0.asset using Guid(a3fb203a441911747b45c7b3b0670cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ca0a3aed43558f128185da1225b9787') in 0.0109081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_18.asset
+  artifactKey: Guid(e3cfc8a5bd9d0bf42b4fa996ed9ac2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_18.asset using Guid(e3cfc8a5bd9d0bf42b4fa996ed9ac2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99abfa4b8b53678f8c4c47f9191ab2f4') in 0.0111679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_20.asset
+  artifactKey: Guid(a2cb53300aa12b049a8169f3545a53aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_20.asset using Guid(a2cb53300aa12b049a8169f3545a53aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0de003ac20b536ebe09ea8aeb286d1db') in 0.0114441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_24.asset
+  artifactKey: Guid(798bc018366d21945a1b1a15a67aef11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_24.asset using Guid(798bc018366d21945a1b1a15a67aef11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f86a8a783b388600956345db28ec3e9') in 0.0114514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_1.asset
+  artifactKey: Guid(670b54f4826946d4fabdd94e7bc8311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_1.asset using Guid(670b54f4826946d4fabdd94e7bc8311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb076396c879bd54b08d28fbb682a71d') in 0.0052572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_2.asset
+  artifactKey: Guid(2cb01f9ab7576bb4489fdb374ea70623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_2.asset using Guid(2cb01f9ab7576bb4489fdb374ea70623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '691952fbedc2fb0dfc13ce8e60df37f9') in 0.0109753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_6.asset
+  artifactKey: Guid(1cb6ef73c834071479cf93771f436a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_6.asset using Guid(1cb6ef73c834071479cf93771f436a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b587cc004c046e3659c4ec2743fcca1') in 0.0109867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_11.asset
+  artifactKey: Guid(0e7d0613c7ee83345b05b73209d0aa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_11.asset using Guid(0e7d0613c7ee83345b05b73209d0aa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3e74970265eb8cd04ecc4a05ad50561') in 0.0111934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_21.asset
+  artifactKey: Guid(4f15af31544d42c4a8abc6e719bde2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_21.asset using Guid(4f15af31544d42c4a8abc6e719bde2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e749e1c7a31e655fd727d08f8438122c') in 0.0116882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_26.asset
+  artifactKey: Guid(0ff34b246bb419a4380c89f24a943fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_26.asset using Guid(0ff34b246bb419a4380c89f24a943fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '792234dadb0dedac1305b999aa8a1c55') in 0.0056694 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/cores sólidas fundo/bg_solid_colors_27.asset
-  artifactKey: Guid(8095b4f86daf87d4a827f9dc391a6371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/cores sólidas fundo/bg_solid_colors_27.asset using Guid(8095b4f86daf87d4a827f9dc391a6371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '238392fc0a56f6fda49f5260fce81901') in 0.0120328 seconds
+  path: Assets/Tiles/Sala do Trono/Background_23.asset
+  artifactKey: Guid(ddc64586cb8adec428c5fcf9e09b5868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_23.asset using Guid(ddc64586cb8adec428c5fcf9e09b5868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefbf58c98bce07a0eedca276d875b68') in 0.0109886 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 367.715386 seconds.
-  path: Assets/Sprites/bg_solid_colors.png
-  artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb89bb0652ea4fbe77fbcbc5588ecb8c') in 0.0798823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.614132 seconds.
-  path: Assets/Sprites/bg_solid_colors.png
-  artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85422151b03b2eeaffe1a154f41c2b41') in 0.1244298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.000797 seconds.
-  path: Assets/Sprites/bg_solid_colors.png
-  artifactKey: Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bg_solid_colors.png using Guid(5017d3c59faed53438927c8679386a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b9f7dc8b67c314f439dfc6c2abeb3d9') in 0.3269949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 7086.472854 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '221a8169b9af5d99ee7190b5062c95be') in 0.0022067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.983589 seconds.
-  path: Assets/Scenes/mapa1(cenario1_cenario2).unity
-  artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d0da856aac356b0008f11951c665a97') in 0.0010927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.486798 seconds.
-  path: Assets/Scenes/mapa1(cenario1_cenario2).unity
-  artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f3aa6cd83decf12e7f0e5d6e96854e') in 0.0008761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.386 seconds
-Refreshing native plugins compatible for Editor in 4.82 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.213 seconds
-Domain Reload Profiling: 2581ms
-	BeginReloadAssembly (379ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (40ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (867ms)
-		LoadAssemblies (739ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (293ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (266ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1214ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (951ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (224ms)
-			ProcessInitializeOnLoadAttributes (595ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6565 unused Assets / (4.3 MB). Loaded Objects now: 7332.
-Memory consumption went from 145.9 MB to 141.6 MB.
-Total: 11.219500 ms (FindLiveObjects: 0.788300 ms CreateObjectMapping: 1.394400 ms MarkObjects: 6.051400 ms  DeleteObjects: 2.984100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 582.661509 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
-  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '115c99b7729fb9fa1c4d436075d51737') in 0.5537327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
-  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b5012c0b587013b0480d541c0e062d6') in 0.0091905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5aa64184e1cae0db5e8969d0dde986') in 0.89373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_33.asset
+  artifactKey: Guid(b794de4b3329d7941b905f711b77e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_33.asset using Guid(b794de4b3329d7941b905f711b77e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fa6da33e459ec16ac0591303d3949e8') in 0.0108877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
-  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe99198a7b8780e55e2dba7bde8b1764') in 0.2245461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  path: Assets/Tiles/Sala do Trono/Background_29.asset
+  artifactKey: Guid(61665c2413908264e97dee94135cb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_29.asset using Guid(61665c2413908264e97dee94135cb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faf047c498f1f88497216d9cce651bab') in 0.0133837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebbddbc0ce2f1d899ea455c876d2c060') in 0.0069875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_34.asset
+  artifactKey: Guid(72e447b03eec66844bb1708e50f46266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_34.asset using Guid(72e447b03eec66844bb1708e50f46266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ff7b0bc41a44f04aa787f2448de92fc') in 0.0119899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
-  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16340093b739680f9138b4b3d0954296') in 0.0661856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_28.asset
+  artifactKey: Guid(7d7d5a0e1eeded94a8571dd73a605bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_28.asset using Guid(7d7d5a0e1eeded94a8571dd73a605bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d797d9c1609efa93b52376f8d00ccf8') in 0.0053528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
-  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81a7a8344ee850ff9b38e2d807ed5ec0') in 0.0069276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
-  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b738161b4473a0b57ae425a739e110bd') in 0.0147038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
-  artifactKey: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a82caff1ec3fc0a3b5d020a185544c67') in 0.3585401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_10.asset
+  artifactKey: Guid(cfca2a7b260c4f84e9fc10a2b9a55d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_10.asset using Guid(cfca2a7b260c4f84e9fc10a2b9a55d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf6cc539f25af31d0775e96928e997d') in 0.010801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
-  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e4ba0ed2311b58276b5b3a146e3971d') in 0.0071096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  path: Assets/Tiles/Sala do Trono/Background_22.asset
+  artifactKey: Guid(46b03eb7b5236cc4f8a95efd013c94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_22.asset using Guid(46b03eb7b5236cc4f8a95efd013c94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '943c205d301678130840621e5dfd1b45') in 0.0127303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_35.asset
+  artifactKey: Guid(a267f20ed5ab7fc4c9b825ecd5b2341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_35.asset using Guid(a267f20ed5ab7fc4c9b825ecd5b2341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665237e9564cb0a73b2bc831460c088a') in 0.0056048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_17.asset
+  artifactKey: Guid(fcc177b6f46a3b34f8607b80f3edf3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_17.asset using Guid(fcc177b6f46a3b34f8607b80f3edf3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f387a20b146bf9892b6e71f38be7f382') in 0.0113839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_15.asset
+  artifactKey: Guid(105c7286fdcb64d46b266b43aff4f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_15.asset using Guid(105c7286fdcb64d46b266b43aff4f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a03c50e4c342a6e7c31d39ac39cf8c') in 0.0060548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_9.asset
+  artifactKey: Guid(daa92212e0cdd2b4982a8ea1302e85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_9.asset using Guid(daa92212e0cdd2b4982a8ea1302e85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d1cdc2dbb44a576d21d3676818e33bf') in 0.0109464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_12.asset
+  artifactKey: Guid(c1151ca7fc714ba4583c5ff6b62ecd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_12.asset using Guid(c1151ca7fc714ba4583c5ff6b62ecd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93f1d39115fcc30824f20839346f385c') in 0.0054569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_31.asset
+  artifactKey: Guid(a1a0d901dca10b846a3dbe56a083e8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_31.asset using Guid(a1a0d901dca10b846a3dbe56a083e8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9ef7e4c426afc924989e2a15bea4649') in 0.0155178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_19.asset
+  artifactKey: Guid(98ce48e41d8b47d4ab461dfe5e38e96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_19.asset using Guid(98ce48e41d8b47d4ab461dfe5e38e96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f735335e9670cd2099c6292dde8a067') in 0.0111338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_14.asset
+  artifactKey: Guid(50ae54c8d33b1af4ba1290ce9092c57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_14.asset using Guid(50ae54c8d33b1af4ba1290ce9092c57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e399e7f9afa584b0a148656fe732a67b') in 0.0052769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_27.asset
+  artifactKey: Guid(49365c6c3b4cb934dae2941cd43f0b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_27.asset using Guid(49365c6c3b4cb934dae2941cd43f0b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8781267f7fcd7ae4f9697ad80577f1') in 0.0053937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_13.asset
+  artifactKey: Guid(ba8f1602e1102ad458f107fa704543d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_13.asset using Guid(ba8f1602e1102ad458f107fa704543d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c21bdda8961329fd3593bedaad599c') in 0.0054117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_32.asset
+  artifactKey: Guid(685917bb55b771548a03c2909ebcf916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_32.asset using Guid(685917bb55b771548a03c2909ebcf916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4eed5182824694366b705e2c8fad96f') in 0.0110679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
-  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c91c45ebeba0070ef4b9684a5e621b') in 0.0081257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  path: Assets/Tiles/Sala do Trono/Background_5.asset
+  artifactKey: Guid(89376ed35b90dbb4cb0b027c56b1a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_5.asset using Guid(89376ed35b90dbb4cb0b027c56b1a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e71bf449bed1307a3724ba6c5a5bd389') in 0.0117253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 322.422518 seconds.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_4.asset
+  artifactKey: Guid(0072f29e4cadbc94c9b4a8e95299b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_4.asset using Guid(0072f29e4cadbc94c9b4a8e95299b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a22bfe2c3f5cd5d3c9e2d69300d8734') in 0.0111409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_30.asset
+  artifactKey: Guid(5c4d20d285d51da4e9c74a92e1ff03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_30.asset using Guid(5c4d20d285d51da4e9c74a92e1ff03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966f5bd56acaeed1d2e3bc8f6931e7e0') in 0.0129202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_16.asset
+  artifactKey: Guid(976d1ec3cdd9c8e4999aee5c6206d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_16.asset using Guid(976d1ec3cdd9c8e4999aee5c6206d8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5cce3e408d4ba80058cd0f1dc9a0052') in 0.0053328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_25.asset
+  artifactKey: Guid(adabae567f1f05742afd349203fcc65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_25.asset using Guid(adabae567f1f05742afd349203fcc65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed8c90d2a2a2c984254897014ff2510') in 0.0057056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_36.asset
+  artifactKey: Guid(dab2b34e26acf744d80e06aed0829af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_36.asset using Guid(dab2b34e26acf744d80e06aed0829af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b00412b52c1b85e2e0bfef15465999f') in 0.0109906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_7.asset
+  artifactKey: Guid(de173507382eba04097041bcc2dc2003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_7.asset using Guid(de173507382eba04097041bcc2dc2003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46a79ff412f9d5bcb3f9b127f933dd75') in 0.0116946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_8.asset
+  artifactKey: Guid(e748ead07f9c2f94a884851b1340ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_8.asset using Guid(e748ead07f9c2f94a884851b1340ef28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2be8d9452733fb66cd037a06d0893010') in 0.0194169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Sala do Trono/Background_3.asset
+  artifactKey: Guid(ca053eebe6ea51b498f41ef0a3b42d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Sala do Trono/Background_3.asset using Guid(ca053eebe6ea51b498f41ef0a3b42d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6b2c961ab7ce24d4b519efe2350fac7') in 0.0111892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.991794 seconds.
   path: Assets/Scenes/mapa1(cenario1_cenario2).unity
   artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f50a65d49936d566fd1c396aab7e9b07') in 0.0010085 seconds
+Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01bf5c08ed16f190964e2cefd3a81d17') in 0.0008053 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.182996 seconds.
-  path: Assets/Scenes/mapa1(cenario1_cenario2).unity
-  artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3326ebb7eeb292b3cdf3fc9de162bedc') in 0.0007736 seconds
+  Time since last request: 1.096613 seconds.
+  path: Assets/Scenes/mapa1(cenario1_cenario2) 1.unity
+  artifactKey: Guid(9468b05bd69c50040bb8b5e4d915412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mapa1(cenario1_cenario2) 1.unity using Guid(9468b05bd69c50040bb8b5e4d915412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad44a917b1e5b6ace1aacf96ca944964') in 0.000822 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 851.237349 seconds.
-  path: Assets/Scenes/mapa1(cenario1_cenario2).unity
-  artifactKey: Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mapa1(cenario1_cenario2).unity using Guid(2238dba51c2e5604eb4209e090c5b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '174dc8519861d44f470568f7077be2db') in 0.001052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.990637 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eb96d2f6c2711974251fbfbbcc503a6') in 0.0007966 seconds
+  Time since last request: 23.571363 seconds.
+  path: Assets/Scenes/mapa2(cenario3_cenario4).unity
+  artifactKey: Guid(9468b05bd69c50040bb8b5e4d915412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mapa2(cenario3_cenario4).unity using Guid(9468b05bd69c50040bb8b5e4d915412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999f63fafb3dfe0050bcca21a3510c38') in 0.0007712 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 

@@ -183,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 32
-        height: 32
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 2
-        width: 32
-        height: 32
+        x: 16
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 2
-        width: 32
-        height: 32
+        x: 32
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 2
-        width: 32
-        height: 32
+        x: 48
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 2
-        width: 32
-        height: 32
+        x: 64
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 2
-        width: 32
-        height: 32
+        x: 80
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 2
-        width: 32
-        height: 32
+        x: 96
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 2
-        width: 32
-        height: 32
+        x: 112
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 2
-        width: 32
-        height: 32
+        x: 128
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_9
       rect:
         serializedVersion: 2
-        x: 288
-        y: 2
-        width: 32
-        height: 32
+        x: 144
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 2
-        width: 32
-        height: 32
+        x: 160
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 2
-        width: 32
-        height: 32
+        x: 176
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 2
-        width: 32
-        height: 32
+        x: 192
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_13
       rect:
         serializedVersion: 2
-        x: 416
-        y: 2
-        width: 32
-        height: 32
+        x: 208
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_14
       rect:
         serializedVersion: 2
-        x: 448
-        y: 2
-        width: 32
-        height: 32
+        x: 224
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_15
       rect:
         serializedVersion: 2
-        x: 480
-        y: 2
-        width: 32
-        height: 32
+        x: 240
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_16
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2
-        width: 32
-        height: 32
+        x: 256
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_17
       rect:
         serializedVersion: 2
-        x: 544
-        y: 2
-        width: 32
-        height: 32
+        x: 272
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_18
       rect:
         serializedVersion: 2
-        x: 576
-        y: 2
-        width: 32
-        height: 32
+        x: 288
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_19
       rect:
         serializedVersion: 2
-        x: 608
-        y: 2
-        width: 32
-        height: 32
+        x: 304
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_20
       rect:
         serializedVersion: 2
-        x: 640
-        y: 2
-        width: 32
-        height: 32
+        x: 320
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +644,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_21
       rect:
         serializedVersion: 2
-        x: 672
-        y: 2
-        width: 32
-        height: 32
+        x: 336
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: Coin - 32x32 - 9F_22
       rect:
         serializedVersion: 2
-        x: 704
-        y: 2
-        width: 32
-        height: 32
+        x: 352
+        y: 18
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,6 +680,1524 @@ TextureImporter:
       bones: []
       spriteID: 27a86ef1621d974b0800000000000000
       internalID: -5442088713026368910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1d206a4633b4b4695c54be6b621a21
+      internalID: -1053996577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4a839f15b13d54fbe26f241daee0ce
+      internalID: -1479202630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beb0bf8df9808a4e843233eac2deb23
+      internalID: 1250941579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b8f4e704fa79a4f83b32826e62daae
+      internalID: -404289835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb10ca34fb0b26745b7ca4493a72fbaa
+      internalID: -792804199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c09c588d9ea8374faac89c0e40ecfa9
+      internalID: -1902499915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13174ca57d52b504b88fe09440f85ef2
+      internalID: 498491153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86134a8092e764f9c5d021908bfc1a
+      internalID: 1787509454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dded2ad9259ef74fa5bd972395034f8
+      internalID: 1376588806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd715c1a0c0ce248bf68ad2083824d9
+      internalID: -1696234114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494488721460ba644a513d6b17bee832
+      internalID: 1926102288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5932fd2413e884b4f8a9ab5ab273f972
+      internalID: 2073829576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11df8c0fef29b9a439574eacad3d3670
+      internalID: 81378718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35642a78c11bd984c8c30870187d50fd
+      internalID: 1096428358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edf0351a8852fd4aa224852467230b3
+      internalID: -80162302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169b07f3da91f4f46b1befc37b1bab8f
+      internalID: 1822724425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6930ca43108414746aff524b0ddfd037
+      internalID: 351737313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaa57de27a989c49bd253f36503f466
+      internalID: 151143220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215fc02a03d12964aac2ecf2631b801d
+      internalID: 1946940782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09c642357a3544b9004f49382384b6
+      internalID: -557838593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_43
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd8a58e3adfcea45b5beb9b8d9537d1
+      internalID: -478342363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_44
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22848fe648d224f44805cbb0cf82f094
+      internalID: -1756869434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12b3244855d07842bd3511b0e6900f3
+      internalID: 948780217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7719c93a378cdf45af102b6f74ed0e1
+      internalID: -604737723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4b993b7fb260049b3c91f7b8e2f07c
+      internalID: -461108131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb55e4556a08ff44e8840ea83116d373
+      internalID: -355917275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32121825f4761534a85fa8179fda3720
+      internalID: 438084227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf41c722fa24bb468f6a6b7b43a3dd9
+      internalID: -1857050370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deab5e30cf622224ea9e499e40f424fb
+      internalID: 1013936599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6589d0edda932545a324cffe2351268
+      internalID: 203243334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6872e59a5a17b3a44b658c7ed390b6d4
+      internalID: 789995042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3396e6c27bd19d40afd2916d1ef0e22
+      internalID: 1026156180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8617a03aa6c6bdd4c82bb8fd99158ae7
+      internalID: 1109016103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368e0c8968906be4e949af97187d793a
+      internalID: 253231606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87fc1b1a49c68429e5a0b855cd75d2
+      internalID: 286356366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55bb37b71b355449abcfd24191ee43a
+      internalID: -1308196775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c50448a787f41438f1dd30364ed00c
+      internalID: 1244782851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_60
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90920e7f1b08d7e43b69e47bfcfa6c9b
+      internalID: -1027585452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fedb73fa95da743bfd1caf0d69956b
+      internalID: 1703274177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcc477ad50abe94c998abfa04295793
+      internalID: 141616465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_63
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d201b6896df25341b228af9ace367b6
+      internalID: 1095612703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0781618b366b6d4488eb981517ff683
+      internalID: 1198970037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_65
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d88f0b47a0d933419d250c011f86284
+      internalID: -1436218446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831136d2342c553469a74d22d0c4ab58
+      internalID: -1443729736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9843fd72d59ef614bb4f1c83e626f0a7
+      internalID: -1103111431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf5ec4274f77294f871d7f70ab47c09
+      internalID: 1463838418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_69
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1343dffeeba2747bb28724a43eabc0
+      internalID: 1987835377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95e4d4d15160842b4c806de981d539
+      internalID: -30735798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_71
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb7c685f0dfc854393e4d0c672913d7
+      internalID: 240322833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_72
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d15cfad0f23a9e4289c08a5f844003b
+      internalID: 197730165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_73
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91f4de3bf75dc1419f401930bf41c14
+      internalID: 2143434116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516163714d32f8945bbab07a3910a32a
+      internalID: -1134879817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_75
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de272808e995bb4db03e73cdaa270e8
+      internalID: 1943241120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46313921dc9f4f4d8247df2d85990a6
+      internalID: -524953342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_77
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073a87c37bf81e64997b2d971b470bab
+      internalID: -1598474005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1550db0342559f54a8a68a865f8b2a33
+      internalID: 323608534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_79
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a58b5d53b45f346a6247b5278db1b6
+      internalID: 1986122528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_80
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c121ad9a276f4e54bbe6e4771886b77e
+      internalID: 1928467736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_81
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded7243df7697d46983875b9aa98595
+      internalID: 890416706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_82
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8246def7c4c266b479a870d307e91e3c
+      internalID: -1855979657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_83
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a163e11476587f54782d7c9dc121e49c
+      internalID: 726940450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_84
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025f2e283ea73164dbdd5e7cb165f040
+      internalID: 382792585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_85
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d35818bfe06cf04399ab76bc793a684
+      internalID: 1025886913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_86
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9337ec4d0110d4f4fbe162b91a2759e9
+      internalID: -20438313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_87
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14ea795b7da2b24495f5a2c52bd29be
+      internalID: -1493087341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_88
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cfebb724caa3c44a5e216ec8baa7e5
+      internalID: 1077973843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_89
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c919a39e186012c418c94d1a6e54d882
+      internalID: -533627378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_90
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daeef9ef6033a0418f8f6ee65bddb1f
+      internalID: 1694698112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin - 32x32 - 9F_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8086d0a573a399d46a4e188727780038
+      internalID: -901323901
       vertices: []
       indices: 
       edges: []
@@ -714,13 +2232,82 @@ TextureImporter:
       Coin - 32x32 - 9F_20: 3044241864256678058
       Coin - 32x32 - 9F_21: -6200765458667840937
       Coin - 32x32 - 9F_22: -5442088713026368910
+      Coin - 32x32 - 9F_23: -1053996577
+      Coin - 32x32 - 9F_24: -1479202630
+      Coin - 32x32 - 9F_25: 1250941579
+      Coin - 32x32 - 9F_26: -404289835
+      Coin - 32x32 - 9F_27: -792804199
+      Coin - 32x32 - 9F_28: -1902499915
+      Coin - 32x32 - 9F_29: 498491153
       Coin - 32x32 - 9F_3: -7326582849462918288
+      Coin - 32x32 - 9F_30: 1787509454
+      Coin - 32x32 - 9F_31: 1376588806
+      Coin - 32x32 - 9F_32: -1696234114
+      Coin - 32x32 - 9F_33: 1926102288
+      Coin - 32x32 - 9F_34: 2073829576
+      Coin - 32x32 - 9F_35: 81378718
+      Coin - 32x32 - 9F_36: 1096428358
+      Coin - 32x32 - 9F_37: -80162302
+      Coin - 32x32 - 9F_38: 1822724425
+      Coin - 32x32 - 9F_39: 351737313
       Coin - 32x32 - 9F_4: -7912268806031431661
+      Coin - 32x32 - 9F_40: 151143220
+      Coin - 32x32 - 9F_41: 1946940782
+      Coin - 32x32 - 9F_42: -557838593
+      Coin - 32x32 - 9F_43: -478342363
+      Coin - 32x32 - 9F_44: -1756869434
+      Coin - 32x32 - 9F_45: 948780217
+      Coin - 32x32 - 9F_46: -604737723
+      Coin - 32x32 - 9F_47: -461108131
+      Coin - 32x32 - 9F_48: -355917275
+      Coin - 32x32 - 9F_49: 438084227
       Coin - 32x32 - 9F_5: -181566122564342283
+      Coin - 32x32 - 9F_50: -1857050370
+      Coin - 32x32 - 9F_51: 1013936599
+      Coin - 32x32 - 9F_52: 203243334
+      Coin - 32x32 - 9F_53: 789995042
+      Coin - 32x32 - 9F_54: 1026156180
+      Coin - 32x32 - 9F_55: 1109016103
+      Coin - 32x32 - 9F_56: 253231606
+      Coin - 32x32 - 9F_57: 286356366
+      Coin - 32x32 - 9F_58: -1308196775
+      Coin - 32x32 - 9F_59: 1244782851
       Coin - 32x32 - 9F_6: -6698839421390454825
+      Coin - 32x32 - 9F_60: -1027585452
+      Coin - 32x32 - 9F_61: 1703274177
+      Coin - 32x32 - 9F_62: 141616465
+      Coin - 32x32 - 9F_63: 1095612703
+      Coin - 32x32 - 9F_64: 1198970037
+      Coin - 32x32 - 9F_65: -1436218446
+      Coin - 32x32 - 9F_66: -1443729736
+      Coin - 32x32 - 9F_67: -1103111431
+      Coin - 32x32 - 9F_68: 1463838418
+      Coin - 32x32 - 9F_69: 1987835377
       Coin - 32x32 - 9F_7: 7786948844059717903
+      Coin - 32x32 - 9F_70: -30735798
+      Coin - 32x32 - 9F_71: 240322833
+      Coin - 32x32 - 9F_72: 197730165
+      Coin - 32x32 - 9F_73: 2143434116
+      Coin - 32x32 - 9F_74: -1134879817
+      Coin - 32x32 - 9F_75: 1943241120
+      Coin - 32x32 - 9F_76: -524953342
+      Coin - 32x32 - 9F_77: -1598474005
+      Coin - 32x32 - 9F_78: 323608534
+      Coin - 32x32 - 9F_79: 1986122528
       Coin - 32x32 - 9F_8: -7260894592082950907
+      Coin - 32x32 - 9F_80: 1928467736
+      Coin - 32x32 - 9F_81: 890416706
+      Coin - 32x32 - 9F_82: -1855979657
+      Coin - 32x32 - 9F_83: 726940450
+      Coin - 32x32 - 9F_84: 382792585
+      Coin - 32x32 - 9F_85: 1025886913
+      Coin - 32x32 - 9F_86: -20438313
+      Coin - 32x32 - 9F_87: -1493087341
+      Coin - 32x32 - 9F_88: 1077973843
+      Coin - 32x32 - 9F_89: -533627378
       Coin - 32x32 - 9F_9: 7622113826585001205
+      Coin - 32x32 - 9F_90: 1694698112
+      Coin - 32x32 - 9F_91: -901323901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
