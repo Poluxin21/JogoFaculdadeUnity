@@ -47,7 +47,7 @@ TagManager:
   - name: terreno
     uniqueID: 3829869323
     locked: 0
-  - name: player
+  - name: personagens
     uniqueID: 801170877
     locked: 0
   - name: frente
