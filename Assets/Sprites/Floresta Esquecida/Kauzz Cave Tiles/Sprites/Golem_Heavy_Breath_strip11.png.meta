@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Golem_Heavy_Breath_strip11_0: -2031426041084207889
+      Golem_Heavy_Breath_strip11_1: -1754828119865392181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
