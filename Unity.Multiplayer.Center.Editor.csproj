@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Multiplayer.Center</RootNamespace>
-    <ProjectGuid>{C26C2ABE-5CF1-1E59-354F-7D73EE9B6557}</ProjectGuid>
+    <ProjectGuid>{619C38F5-66C9-932D-81E6-BF0FD9375679}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Multiplayer.Center.Editor</AssemblyName>
@@ -1140,23 +1140,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj">
-      <Project>{3288E4C9-F0C0-3A91-60DF-D1059408BD40}</Project>
+      <Project>{39DC6BFF-6DCB-5153-4C7B-945DC94432BA}</Project>
       <Name>Unity.Multiplayer.Center.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{E3FD3A06-B52C-9701-401C-322DDA15D43C}</Project>
+      <Project>{33726C70-4818-EEE9-2DBC-7001FE43787E}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F6C2D342-273F-D470-7608-2DC464F1EC11}</Project>
+      <Project>{EAC32B2B-847A-0F7E-16A8-615385F323D0}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{43498223-36D0-5D8A-0134-A31F75D6A3C7}</Project>
+      <Project>{72BD9E2D-8069-F4EF-23CF-3117E9D4F53C}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{47F9A879-8F4C-BC1E-D669-E1261CFA8DF2}</Project>
+      <Project>{8AE5DB6F-291B-52F3-02EF-DA6B0DD5DB6E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BA26856B-1E93-37CD-BC0E-88289B2AB32F}</ProjectGuid>
+    <ProjectGuid>{F97280B5-BF9C-C385-4243-384B7C9C4FDC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.Universal.Editor</AssemblyName>
@@ -1419,63 +1419,63 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{8A9C3D40-5A72-7931-BFBB-44E49C839697}</Project>
+      <Project>{33EF5F45-3438-8758-B439-01BEBB5DF357}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{75EEBCFE-00F2-DFAA-039D-45A002B6241B}</Project>
+      <Project>{455324F0-5075-ABE0-C103-EFA007F73A41}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj">
-      <Project>{9C75FE4B-79BC-3553-D52A-B3B738DEF9F4}</Project>
+      <Project>{B55D4B4B-28DD-8927-8D7F-D3D525FE6A72}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{945798D3-7EC8-88E3-45F1-09F985A1470C}</Project>
+      <Project>{2ECCE1CD-89B0-7A31-DF3E-53F6EA3E922C}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj">
-      <Project>{43487791-BDE9-B4AA-BB0F-444FE0394792}</Project>
+      <Project>{B31D6843-8E6F-D2C8-615D-98711CE38EFF}</Project>
       <Name>Unity.RenderPipelines.Core.Editor.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{39804BC4-BCC3-40CA-B277-65406D8CDF4E}</Project>
+      <Project>{30F9F168-DFE0-E95A-5A1F-636D7C8783F9}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{6F570553-6B2F-0F44-B43C-95407B7FA420}</Project>
+      <Project>{0200735E-8F2D-FCAE-1FF5-FD12E8509AD0}</Project>
       <Name>Unity.Burst.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{674DC387-E75F-C27A-D536-7C8C3738D181}</Project>
+      <Project>{F3ADE4B2-FCE1-8C22-028B-0C7D48BCEDCE}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj">
-      <Project>{318D0427-4401-149A-997E-1519B26C5DD0}</Project>
+      <Project>{F359B259-4B08-7553-41D8-E8125AF8BDC1}</Project>
       <Name>Unity.RenderPipelines.Universal.2D.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj">
-      <Project>{528A2689-A184-0F36-098C-6777E6E2066B}</Project>
+      <Project>{04BB424B-0318-86D6-C831-9135021BD182}</Project>
       <Name>Unity.RenderPipelines.GPUDriven.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{F7B32FC5-AF66-A062-CB63-0DCE794FFC84}</Project>
+      <Project>{AF383328-4C64-94E0-453F-00843E301AE0}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{E3FD3A06-B52C-9701-401C-322DDA15D43C}</Project>
+      <Project>{33726C70-4818-EEE9-2DBC-7001FE43787E}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F6C2D342-273F-D470-7608-2DC464F1EC11}</Project>
+      <Project>{EAC32B2B-847A-0F7E-16A8-615385F323D0}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{43498223-36D0-5D8A-0134-A31F75D6A3C7}</Project>
+      <Project>{72BD9E2D-8069-F4EF-23CF-3117E9D4F53C}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{47F9A879-8F4C-BC1E-D669-E1261CFA8DF2}</Project>
+      <Project>{8AE5DB6F-291B-52F3-02EF-DA6B0DD5DB6E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,7516 @@
+fileFormatVersion: 2
+guid: 322b4979ebca9a242a48b272bba66f2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6699665782905057872
+    second: Plan 1 - escuro_0
+  - first:
+      213: 370603274074209412
+    second: Plan 1 - escuro_1
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f939dd7d54ea5dc48a14c2eef30f8fb0
+      internalID: 213188033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10fa1a617320d74fa6a58e0625cb47e
+      internalID: -1495516552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf25618678150d4597ba57dac95c889
+      internalID: -1936085894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b72b1f2fe6b2b41bd719d996380c91
+      internalID: -1550808565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c078251dfdcc3c24fa1814d6ab463416
+      internalID: 1973281810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ec94756e1371f46b748b05bfaaaad7
+      internalID: 63634610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a435da8fae115439cdeb71ac505acf
+      internalID: -699740247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00f0f0bbb5357c4cafe17dc74b34f2d
+      internalID: -112063773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab7cda72b0ac0b448156c81e6c44629
+      internalID: -643161794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea982459dce1e8645b181a9c4be26a61
+      internalID: -1599469866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb37e1dddc00caf4f959c653d5df7587
+      internalID: -163648008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4396501c77731ae4295aca1ee044e6f1
+      internalID: 337561583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ed8c69bea94848a01df083051ebd3
+      internalID: 1576587331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5226e3dec903de04d9d7cb8633b2b247
+      internalID: 791048903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79636f69000e4cd4eb908f2df429bdbc
+      internalID: 722121490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8eec3344719fe4fa65371da042c037
+      internalID: 725561681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47d95cc87e125146b93597c8c98f44e
+      internalID: 1272475281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52361de76d2712847aab9d69571fa6cd
+      internalID: 425118473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84df13974ebba2e49b0a91725d5e583a
+      internalID: -1312686732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b310e309189f46bd47175744c4181
+      internalID: -105285422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1ec6dad7cc07841b289d6dbeb3dfcd
+      internalID: 1951656701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127edd9f986de374e89ecbb5ac690dc5
+      internalID: 98833368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e085dd7b5bf2e24f84c11c0ed5c8eab
+      internalID: -502323971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c4e1e85f0c8745a5f755a1fe747d3
+      internalID: -493395595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_25
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c32a538aeb11943b96ca8a41bb4d57
+      internalID: -416147244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3a066d153523e4ba0adaf064bc2973
+      internalID: -498584401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_27
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9557c8e97d248e42944aaa7578feee2
+      internalID: -998084039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_28
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559f05db6cb70804a8f56a5a7980c7a6
+      internalID: -632357702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_29
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869cd10af34a478438579f7261cf11c7
+      internalID: 1009347454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_30
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eea6d0c7013ae4f8ed10827ea530bb
+      internalID: 1832099077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_31
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c384208aa5cd5f43a015d9a7595e553
+      internalID: 850506389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_32
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922c9f7dac76fb54b92b426fea1e891e
+      internalID: -1759157114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e82675d94f53144adfecdaf205e7be
+      internalID: 1724692533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f16ec61255c104582578b20351f363
+      internalID: -943743652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_36
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953d114b630852743ac4c0d807920ef0
+      internalID: -1023209900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e57c734b1699054ba1648ee0571bc3d
+      internalID: -1044975010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_38
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d903c3f0435e147abdff64de06ad20
+      internalID: 1333271609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d87c2f0e1046ae41a592b7132203d6d
+      internalID: -700271282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b38e3163864dbe4486c2a3336e5213e
+      internalID: 1314503519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbc4529acddc1c4f8e0a51524294990
+      internalID: 878736572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_42
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1968540bc7b45b243880559c7258dfbe
+      internalID: 639153265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_43
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c536695e7de2d234c9533702f8fffa7e
+      internalID: -2118295096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_44
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b7ecf72a10e214bb4d88f517b97746
+      internalID: -535630248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_45
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4661222b422044dbd178de6bf9f7f0
+      internalID: -1740799713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_46
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec6f585ae418c4fa648048bbb92564
+      internalID: -175845815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_47
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105802d6c7383864892092ecf3968553
+      internalID: 2068680798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_48
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b6714e9238b414992daea38d08bfb7
+      internalID: 1370523375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_49
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b313d474103c4a948af1d4eeb6836
+      internalID: -1905366041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_51
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471315942647f6c458f18f39b7daf1a0
+      internalID: 1639714100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_52
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791c195250a62e441a8081fd350e0a8d
+      internalID: -944797864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_53
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add3766811321a749acb102ef414f1f6
+      internalID: -1935923975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37fadaaf07e9884e9fc361f3c9fadc2
+      internalID: 982248792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_55
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b363d7d58219250418b8e5d773a4677b
+      internalID: 1701678933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34430eb365ef618408007f565d4dce11
+      internalID: -47842420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_57
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc399d9b328c168498b32cb23ecbf1a2
+      internalID: 288218156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_58
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16705b7ccaa6b5640851b23a0125ad66
+      internalID: -1119878407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d0ce2003284284c8c778adaac7bca2
+      internalID: 483527246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_60
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2d76bb2f27fc248bf175c4280cc1c4
+      internalID: -439573553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_61
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890afd733bd692a4783adb262d20f6e5
+      internalID: 1180941370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_62
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaee7d6d115d4b40be8fdcce29fa6c7
+      internalID: 1080023018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_63
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafcfeaafac88a04abca9063597a1f2e
+      internalID: -1296482927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_64
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfc9dd8932088a4b9c437f7d15ae77b
+      internalID: 1675964417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_65
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4fff06fafbd8438debbfbe1c3c2f6
+      internalID: -964511580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_66
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01c78f08c4a0714691a54523bbc7e3b
+      internalID: 423309174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_68
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669c02daa69ec664eb6c741d84bf15e0
+      internalID: -360396534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_69
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9818aa9bb9549294c98882b23a84d927
+      internalID: 410220449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_70
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1466db6289246184a9862f029d883fe1
+      internalID: 1982512022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_71
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d86394154029b42bed4aacfd0f1044
+      internalID: 2020809016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_72
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e67e2759ad1344dbb9c826723a7bcc
+      internalID: -2035846070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_73
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b7a80d0eb6bb34dbee4d7e59ef0764
+      internalID: 1953396639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_74
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b7986b18c392541b9a06f3bbd68b53
+      internalID: -1406258813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_75
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b491d70983b10d4495bbe155edd4efc
+      internalID: 1090121360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_76
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85337c1097b32214587feac4e782797d
+      internalID: -982225386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_77
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a442e3fa542dd64ea351d3fe82d45da
+      internalID: 1247768135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_78
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cace0b968de8cc944a1c5e3ecc39bbf7
+      internalID: 837941564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_79
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff39ff56aab889843b3f14393715f9a0
+      internalID: -389037875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_80
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7902ca78488fce4781d3e9e016534bc
+      internalID: -1339073145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_81
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d987c7ebef383e41b5607e46179b00f
+      internalID: 240136047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_82
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e1f25b280fedd4b82619f4556cb3fc
+      internalID: -404829535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_83
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082dfbadbb4b39c4b9071c8dd8bc1491
+      internalID: 870047513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_85
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2003902759092488220be1e34a23df
+      internalID: 392537236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e9d30bc49ca847904eef0d41f175c
+      internalID: 566743670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_87
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f6bcfaa6e1cfc4185439908dac45e3
+      internalID: -2110163125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_88
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b896e1386aaf44940a8858c4fc589bba
+      internalID: -359241986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_89
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018ea817ecc149d4e9a7c22f07004499
+      internalID: 1557767496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_90
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a844e2a8dca45439514b814418d67d
+      internalID: -1835142458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_91
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd3adb215a271347a7501a9b799d673
+      internalID: 1865918793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_92
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cb34caef045e34bb193bb6881c55fa
+      internalID: -730692087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_93
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac05ab66ca56247438aa64ac6a587496
+      internalID: 1819559863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_94
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d243b7006214f8b47aefb00b15f0bf9b
+      internalID: -2100873883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_95
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb353f266c9a034d90dcc9c8a4c937f
+      internalID: 850495771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_96
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4878ba9aaad5dd44922ad113993ea9d
+      internalID: 1551304772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_97
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5655cdfdccf2d746922b7298471ab92
+      internalID: -2074044403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_98
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f114486c653e82469a598c2ab9f3fe2
+      internalID: -1712135565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_99
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41966b72012254384b8eae4f156ecd
+      internalID: -42376746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_100
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dc2f73868abb14c89d85b4505dcea9
+      internalID: -853009607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be9720220216274ea62b56ba896cf9b
+      internalID: -2075188816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_103
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2af797aeb2d04c9bcb93413bb8e28
+      internalID: 783541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_104
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fc312c7a853a440b369aadc7cf3541
+      internalID: 482096393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_105
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9732c2c630dd4004fb8e21894d2ae63e
+      internalID: -821562679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_106
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c051791d9ddf29449bd8c20d7f466d63
+      internalID: 309710255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_107
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26599a3f92a87784ab8fe9fc929cf2db
+      internalID: -1265748352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_108
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6297853a79f92784bae583e0bfa0f459
+      internalID: -1859584947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_109
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941eac8caaf6c640854b64df9a20d8c
+      internalID: 1703593129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_110
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4579dcf7f8654d8f9d792eaaac0b4
+      internalID: 1428079199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_111
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253e984985064ed4d8f4556835fc1102
+      internalID: -529267640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_112
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b704c16cce5fdd2478d1112fedefdfc8
+      internalID: -13022546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_113
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db120f3ebf55ebf42ac07f450a6fdca1
+      internalID: -1184528040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_114
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29df6d076f37f64aad3f576c07b3932
+      internalID: 1946839690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_115
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b82133bb0d7da844a5ce748b242c662
+      internalID: -1282609872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_116
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ed05ddca838a244b04b020bf0505dd
+      internalID: -1132427929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_117
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 212
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa6b2bafbec61a4682c87a4c182c98b
+      internalID: 1611478298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_119
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237db7eb0cf91fa4684f4bad99ee5b76
+      internalID: -555630355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_120
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07423418083007f43b6936c669ff2461
+      internalID: 1043728369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_121
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4205234a50f7a140b485463c5ef6099
+      internalID: -685722767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_122
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b25569cb8ae6c4e91f1f5b1a1edbec
+      internalID: 1468532779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_123
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b93c3bc3feba7b47a103e8c9202ec2f
+      internalID: -657840161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_124
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5633fb3680284ae409ac10fac4bfe8c4
+      internalID: -89884659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_125
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4ac3f934e70d94eab552d854ccc87f
+      internalID: -393687298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_126
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df4306ffa860b8488f16615084a74b6
+      internalID: 306568396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_127
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb88834d5e7f8949b4d99f497e2bba8
+      internalID: -372425129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_128
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff974760e207ae54eb0f6a5d9adfc2b6
+      internalID: -635794190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_129
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477eb48429296b4f98a99aada72faad
+      internalID: 1969534071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_130
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a5729aa86a1844f86dddffab768f0b
+      internalID: -1638736043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_131
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd23038ff8fe7542bc9af14c723d575
+      internalID: -1881404521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_132
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b21e68f6737a64bbcb22a34aa56a8e
+      internalID: 1208824487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_133
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e08a0a8860080244982cbb3a6fe6942
+      internalID: 1794932408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_134
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d927134812bd347b55540869ebd4b4
+      internalID: -1909585398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_136
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c27d74a7a5705446afaddc79398a83c
+      internalID: 768540824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_137
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db444f513523ea84c949af4c5eb4cb12
+      internalID: 1416988963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_138
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccd2ed94fc78ec4d8e7a8a937d706b3
+      internalID: -1624583367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_139
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a9618c339216468b2ebcdcd093b93
+      internalID: -353562380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_140
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c7a098d92e15541a91e1289780d36e
+      internalID: 48571021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_141
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ed3e0ac536cd54da1c3467d04770ba
+      internalID: -1480272588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_142
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479ba98f811dd5a44a81577b3bdbf773
+      internalID: 1113839099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_143
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9be1c5fc410bc44b4d346adc293b9b
+      internalID: 1874295548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_144
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01fc792613119e4bb6759136fff3bff
+      internalID: -764532848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_145
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbccd9c226c551642bc83f0974f1fbbe
+      internalID: 186413732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_146
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e6bfd5aa6efbc4faed0bdc7c765a96
+      internalID: -1963738250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_147
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971c2230030bae54d861e872efecc895
+      internalID: 443041810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_148
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bb6e5dd5d015042828d23c77deb6ed
+      internalID: 1911459342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_149
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8303e20594a5e2a4694fa86dd756d013
+      internalID: -895735502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_150
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a5186878325bf449234e93d48ba9ac
+      internalID: -1178674449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_151
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 180
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab04e2992b81a3e4b8d8b57fc257dd4e
+      internalID: 281126243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_153
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c68b0841b6e11146868f05c211b5023
+      internalID: -591579952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_154
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426468fb4abd1547818e4e28e86c49a
+      internalID: 243424678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_155
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c2a654a3142bf4cafc094ef842f02e
+      internalID: -1557316539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_156
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae22d0a8d7c63b14ea1a084dd85aa90b
+      internalID: -1480281068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_157
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa3a2c93385ad4190c51e355cc2fe8
+      internalID: 1746513939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_158
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2e27b9954fb6f4a9ded879edeb2719
+      internalID: -666267206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_159
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa09e56bdf342f48bc992d4c4b4dac1
+      internalID: -1023568326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_160
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a92517cf8504f3409c64504646eea53
+      internalID: -1563766165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_161
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae24f7485f3f5b40a2c4c08a28bc871
+      internalID: 915248824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_162
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be67beb0c7c09a14e90ea04191f0267f
+      internalID: 825399116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_163
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab2b096421fa764d8939ec5daa3d51f
+      internalID: 229952537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_164
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068f2064aab83404e97be07eac62f577
+      internalID: 1948026470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_165
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a7e6e451e9adc40bbb8413acd093b8
+      internalID: 182002500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_166
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f446ef5f8a8c3145bc60aa2825514ef
+      internalID: 829159967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_167
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4537e99861432d742bde64090668c5de
+      internalID: 565480152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_168
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0701e5f2fc78e545b958ce7542d2b3e
+      internalID: 457140839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_170
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecd5613bf9a771418157bbb29a0c37f
+      internalID: -1609151899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_171
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b53b13a0d4c7a84b984b092e33e124f
+      internalID: 1394722199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_172
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2be8abdf8d1e54e8fdd883c161e597
+      internalID: -858057935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_173
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1294dbc7658dd4db81df0146e1572d
+      internalID: 1816228767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_174
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862c8138ecbc46e4d8e2811eeb00aed8
+      internalID: -180009895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_175
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6524bd4480c6f5748b6048a31b22d6da
+      internalID: 403215391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_176
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b12c7af2dc7f59409dcb1df32d96caa
+      internalID: -2145008654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_177
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498739517fb480d409b7ab64f61db965
+      internalID: -1102966028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_178
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b7e7e91e0d39e469286a4fffc2a115
+      internalID: 1448304383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_179
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade26e379e7299443bc33b5547f2dfc7
+      internalID: -120810904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_180
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16886d34739b2e04b9a44a900cc8ebe8
+      internalID: 66127157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_181
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3f76625eee8f14a936e89cd217c736
+      internalID: -1236446144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_182
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ecf4082a577af46881a70c227be167
+      internalID: -1090458181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_183
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8129b658b4b54094fa1763a66685f958
+      internalID: -598277122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_184
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e430a298e237440a1c301f269de0f5
+      internalID: 1650923312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_185
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c603caac918e7a44ea037fac6139203a
+      internalID: -1031644843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_187
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a1df1c1f31a9347be72f45049f2b16
+      internalID: 1624662468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_188
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7576b718b7abb364094eb15c71d399f5
+      internalID: -1224153385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_189
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a022f12b8163a4792b775b43ac08d4
+      internalID: 1772422605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_190
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c4c184b8dcaca40987a9c0823da36d
+      internalID: -636195508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_191
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3fd85b520c43542927364b4b7c1fa5
+      internalID: -1565881576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_192
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e54e087e803b94e8444bc196c4a9a2
+      internalID: 1831170302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_193
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7021815271e60a46a6e74d40865cc48
+      internalID: 1946614447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_194
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0231fe6fe973d54195dfc30dcf4b7a8
+      internalID: -240508599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_195
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74216b0cb8387a842b1222cbede72ca5
+      internalID: 999673764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_196
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da730b8f543a18441befd4ab6e0ac1f8
+      internalID: -984117969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_197
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e61e06f9cdcb034fb7b050d1b3bf632
+      internalID: 657958021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_198
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f295acaaa724b2e4991a4208876e4d1e
+      internalID: 632935508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_199
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221ac93b5cf177d46800608dc4076ced
+      internalID: 1704208189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_200
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0487d62dc1c19744c915ec01315993bc
+      internalID: 1248335715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_201
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c83b0da9d699d4484c9c3d8e96b002
+      internalID: -1024260213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_202
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eccc6b6f3b49d49978537a381580b4
+      internalID: -368940645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_204
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023947a048feaff488413d5a4249cd23
+      internalID: 987760776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_205
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f90ac4bd63e4a499fe98866f31bce3
+      internalID: 2121022020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_206
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884fbc5361386ae4781ac3611a5bd7fd
+      internalID: -1116782388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_207
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886fcd6eafe8f98418a5a51e3c85f500
+      internalID: -1110672340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_208
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f6d818b1a000548ae4422ec452f459
+      internalID: -16344760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_209
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45a026af2c07c04fa34717919964cd4
+      internalID: -12102989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_210
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c402f2ea6a57d74c918688d270e29ea
+      internalID: 2004271555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_211
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac24e9206c3663409da1ee7cc8c5ce4
+      internalID: 488683612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_212
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26da1895e6fbcc4bb722d9eb5d9bf54
+      internalID: -493962070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_213
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e5ba8669541444a9789a8755c030b1
+      internalID: 848422885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_214
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8deb49bdc936547ae65f7f24a94bed
+      internalID: -1669438087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_215
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a4c1b3d6318f545bca5166ef47536d
+      internalID: -720337641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_216
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699062c84bb5e9045a40500559b4bc51
+      internalID: -86004786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_217
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51d7ecb96f521346b7728fec87da4be
+      internalID: 414593016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_218
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bf4903366b75946b8fa33c041e3846
+      internalID: -1897659310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_219
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecd1f231d7054446bd3ee8638be3859
+      internalID: 1924906286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_221
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479b3003d3049da4493bef78c8f42399
+      internalID: -489941295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_222
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42eced41e0c39d4da1043d39e588909
+      internalID: -1585644286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_223
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6589141a5b4998478823546f7727dae
+      internalID: -240447318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_224
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511470569764fe845bcb8f77132e6289
+      internalID: 538771944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_225
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4782c7be767193e4f958e19c074f41a2
+      internalID: -813382872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_226
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6cf3197a8da1c42b8bc053dbeae6b3
+      internalID: -2468863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_227
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3661d95b86f3ed4ea2d6e629ff66ab9
+      internalID: 1015780237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_228
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf21bc73925569419e8ed88e6bd0312
+      internalID: 1571637913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_229
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b8c25e3446ce547ae4c4df6e57b6f8
+      internalID: 1330659842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_230
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff959cca2dbb8ed4c88b34ed603ce712
+      internalID: 1065336875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_231
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ecf89590fc97344ab3f58d138d03a8
+      internalID: 1435432554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_232
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2ae2abb230ad4391826348fdd20e1
+      internalID: -1903368290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_233
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888f10af89eb2c49a571f6c793821e7
+      internalID: -1422238645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_234
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e65372deb40e24c99c0188ba91608e
+      internalID: 744133432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_235
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a71f0893127348b1c90320e895362
+      internalID: 45772598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_236
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b96fc2cfee034cb3e109c983496d0
+      internalID: 1606417239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_238
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2b5390a45f3304e92cd17641ae75a3
+      internalID: -192036270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_239
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cb48dd5da5a52428d67cfafd309708
+      internalID: 853119997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_240
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42760fd61c89064cba5a181afc3dd84
+      internalID: 910657762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_241
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd7d5ee02ac62c45a2b9bc8876d9899
+      internalID: -1057687303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_242
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db97c8d23c4b4409c75030c8ab55c7
+      internalID: 1951177549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_243
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ced4209152b74a9b1fc005de89abb
+      internalID: 1660277168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_244
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c519135261f7b93419ecea45237f7057
+      internalID: 1160295733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_245
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6a2a91905e73549a0e82b8b0c4c195
+      internalID: -1991091733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_246
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97caea75e760e3640a663c578f2a2844
+      internalID: -1203798709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_247
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0ad197d8ea56418a7330c8d80761d
+      internalID: -1103588054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_248
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c9ec097c837eb48ac5008bdc9462f2
+      internalID: 552340089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_249
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07889c5869282704e98326bab9457b9c
+      internalID: -845860309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_250
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a409f4fd6ff9b41bb769a106a68447
+      internalID: 437695445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_251
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f4d92f4bea0044e8d581949eb958b1
+      internalID: 1358786848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_252
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85494149d6f6f84d994eb14357b6261
+      internalID: 156569417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_253
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c516c0011ea050e4697ff1d7f0a249ec
+      internalID: 501340284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_255
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03956bcc4b784344955bfa2fa5a14e8
+      internalID: 373619777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_256
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dff8c4718ecc54789439bc4e0b2f50
+      internalID: -1741013473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_257
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc2e5be8c2defb469ee64194dadf1bf
+      internalID: 1832404576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_258
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c92fd7f24a76f74bb66209de28e34ac
+      internalID: -837235786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_259
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee16c95494ce0c34a88fe23793c8d426
+      internalID: -1206977092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_260
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e7f9c8129861040a85cc1bf05ba165
+      internalID: 1471964420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_261
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8731adcb69e38374d8edea490fada039
+      internalID: 1518908431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_262
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bb2be901d26d24ba03912207e2284d
+      internalID: -659726313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_263
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fd29519ce850f428b249c84c5d8984
+      internalID: -1556374241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_264
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1276d3803811e04cac4ff643aa6dbf8
+      internalID: -969745155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_265
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0006f69536f76e744a2ef69612be354d
+      internalID: 1127040870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_266
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e460f0af15279a44a7e2436eaf609a1
+      internalID: 1925604139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_267
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b01f552cb30f045acae163ec4f99dd
+      internalID: -1999709226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_268
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ca67896a14a154a9778f7e8a26cb52
+      internalID: -928320800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_269
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44ac08fb1dbaa04482d2ec3441fa4af
+      internalID: -280343607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_270
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d90b5e42b3cd874c8266ef967e3a03f
+      internalID: -1230422035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_272
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498478cd52ebe24f931f1a30c68ed50
+      internalID: -1998731049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_273
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb281f17de84884399a35dac6902d1c
+      internalID: -1928475913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_274
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1171a369a9b9fdc48aeaf75856c3e78a
+      internalID: -1446006926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_275
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735b4e7046f24e74dbde39d1b0d32c4e
+      internalID: -398181171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_276
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae141a9cf86cef4a96babd2428a90b6
+      internalID: -952097141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_277
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f44fef9e73a9448b61ac4b16ad2d4
+      internalID: -1951586707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_278
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdda9fb584588504597c4bdeb1d9f68e
+      internalID: -963478506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_279
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4f6fc0b63d4694fb606135c240bafe
+      internalID: -1197978861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_280
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6664b62f08ef1d445b48f03ba0620073
+      internalID: 11507341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_281
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dc3cb455b296245829a75b7f50f641
+      internalID: -1149712533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_282
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8903dd95f9b234580d8ab6e6ec2ec2
+      internalID: 798619672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_283
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ca550d6a14b634eade631f2025774d
+      internalID: 1933227668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_284
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c794fc8138c51db46935c068b333d5b1
+      internalID: -423519446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_285
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2a723d56ccd214ab1f5c23251716d1
+      internalID: 2112810759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_286
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98379ae9c2daa8e449c73ca5981b12fa
+      internalID: 1739326804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_287
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a6a402ff309f438bf5fef178b1b08
+      internalID: 1508668590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_289
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef460dca32aeac4b8f7935437f96ca4
+      internalID: 691686328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_290
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886d9df04591bb14fbc280960c073f41
+      internalID: 1031742423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_291
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0a5c4a2bb226b4eb9aa592962ab2d9
+      internalID: -473955386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_292
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e069c34912c894db20f2a07421bd9a
+      internalID: -1911660684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_293
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd5f993879630040b90dfc065a6ecbe
+      internalID: 2034311536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_294
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce4e0d5ade4fd941a6ef3a859365d7d
+      internalID: 201847723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_295
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0829d0769c7929f4d9ba74ef297b549f
+      internalID: -59889638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_296
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc0f26a8b69246458e58397d672b3a8
+      internalID: 2141418986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_297
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40ba4c0531df64da67b772311e865c
+      internalID: -1857299932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_298
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20741b83608832e46a3d80577923fbd1
+      internalID: 383695317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_299
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca427b2bcffd54e932d3f17bc98943
+      internalID: 653995018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_300
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654835080806dd54bb6c04d283c9b95f
+      internalID: -1894089887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_301
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29317e947fb86c47938aeb8cd73115e
+      internalID: 670032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_302
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afb52d32fdb5f44babf128831b6535f
+      internalID: 1918153874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_303
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d227b861020f01e418478a057bc980cf
+      internalID: 1856064627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_304
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5aed5ec5921cb479e833c0f8cc404b
+      internalID: -932507754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_306
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069a8a23094947744ac13ee7594df7e3
+      internalID: 531260817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_307
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f542b2e2caf494e4e9ff2dd8606480c9
+      internalID: 1045147023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_308
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365c69bac3aae348b4fc32655377cc8
+      internalID: 279515385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_309
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c6945d6678a5042863b0c5abecb01f
+      internalID: 753583698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_310
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b359eaaee90c740a41af6c2e2db9e0
+      internalID: 558582789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_311
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd6de648097ef847a0961bbe766562b
+      internalID: -1926432819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_312
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c3c5e33c551d24b9fa1776b9a1195a
+      internalID: -177622253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_313
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2187b2f08d4a684aba7a3fce90454f0
+      internalID: -900006370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_314
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095068de224509642a93d3a456787f4a
+      internalID: 1377692973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_315
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1174df41e6a0cce46b691d1f49510c3c
+      internalID: -2000263111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_316
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5932ce5ad3e4d5444b2a2263beb0065a
+      internalID: -1884968189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_317
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6f545d1c87acb4a96bf8f772b6b9db
+      internalID: -658202545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_318
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44338cb42c4419c40a37a8b01038a1f1
+      internalID: -24556281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_319
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5c8a1d9e26a54a809ec99ca680ea9
+      internalID: 2078114953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_320
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6690ef19898efd48ad91b289eb9a2f1
+      internalID: -1403184618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_321
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba68e6202e4e04449a046f64e55fe9a8
+      internalID: 1725534750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_323
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73a593f0031b5748827d9e586cc73fe
+      internalID: 2076854642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_324
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2bae674d91ff342ab1f2634c8c0233
+      internalID: 1458532857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_325
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f554d295d8bff17459cd24e360b779c9
+      internalID: -2145568463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_326
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17c3557d1a234f4aa06f471305103f1
+      internalID: -502648721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_327
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7868bb8747274543ac9ced0bf6052fe
+      internalID: 1935238560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_328
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e027124acf74714ba20b5c93acd61b7
+      internalID: 963476624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_329
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaa51ea68075824f8e206985b783b51
+      internalID: 2112231698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_330
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfb70dd168c75849a1da91c5aae3be1
+      internalID: -1497204045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_331
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a1dd2aa1b23344abc0450c4c68ffa
+      internalID: 683969427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_332
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd121ab4913b3574fa95ff5967ac12a3
+      internalID: -273986305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_333
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11eddd073133104c94d9bbdc454ff80
+      internalID: 1563763886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_334
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f52fd5651c80234685efe67409ac2a5
+      internalID: -508674073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_335
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a828dcffd1ce24c874da558e182869
+      internalID: 487109394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_336
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432a1aa8922578c4b80df0a1b376ef7a
+      internalID: 1499605377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_337
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cdd2daa966305478eec068858273a4
+      internalID: 1519331948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background 4 - Plan 1 - escuro_338
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fcd95b8c23e8848bd94b4041fd5f90
+      internalID: 1826113059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 50ef99fd4aef8764db8642ba989a3e52
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      background 4 - Plan 1 - escuro_0: 213188033
+      background 4 - Plan 1 - escuro_1: -1495516552
+      background 4 - Plan 1 - escuro_10: -163648008
+      background 4 - Plan 1 - escuro_100: -853009607
+      background 4 - Plan 1 - escuro_101: -2027730176
+      background 4 - Plan 1 - escuro_102: -2075188816
+      background 4 - Plan 1 - escuro_103: 783541
+      background 4 - Plan 1 - escuro_104: 482096393
+      background 4 - Plan 1 - escuro_105: -821562679
+      background 4 - Plan 1 - escuro_106: 309710255
+      background 4 - Plan 1 - escuro_107: -1265748352
+      background 4 - Plan 1 - escuro_108: -1859584947
+      background 4 - Plan 1 - escuro_109: 1703593129
+      background 4 - Plan 1 - escuro_11: 337561583
+      background 4 - Plan 1 - escuro_110: 1428079199
+      background 4 - Plan 1 - escuro_111: -529267640
+      background 4 - Plan 1 - escuro_112: -13022546
+      background 4 - Plan 1 - escuro_113: -1184528040
+      background 4 - Plan 1 - escuro_114: 1946839690
+      background 4 - Plan 1 - escuro_115: -1282609872
+      background 4 - Plan 1 - escuro_116: -1132427929
+      background 4 - Plan 1 - escuro_117: 1611478298
+      background 4 - Plan 1 - escuro_118: -1995765775
+      background 4 - Plan 1 - escuro_119: -555630355
+      background 4 - Plan 1 - escuro_12: 1576587331
+      background 4 - Plan 1 - escuro_120: 1043728369
+      background 4 - Plan 1 - escuro_121: -685722767
+      background 4 - Plan 1 - escuro_122: 1468532779
+      background 4 - Plan 1 - escuro_123: -657840161
+      background 4 - Plan 1 - escuro_124: -89884659
+      background 4 - Plan 1 - escuro_125: -393687298
+      background 4 - Plan 1 - escuro_126: 306568396
+      background 4 - Plan 1 - escuro_127: -372425129
+      background 4 - Plan 1 - escuro_128: -635794190
+      background 4 - Plan 1 - escuro_129: 1969534071
+      background 4 - Plan 1 - escuro_13: 791048903
+      background 4 - Plan 1 - escuro_130: -1638736043
+      background 4 - Plan 1 - escuro_131: -1881404521
+      background 4 - Plan 1 - escuro_132: 1208824487
+      background 4 - Plan 1 - escuro_133: 1794932408
+      background 4 - Plan 1 - escuro_134: -1909585398
+      background 4 - Plan 1 - escuro_135: -1439962273
+      background 4 - Plan 1 - escuro_136: 768540824
+      background 4 - Plan 1 - escuro_137: 1416988963
+      background 4 - Plan 1 - escuro_138: -1624583367
+      background 4 - Plan 1 - escuro_139: -353562380
+      background 4 - Plan 1 - escuro_14: 722121490
+      background 4 - Plan 1 - escuro_140: 48571021
+      background 4 - Plan 1 - escuro_141: -1480272588
+      background 4 - Plan 1 - escuro_142: 1113839099
+      background 4 - Plan 1 - escuro_143: 1874295548
+      background 4 - Plan 1 - escuro_144: -764532848
+      background 4 - Plan 1 - escuro_145: 186413732
+      background 4 - Plan 1 - escuro_146: -1963738250
+      background 4 - Plan 1 - escuro_147: 443041810
+      background 4 - Plan 1 - escuro_148: 1911459342
+      background 4 - Plan 1 - escuro_149: -895735502
+      background 4 - Plan 1 - escuro_15: 725561681
+      background 4 - Plan 1 - escuro_150: -1178674449
+      background 4 - Plan 1 - escuro_151: 281126243
+      background 4 - Plan 1 - escuro_152: -1428223396
+      background 4 - Plan 1 - escuro_153: -591579952
+      background 4 - Plan 1 - escuro_154: 243424678
+      background 4 - Plan 1 - escuro_155: -1557316539
+      background 4 - Plan 1 - escuro_156: -1480281068
+      background 4 - Plan 1 - escuro_157: 1746513939
+      background 4 - Plan 1 - escuro_158: -666267206
+      background 4 - Plan 1 - escuro_159: -1023568326
+      background 4 - Plan 1 - escuro_16: -732830334
+      background 4 - Plan 1 - escuro_160: -1563766165
+      background 4 - Plan 1 - escuro_161: 915248824
+      background 4 - Plan 1 - escuro_162: 825399116
+      background 4 - Plan 1 - escuro_163: 229952537
+      background 4 - Plan 1 - escuro_164: 1948026470
+      background 4 - Plan 1 - escuro_165: 182002500
+      background 4 - Plan 1 - escuro_166: 829159967
+      background 4 - Plan 1 - escuro_167: 565480152
+      background 4 - Plan 1 - escuro_168: 457140839
+      background 4 - Plan 1 - escuro_169: 670001915
+      background 4 - Plan 1 - escuro_17: 1272475281
+      background 4 - Plan 1 - escuro_170: -1609151899
+      background 4 - Plan 1 - escuro_171: 1394722199
+      background 4 - Plan 1 - escuro_172: -858057935
+      background 4 - Plan 1 - escuro_173: 1816228767
+      background 4 - Plan 1 - escuro_174: -180009895
+      background 4 - Plan 1 - escuro_175: 403215391
+      background 4 - Plan 1 - escuro_176: -2145008654
+      background 4 - Plan 1 - escuro_177: -1102966028
+      background 4 - Plan 1 - escuro_178: 1448304383
+      background 4 - Plan 1 - escuro_179: -120810904
+      background 4 - Plan 1 - escuro_18: 425118473
+      background 4 - Plan 1 - escuro_180: 66127157
+      background 4 - Plan 1 - escuro_181: -1236446144
+      background 4 - Plan 1 - escuro_182: -1090458181
+      background 4 - Plan 1 - escuro_183: -598277122
+      background 4 - Plan 1 - escuro_184: 1650923312
+      background 4 - Plan 1 - escuro_185: -1031644843
+      background 4 - Plan 1 - escuro_186: 1883902988
+      background 4 - Plan 1 - escuro_187: 1624662468
+      background 4 - Plan 1 - escuro_188: -1224153385
+      background 4 - Plan 1 - escuro_189: 1772422605
+      background 4 - Plan 1 - escuro_19: -1312686732
+      background 4 - Plan 1 - escuro_190: -636195508
+      background 4 - Plan 1 - escuro_191: -1565881576
+      background 4 - Plan 1 - escuro_192: 1831170302
+      background 4 - Plan 1 - escuro_193: 1946614447
+      background 4 - Plan 1 - escuro_194: -240508599
+      background 4 - Plan 1 - escuro_195: 999673764
+      background 4 - Plan 1 - escuro_196: -984117969
+      background 4 - Plan 1 - escuro_197: 657958021
+      background 4 - Plan 1 - escuro_198: 632935508
+      background 4 - Plan 1 - escuro_199: 1704208189
+      background 4 - Plan 1 - escuro_2: -1936085894
+      background 4 - Plan 1 - escuro_20: -105285422
+      background 4 - Plan 1 - escuro_200: 1248335715
+      background 4 - Plan 1 - escuro_201: -1024260213
+      background 4 - Plan 1 - escuro_202: -368940645
+      background 4 - Plan 1 - escuro_203: -343273939
+      background 4 - Plan 1 - escuro_204: 987760776
+      background 4 - Plan 1 - escuro_205: 2121022020
+      background 4 - Plan 1 - escuro_206: -1116782388
+      background 4 - Plan 1 - escuro_207: -1110672340
+      background 4 - Plan 1 - escuro_208: -16344760
+      background 4 - Plan 1 - escuro_209: -12102989
+      background 4 - Plan 1 - escuro_21: 1951656701
+      background 4 - Plan 1 - escuro_210: 2004271555
+      background 4 - Plan 1 - escuro_211: 488683612
+      background 4 - Plan 1 - escuro_212: -493962070
+      background 4 - Plan 1 - escuro_213: 848422885
+      background 4 - Plan 1 - escuro_214: -1669438087
+      background 4 - Plan 1 - escuro_215: -720337641
+      background 4 - Plan 1 - escuro_216: -86004786
+      background 4 - Plan 1 - escuro_217: 414593016
+      background 4 - Plan 1 - escuro_218: -1897659310
+      background 4 - Plan 1 - escuro_219: 1924906286
+      background 4 - Plan 1 - escuro_22: 98833368
+      background 4 - Plan 1 - escuro_220: -210376409
+      background 4 - Plan 1 - escuro_221: -489941295
+      background 4 - Plan 1 - escuro_222: -1585644286
+      background 4 - Plan 1 - escuro_223: -240447318
+      background 4 - Plan 1 - escuro_224: 538771944
+      background 4 - Plan 1 - escuro_225: -813382872
+      background 4 - Plan 1 - escuro_226: -2468863
+      background 4 - Plan 1 - escuro_227: 1015780237
+      background 4 - Plan 1 - escuro_228: 1571637913
+      background 4 - Plan 1 - escuro_229: 1330659842
+      background 4 - Plan 1 - escuro_23: -502323971
+      background 4 - Plan 1 - escuro_230: 1065336875
+      background 4 - Plan 1 - escuro_231: 1435432554
+      background 4 - Plan 1 - escuro_232: -1903368290
+      background 4 - Plan 1 - escuro_233: -1422238645
+      background 4 - Plan 1 - escuro_234: 744133432
+      background 4 - Plan 1 - escuro_235: 45772598
+      background 4 - Plan 1 - escuro_236: 1606417239
+      background 4 - Plan 1 - escuro_237: 2132755496
+      background 4 - Plan 1 - escuro_238: -192036270
+      background 4 - Plan 1 - escuro_239: 853119997
+      background 4 - Plan 1 - escuro_24: -493395595
+      background 4 - Plan 1 - escuro_240: 910657762
+      background 4 - Plan 1 - escuro_241: -1057687303
+      background 4 - Plan 1 - escuro_242: 1951177549
+      background 4 - Plan 1 - escuro_243: 1660277168
+      background 4 - Plan 1 - escuro_244: 1160295733
+      background 4 - Plan 1 - escuro_245: -1991091733
+      background 4 - Plan 1 - escuro_246: -1203798709
+      background 4 - Plan 1 - escuro_247: -1103588054
+      background 4 - Plan 1 - escuro_248: 552340089
+      background 4 - Plan 1 - escuro_249: -845860309
+      background 4 - Plan 1 - escuro_25: -416147244
+      background 4 - Plan 1 - escuro_250: 437695445
+      background 4 - Plan 1 - escuro_251: 1358786848
+      background 4 - Plan 1 - escuro_252: 156569417
+      background 4 - Plan 1 - escuro_253: 501340284
+      background 4 - Plan 1 - escuro_254: 1838114924
+      background 4 - Plan 1 - escuro_255: 373619777
+      background 4 - Plan 1 - escuro_256: -1741013473
+      background 4 - Plan 1 - escuro_257: 1832404576
+      background 4 - Plan 1 - escuro_258: -837235786
+      background 4 - Plan 1 - escuro_259: -1206977092
+      background 4 - Plan 1 - escuro_26: -498584401
+      background 4 - Plan 1 - escuro_260: 1471964420
+      background 4 - Plan 1 - escuro_261: 1518908431
+      background 4 - Plan 1 - escuro_262: -659726313
+      background 4 - Plan 1 - escuro_263: -1556374241
+      background 4 - Plan 1 - escuro_264: -969745155
+      background 4 - Plan 1 - escuro_265: 1127040870
+      background 4 - Plan 1 - escuro_266: 1925604139
+      background 4 - Plan 1 - escuro_267: -1999709226
+      background 4 - Plan 1 - escuro_268: -928320800
+      background 4 - Plan 1 - escuro_269: -280343607
+      background 4 - Plan 1 - escuro_27: -998084039
+      background 4 - Plan 1 - escuro_270: -1230422035
+      background 4 - Plan 1 - escuro_271: 1165886916
+      background 4 - Plan 1 - escuro_272: -1998731049
+      background 4 - Plan 1 - escuro_273: -1928475913
+      background 4 - Plan 1 - escuro_274: -1446006926
+      background 4 - Plan 1 - escuro_275: -398181171
+      background 4 - Plan 1 - escuro_276: -952097141
+      background 4 - Plan 1 - escuro_277: -1951586707
+      background 4 - Plan 1 - escuro_278: -963478506
+      background 4 - Plan 1 - escuro_279: -1197978861
+      background 4 - Plan 1 - escuro_28: -632357702
+      background 4 - Plan 1 - escuro_280: 11507341
+      background 4 - Plan 1 - escuro_281: -1149712533
+      background 4 - Plan 1 - escuro_282: 798619672
+      background 4 - Plan 1 - escuro_283: 1933227668
+      background 4 - Plan 1 - escuro_284: -423519446
+      background 4 - Plan 1 - escuro_285: 2112810759
+      background 4 - Plan 1 - escuro_286: 1739326804
+      background 4 - Plan 1 - escuro_287: 1508668590
+      background 4 - Plan 1 - escuro_288: -573629353
+      background 4 - Plan 1 - escuro_289: 691686328
+      background 4 - Plan 1 - escuro_29: 1009347454
+      background 4 - Plan 1 - escuro_290: 1031742423
+      background 4 - Plan 1 - escuro_291: -473955386
+      background 4 - Plan 1 - escuro_292: -1911660684
+      background 4 - Plan 1 - escuro_293: 2034311536
+      background 4 - Plan 1 - escuro_294: 201847723
+      background 4 - Plan 1 - escuro_295: -59889638
+      background 4 - Plan 1 - escuro_296: 2141418986
+      background 4 - Plan 1 - escuro_297: -1857299932
+      background 4 - Plan 1 - escuro_298: 383695317
+      background 4 - Plan 1 - escuro_299: 653995018
+      background 4 - Plan 1 - escuro_3: -1550808565
+      background 4 - Plan 1 - escuro_30: 1832099077
+      background 4 - Plan 1 - escuro_300: -1894089887
+      background 4 - Plan 1 - escuro_301: 670032
+      background 4 - Plan 1 - escuro_302: 1918153874
+      background 4 - Plan 1 - escuro_303: 1856064627
+      background 4 - Plan 1 - escuro_304: -932507754
+      background 4 - Plan 1 - escuro_305: -736325728
+      background 4 - Plan 1 - escuro_306: 531260817
+      background 4 - Plan 1 - escuro_307: 1045147023
+      background 4 - Plan 1 - escuro_308: 279515385
+      background 4 - Plan 1 - escuro_309: 753583698
+      background 4 - Plan 1 - escuro_31: 850506389
+      background 4 - Plan 1 - escuro_310: 558582789
+      background 4 - Plan 1 - escuro_311: -1926432819
+      background 4 - Plan 1 - escuro_312: -177622253
+      background 4 - Plan 1 - escuro_313: -900006370
+      background 4 - Plan 1 - escuro_314: 1377692973
+      background 4 - Plan 1 - escuro_315: -2000263111
+      background 4 - Plan 1 - escuro_316: -1884968189
+      background 4 - Plan 1 - escuro_317: -658202545
+      background 4 - Plan 1 - escuro_318: -24556281
+      background 4 - Plan 1 - escuro_319: 2078114953
+      background 4 - Plan 1 - escuro_32: -1759157114
+      background 4 - Plan 1 - escuro_320: -1403184618
+      background 4 - Plan 1 - escuro_321: 1725534750
+      background 4 - Plan 1 - escuro_322: -1610823150
+      background 4 - Plan 1 - escuro_323: 2076854642
+      background 4 - Plan 1 - escuro_324: 1458532857
+      background 4 - Plan 1 - escuro_325: -2145568463
+      background 4 - Plan 1 - escuro_326: -502648721
+      background 4 - Plan 1 - escuro_327: 1935238560
+      background 4 - Plan 1 - escuro_328: 963476624
+      background 4 - Plan 1 - escuro_329: 2112231698
+      background 4 - Plan 1 - escuro_33: 722379572
+      background 4 - Plan 1 - escuro_330: -1497204045
+      background 4 - Plan 1 - escuro_331: 683969427
+      background 4 - Plan 1 - escuro_332: -273986305
+      background 4 - Plan 1 - escuro_333: 1563763886
+      background 4 - Plan 1 - escuro_334: -508674073
+      background 4 - Plan 1 - escuro_335: 487109394
+      background 4 - Plan 1 - escuro_336: 1499605377
+      background 4 - Plan 1 - escuro_337: 1519331948
+      background 4 - Plan 1 - escuro_338: 1826113059
+      background 4 - Plan 1 - escuro_339: 1942840600
+      background 4 - Plan 1 - escuro_34: 1724692533
+      background 4 - Plan 1 - escuro_35: -943743652
+      background 4 - Plan 1 - escuro_36: -1023209900
+      background 4 - Plan 1 - escuro_37: -1044975010
+      background 4 - Plan 1 - escuro_38: 1333271609
+      background 4 - Plan 1 - escuro_39: -700271282
+      background 4 - Plan 1 - escuro_4: 1973281810
+      background 4 - Plan 1 - escuro_40: 1314503519
+      background 4 - Plan 1 - escuro_41: 878736572
+      background 4 - Plan 1 - escuro_42: 639153265
+      background 4 - Plan 1 - escuro_43: -2118295096
+      background 4 - Plan 1 - escuro_44: -535630248
+      background 4 - Plan 1 - escuro_45: -1740799713
+      background 4 - Plan 1 - escuro_46: -175845815
+      background 4 - Plan 1 - escuro_47: 2068680798
+      background 4 - Plan 1 - escuro_48: 1370523375
+      background 4 - Plan 1 - escuro_49: -1905366041
+      background 4 - Plan 1 - escuro_5: 63634610
+      background 4 - Plan 1 - escuro_50: 205665986
+      background 4 - Plan 1 - escuro_51: 1639714100
+      background 4 - Plan 1 - escuro_52: -944797864
+      background 4 - Plan 1 - escuro_53: -1935923975
+      background 4 - Plan 1 - escuro_54: 982248792
+      background 4 - Plan 1 - escuro_55: 1701678933
+      background 4 - Plan 1 - escuro_56: -47842420
+      background 4 - Plan 1 - escuro_57: 288218156
+      background 4 - Plan 1 - escuro_58: -1119878407
+      background 4 - Plan 1 - escuro_59: 483527246
+      background 4 - Plan 1 - escuro_6: -699740247
+      background 4 - Plan 1 - escuro_60: -439573553
+      background 4 - Plan 1 - escuro_61: 1180941370
+      background 4 - Plan 1 - escuro_62: 1080023018
+      background 4 - Plan 1 - escuro_63: -1296482927
+      background 4 - Plan 1 - escuro_64: 1675964417
+      background 4 - Plan 1 - escuro_65: -964511580
+      background 4 - Plan 1 - escuro_66: 423309174
+      background 4 - Plan 1 - escuro_67: -545294967
+      background 4 - Plan 1 - escuro_68: -360396534
+      background 4 - Plan 1 - escuro_69: 410220449
+      background 4 - Plan 1 - escuro_7: -112063773
+      background 4 - Plan 1 - escuro_70: 1982512022
+      background 4 - Plan 1 - escuro_71: 2020809016
+      background 4 - Plan 1 - escuro_72: -2035846070
+      background 4 - Plan 1 - escuro_73: 1953396639
+      background 4 - Plan 1 - escuro_74: -1406258813
+      background 4 - Plan 1 - escuro_75: 1090121360
+      background 4 - Plan 1 - escuro_76: -982225386
+      background 4 - Plan 1 - escuro_77: 1247768135
+      background 4 - Plan 1 - escuro_78: 837941564
+      background 4 - Plan 1 - escuro_79: -389037875
+      background 4 - Plan 1 - escuro_8: -643161794
+      background 4 - Plan 1 - escuro_80: -1339073145
+      background 4 - Plan 1 - escuro_81: 240136047
+      background 4 - Plan 1 - escuro_82: -404829535
+      background 4 - Plan 1 - escuro_83: 870047513
+      background 4 - Plan 1 - escuro_84: 1880050255
+      background 4 - Plan 1 - escuro_85: 392537236
+      background 4 - Plan 1 - escuro_86: 566743670
+      background 4 - Plan 1 - escuro_87: -2110163125
+      background 4 - Plan 1 - escuro_88: -359241986
+      background 4 - Plan 1 - escuro_89: 1557767496
+      background 4 - Plan 1 - escuro_9: -1599469866
+      background 4 - Plan 1 - escuro_90: -1835142458
+      background 4 - Plan 1 - escuro_91: 1865918793
+      background 4 - Plan 1 - escuro_92: -730692087
+      background 4 - Plan 1 - escuro_93: 1819559863
+      background 4 - Plan 1 - escuro_94: -2100873883
+      background 4 - Plan 1 - escuro_95: 850495771
+      background 4 - Plan 1 - escuro_96: 1551304772
+      background 4 - Plan 1 - escuro_97: -2074044403
+      background 4 - Plan 1 - escuro_98: -1712135565
+      background 4 - Plan 1 - escuro_99: -42376746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
