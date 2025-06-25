@@ -1,0 +1,4434 @@
+fileFormatVersion: 2
+guid: f02a98a84303687448965129ef3d07df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3233365718626749619
+    second: throne_front_view 93x169_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: throne_front_view 93x169_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393e95651a55a5b4b993678a91a39378
+      internalID: 908788888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3f82a3c5cfec44fad7e9888a9b7885
+      internalID: -1889776122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7fc044345f53f4899a068edca0b85a
+      internalID: 647852337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f95bd1293ff54b832f803b294b091
+      internalID: 1373510437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417ad626203e7dc4dac0a6c6ca2db293
+      internalID: -2001811285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c0bb984577f9e49b882531eb959142
+      internalID: -1614612323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98b0f8894b9d4e4f95b8b8b1355d93c
+      internalID: -1557675791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eaffdbe69f2c54c8fd57b3fd13190a
+      internalID: 1406993000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53147b88cec60d2489fbefd11d2e883a
+      internalID: -651296772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9737437b75ed014289b676cec935539
+      internalID: 1942569189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab586bb66435a54bb70a4b7f603279f
+      internalID: 580573990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b42f52ba057b9429fbae11f3f41cdb
+      internalID: 180630918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97501276da15cf74990f70cab66aa549
+      internalID: 2093576406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28706d7229be754794060941eb26981
+      internalID: -110701110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a952661e69a84cb2cdb74345e99f3
+      internalID: -231231523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c242571510b234f80372a89f5ab498
+      internalID: -2130448337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85aa42ff68840a24aa9ada5747ca5957
+      internalID: 981220264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c553cf4a5e881b4f835bfce6754a62a
+      internalID: -31942494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05adae9f285b0e4ab96c9b4d8f8773b
+      internalID: 943227204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e113964a50b631f43b105acdca673180
+      internalID: 290197800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ec3752cfffd94286b16444d0b2ce2
+      internalID: 1291858024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1748e38715c30c41bedd6859fe44b23
+      internalID: -40100606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_22
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa07f541538530b44b1a8c43f3c3e461
+      internalID: -1207431508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65ef94e2173b674091c306cb96d1c6b
+      internalID: -2031031729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d0779e0b317754398158faf119ea0b
+      internalID: 1538290806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d4e47e6fa9384408d5cc3777568528
+      internalID: -1162691848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_26
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87b1d4dc03b21b4c93ef68c88974324
+      internalID: 681041489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f375310ddca6478ad916c9b8ce017
+      internalID: 966645563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4e3895e750f82439eec5cf7dc4cac1
+      internalID: -1687099590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c2ae3edd03ba14685fb71dd62855cd
+      internalID: -1388962569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7e1774d39ce0d489ae32516a8bb281
+      internalID: -551595211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_31
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3b391e9fe50354a9f996e422f0ab6e
+      internalID: 1424453194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17611dd76b86288488e9b81c1e5b0fc0
+      internalID: -1403761350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f223694b9b0117c4bbfbca9a8045ed7f
+      internalID: -1479080547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620468cf53661d842b7edb21134ce10f
+      internalID: -2053408264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc44c2fbede55e48b6a1f08240e22e5
+      internalID: 2075591475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539ae9037c06704482650c1ee772478
+      internalID: -601658039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a274e5b3587f1d438ff1a8f37b4d840
+      internalID: -986682158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd10a5ada866d1742aa2dc4af5f5e178
+      internalID: 1002118216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ff613bc945f0649844270d086993ee
+      internalID: 847591687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cc36d155c428f4280e82b8813f71de
+      internalID: -1966172343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec572060a11af5e42a631f264333f92e
+      internalID: 1370411378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_42
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0854d8c1c398147b02af2eb2b98c7b
+      internalID: -515290861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_43
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bd97a33672e1b47bbe10eb9c3e61ee
+      internalID: -1063197222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddcee68aecf637429c5c74b886cbe97
+      internalID: 114985461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f4711abec71774dad40dba17e0cd47
+      internalID: 1700002663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac59658b9b0cce4794a973a21c9bbdf
+      internalID: 1760839505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_47
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870bd4eb57b8b0045ac2ce58090bd620
+      internalID: 555551788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_48
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3787c304168c7324b99cb793df810483
+      internalID: 1740477852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a586e3a4c4bd4548b446c0f9f84b5b2
+      internalID: 1923318250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_50
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dea239bb4de7434789d1b8f4d0832eb
+      internalID: 1836905120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b431d92efd0654da456bfc27db8fe3
+      internalID: -1562701054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_52
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc821ed31984e6d4b9fcf135993c0894
+      internalID: 1868584484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_53
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2259b60787932b64b9c6fccb1aef14dc
+      internalID: 1580242540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_54
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ae7c183110ca34da9bf1d513c6222f
+      internalID: 2022753482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_55
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7572de512e900499371bd8d4aa274f
+      internalID: 1305842765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2277192407fff1b49ab2642269bed1bb
+      internalID: 1027440121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97df3c87c97c1d64092caadbe568a515
+      internalID: -169581905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_58
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4b976db238cce499205d60692b2f78
+      internalID: -571456439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_59
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a16c83e633f66343a9df46201049dc7
+      internalID: 694839317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091c38193b382be4489ddb75f43dd25d
+      internalID: -1287336344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_61
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9118273670d926e43bd0e5bb7275b62e
+      internalID: 1559212786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_62
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baebc7944bba30f49aeb0c53fd870cdb
+      internalID: 163264417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_63
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25175068ffea48244bc61c02611d238b
+      internalID: 301664823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_64
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 97
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef67fbc8dba0ad049a4147df67e498e5
+      internalID: -1116169656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d2a2551e9c27e4aa584adfe8498591
+      internalID: -1360412178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_66
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea24ae5926135a4d9bd1d225627e4dc
+      internalID: 389677460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_67
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7982b0eabd6a99149a5ba7c924e42325
+      internalID: 1604081671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_68
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afbd6cb2f91f4b4fa01808a442a56b0
+      internalID: 1051252924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4171ae337a4334487c02a4c4a3aab3
+      internalID: -1786978250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_70
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2271a7b31aa794680d58a820fa90dc
+      internalID: 2065784015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_71
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126734a0ef2dc24cb40c45f1e7c174c
+      internalID: -1768875917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca965117c4b4ad6429a886d320c16c6a
+      internalID: -856434376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda844d3214f9c441a53923f2e604e3a
+      internalID: 1236167198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_74
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a404e3ac3c09a54599ad77d5e4f56c2
+      internalID: 700952805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_75
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f02031d6e8d0d49a01e1c196c9f469
+      internalID: -1661817704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_76
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1323cba231dbe674a8368f6e67d9b141
+      internalID: 1820303002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_77
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61493a94fa6861a46a00711fec8989ec
+      internalID: 87344465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25819975fb948164ba568bf82f66a5b5
+      internalID: -514077056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_79
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8704f16837039b545a3667da743dd981
+      internalID: 1997731205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_80
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475cd8a0967721c45ab9e475cd81977c
+      internalID: -1673806784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_81
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e86bd9cdd64e6244a35506d88f06a78
+      internalID: -2088504235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_82
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e71881419b43174ba3aa3b0372b9771
+      internalID: -1139257978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_83
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6201f54765dab344195e078c573c9897
+      internalID: 798315456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edd0602ca5c634082d6a42db1370b5
+      internalID: 275880062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8190bd8e2dec574b9d90d01544e6ddb
+      internalID: -2013973736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_86
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96aae9fa3498a4cba9ccf853896db6
+      internalID: 652696278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_87
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720aa8dfd06570e4c9863691bb2a1fbd
+      internalID: -804321983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_88
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c306e37c876c5499e288bc987abf51
+      internalID: -1808765745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_89
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6e63476a41d4a4581a8797e4a0198d
+      internalID: 1183996632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_90
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c51ed88f5d46c42a0dd5a37eedadd7
+      internalID: 1951236672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4260bc38ba071c46955cd720d81e96a
+      internalID: -1560181174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_92
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b560812f2aab04babbe09b0df08d74
+      internalID: 1039450913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_93
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f193254336bb45a849f82953e2685
+      internalID: -1847089371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a77965c95859bb46beecd578c7cce96
+      internalID: 1829930687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_95
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa545ffa987474b870332ddd6ed5ba
+      internalID: 1058369237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_96
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd5f15ef0094a24eb9144dd36943b33
+      internalID: 1789418320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_97
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b077a4ce24339fe46b5e1c306af0f342
+      internalID: 357630837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_98
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd98873aecf3d14ab4bb3e5c651da10
+      internalID: 1608199606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_99
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b55dfe6a7b38458310f55b652df5b
+      internalID: 262674440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_100
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a26aeefd7339ca458e768f464923306
+      internalID: -2026610001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_101
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25a1c8253916d4190e196e816492a0
+      internalID: -1251373075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_102
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc1dcdf2eb505b44986f542fbac93fb
+      internalID: -145374931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_103
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb0e8a5960f4f044849800ba0ded260
+      internalID: -676155469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_104
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00591b8e3c22414418fb9d1adf24ff97
+      internalID: -873114541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_105
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8e6b53cda4b51458a8f46e3c982360
+      internalID: 1925499108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_106
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fb2cfb46f0d304fa020b1ae671193d
+      internalID: 458614607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_107
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f354f757871b4f748b771b29ada31dea
+      internalID: 1459108945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_108
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9dbf4f8a4bc9242b2a06874688b524
+      internalID: -562170385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_109
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470dca3f98c96384e9958139cbdba990
+      internalID: -1031801193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_110
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afdd2a83a0722b4bbffa2b60e36e051
+      internalID: -1478017631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_111
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0947b363540a27f49b4ef89a5c64515b
+      internalID: 1235772365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_112
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ec72cd69fb2fd4c84e0055e33e011d
+      internalID: 1119391998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_113
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8626a1a6f7d72314f830da6b26eeb65a
+      internalID: 744145302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_114
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a3792749669b845971dd5b71786fed
+      internalID: -672432129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa376411c5e2504985e2f6246df8f3c
+      internalID: -159540763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_116
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8aecf56eed1844f8c49e28ac549239
+      internalID: -1045416464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_117
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635e2f200a8b3f43ab142783943cae0
+      internalID: 925934286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_118
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9305b84353c61b043bfb8d6813bce3f5
+      internalID: -989399818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_119
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3390d0ee8b6a36c48b9464dff749ea5a
+      internalID: -438138912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_120
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166fca0ad5d0472408c63b480d322ffb
+      internalID: 579000544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_121
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e222aa87f5acad49a26de84be249ea9
+      internalID: -777597926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_122
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8ff686a1db53d4b8d0c0d7d582030f
+      internalID: -259396424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_123
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9df819277a892242b2c18b17067b11f
+      internalID: -1609412722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_124
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bcfd01808bfd44486f59d4da145147
+      internalID: 981152735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_125
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0272f83e5deb36f41acbfb91fa3154f1
+      internalID: -347628993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_126
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53423ffb47981947b1d5e88a33bc38b
+      internalID: 1805411622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_127
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ed9c35fff9cc84c87932e36623c216
+      internalID: 1246725915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_128
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42908ab2b6145d4448017c59c31c40e3
+      internalID: 227969527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_129
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cc850b98fb97542802bcb93f320e1d
+      internalID: 543585550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_130
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ffbf419fe6d404fa38d3e1d4a96817
+      internalID: -1370109940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_131
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be8aeeeed132b847802ce881db78cd1
+      internalID: -9833012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_132
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90246e982a8ae740bffc1cc61c81673
+      internalID: 1207554783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_133
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10abb089dcd54174296b93d85e6054d6
+      internalID: 1842253391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_134
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b2728d468f254c86462804f079d09
+      internalID: -1640946897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_135
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f4ca73b5c762e48ba87aaa636a1880
+      internalID: -579468959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_136
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e50befdecadad41a5282a7c72db4e0
+      internalID: -1131981172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_137
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d9a1a68f9fa864c94f6d4e4048d1d2
+      internalID: 638066735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_138
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903689d5c8155054186b1810db8badf6
+      internalID: 372998505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_139
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba234675fee2371458b2b4d73ebbfbe4
+      internalID: 1265957858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_140
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a537e95fb41b884c9bd46e353414506
+      internalID: -990632537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_141
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aafcf34b0f3344ba529375db99ea8f
+      internalID: -1382833440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_142
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d773cdfee28340b3025371bdce7dc
+      internalID: -63638602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_143
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08eb328734d6854c80a8215b973dd39
+      internalID: 281062611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_144
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f155a49de61d4d959baa063ed1573
+      internalID: -1569183647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_145
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c6d91de5ff2784aa92bdcb4b97fd22
+      internalID: 2117776069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_146
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4b292fddd03b648a2b61d8307da891
+      internalID: 435537320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_147
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d5918b6143b804082456271e1dd07e
+      internalID: 1759027497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_148
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56491e3a7b0229f449e7141806ca54c6
+      internalID: -269603230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_149
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc39d6aaea6eedc49b44ab598a41ca1c
+      internalID: 1489731711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_150
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6a80b8d16be4b4684c5f64ce9c79da
+      internalID: -280189892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_151
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a2a5015508ffc4481fa876fc62c6ce
+      internalID: 2103602970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_152
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8047e6b5ff3d25f4a881f6e86a97f93b
+      internalID: 1870329611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_153
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55380e853ddff9a4ebfc8cbbb34b72dc
+      internalID: -888561809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_154
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5f28aaeb5e5b847853b992f26cba7d
+      internalID: -1026315382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_155
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501d9e04c99a6a3489d0fc51b70589e2
+      internalID: -1316565546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_156
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886aef8a921ffc84292016a0169064f7
+      internalID: -1947340110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_157
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f10eacbeab5e804c98a1087f22fd8e5
+      internalID: -790279892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_158
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd47b1c9290d5df4ba0f2db3800aff56
+      internalID: 369558305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_159
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e85562567ab594ca3b13fc96750653
+      internalID: 1462528680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_160
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b021923185da54e84cc728d7d645a0
+      internalID: 403165344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_161
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b282d2c1d3560eb4cbf06fe8a2e48ec3
+      internalID: 1340916724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_162
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d78f357927074418ea88fd4f31e37e
+      internalID: 898718999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_163
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb4b54acd50c294e9ef21e77a1a028c
+      internalID: 1357438012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_164
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00fc1d216b198e469a5fc8997058759
+      internalID: 1612049696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_165
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259b92a5c8635004294696f8bdb07927
+      internalID: -812187113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_166
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e904d7ee353370a4683f471329526233
+      internalID: 350119289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_167
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1c781146fffd4abc6f0dec77b3da6
+      internalID: 871136325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_168
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89ecce4218ed7c4fa6789d5e60b5ca5
+      internalID: 1031408029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_169
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66890b12bad1bd94e8c6a1f78a7e047a
+      internalID: 1865587115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_170
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c3d0c6d1faca8429ba228b809ae03a
+      internalID: -2064230019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_171
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b6b74a143150642b5c007ecc6788c5
+      internalID: 326253669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_172
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74c77b245af3ed4c869a670152478b6
+      internalID: -1928660885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_173
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c85c860dbe5c48a40712ba561f62f
+      internalID: -1386489585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_174
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b7c97c8fa588b47a8bbbbfe83f9211
+      internalID: -1141626229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_175
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b93b0d741e76bc45a592e66f600ead1
+      internalID: 670025695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_176
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442c5db63417ea546ba28de577b6a450
+      internalID: -42724818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_177
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3355461673bc3574c842276948ed6938
+      internalID: -2070468936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_178
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac8a13defdd75f40b382d45accf3e85
+      internalID: -400168691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_179
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f243dd48706bc6141ab54a6018063de5
+      internalID: -2069185872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_180
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf76bebc2859a54eafa10df43dfebbd
+      internalID: 520891788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_181
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3765fb3785f62ff48b8dba9c628108d8
+      internalID: -386255079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_182
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abce16eb84bc814c82965800e493a88
+      internalID: -1564904970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_183
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c4c4a8f5cd4646b2b14e488cd77ec
+      internalID: 460073532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_184
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f2505f81669c44587ee675d622fde4
+      internalID: -2027916076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_185
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64592c409c21341468b218088048b262
+      internalID: 832037233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: throne_front_view 93x169_186
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedf30b1f1a645842921c55d23133af2
+      internalID: -1009687671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af32266c985a7e04ca2da6c0dd299d99
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      throne_front_view 93x169_0: 908788888
+      throne_front_view 93x169_1: -1889776122
+      throne_front_view 93x169_10: 580573990
+      throne_front_view 93x169_100: -2026610001
+      throne_front_view 93x169_101: -1251373075
+      throne_front_view 93x169_102: -145374931
+      throne_front_view 93x169_103: -676155469
+      throne_front_view 93x169_104: -873114541
+      throne_front_view 93x169_105: 1925499108
+      throne_front_view 93x169_106: 458614607
+      throne_front_view 93x169_107: 1459108945
+      throne_front_view 93x169_108: -562170385
+      throne_front_view 93x169_109: -1031801193
+      throne_front_view 93x169_11: 180630918
+      throne_front_view 93x169_110: -1478017631
+      throne_front_view 93x169_111: 1235772365
+      throne_front_view 93x169_112: 1119391998
+      throne_front_view 93x169_113: 744145302
+      throne_front_view 93x169_114: -672432129
+      throne_front_view 93x169_115: -159540763
+      throne_front_view 93x169_116: -1045416464
+      throne_front_view 93x169_117: 925934286
+      throne_front_view 93x169_118: -989399818
+      throne_front_view 93x169_119: -438138912
+      throne_front_view 93x169_12: 2093576406
+      throne_front_view 93x169_120: 579000544
+      throne_front_view 93x169_121: -777597926
+      throne_front_view 93x169_122: -259396424
+      throne_front_view 93x169_123: -1609412722
+      throne_front_view 93x169_124: 981152735
+      throne_front_view 93x169_125: -347628993
+      throne_front_view 93x169_126: 1805411622
+      throne_front_view 93x169_127: 1246725915
+      throne_front_view 93x169_128: 227969527
+      throne_front_view 93x169_129: 543585550
+      throne_front_view 93x169_13: -110701110
+      throne_front_view 93x169_130: -1370109940
+      throne_front_view 93x169_131: -9833012
+      throne_front_view 93x169_132: 1207554783
+      throne_front_view 93x169_133: 1842253391
+      throne_front_view 93x169_134: -1640946897
+      throne_front_view 93x169_135: -579468959
+      throne_front_view 93x169_136: -1131981172
+      throne_front_view 93x169_137: 638066735
+      throne_front_view 93x169_138: 372998505
+      throne_front_view 93x169_139: 1265957858
+      throne_front_view 93x169_14: -231231523
+      throne_front_view 93x169_140: -990632537
+      throne_front_view 93x169_141: -1382833440
+      throne_front_view 93x169_142: -63638602
+      throne_front_view 93x169_143: 281062611
+      throne_front_view 93x169_144: -1569183647
+      throne_front_view 93x169_145: 2117776069
+      throne_front_view 93x169_146: 435537320
+      throne_front_view 93x169_147: 1759027497
+      throne_front_view 93x169_148: -269603230
+      throne_front_view 93x169_149: 1489731711
+      throne_front_view 93x169_15: -2130448337
+      throne_front_view 93x169_150: -280189892
+      throne_front_view 93x169_151: 2103602970
+      throne_front_view 93x169_152: 1870329611
+      throne_front_view 93x169_153: -888561809
+      throne_front_view 93x169_154: -1026315382
+      throne_front_view 93x169_155: -1316565546
+      throne_front_view 93x169_156: -1947340110
+      throne_front_view 93x169_157: -790279892
+      throne_front_view 93x169_158: 369558305
+      throne_front_view 93x169_159: 1462528680
+      throne_front_view 93x169_16: 981220264
+      throne_front_view 93x169_160: 403165344
+      throne_front_view 93x169_161: 1340916724
+      throne_front_view 93x169_162: 898718999
+      throne_front_view 93x169_163: 1357438012
+      throne_front_view 93x169_164: 1612049696
+      throne_front_view 93x169_165: -812187113
+      throne_front_view 93x169_166: 350119289
+      throne_front_view 93x169_167: 871136325
+      throne_front_view 93x169_168: 1031408029
+      throne_front_view 93x169_169: 1865587115
+      throne_front_view 93x169_17: -31942494
+      throne_front_view 93x169_170: -2064230019
+      throne_front_view 93x169_171: 326253669
+      throne_front_view 93x169_172: -1928660885
+      throne_front_view 93x169_173: -1386489585
+      throne_front_view 93x169_174: -1141626229
+      throne_front_view 93x169_175: 670025695
+      throne_front_view 93x169_176: -42724818
+      throne_front_view 93x169_177: -2070468936
+      throne_front_view 93x169_178: -400168691
+      throne_front_view 93x169_179: -2069185872
+      throne_front_view 93x169_18: 943227204
+      throne_front_view 93x169_180: 520891788
+      throne_front_view 93x169_181: -386255079
+      throne_front_view 93x169_182: -1564904970
+      throne_front_view 93x169_183: 460073532
+      throne_front_view 93x169_184: -2027916076
+      throne_front_view 93x169_185: 832037233
+      throne_front_view 93x169_186: -1009687671
+      throne_front_view 93x169_19: 290197800
+      throne_front_view 93x169_2: 647852337
+      throne_front_view 93x169_20: 1291858024
+      throne_front_view 93x169_21: -40100606
+      throne_front_view 93x169_22: -1207431508
+      throne_front_view 93x169_23: -2031031729
+      throne_front_view 93x169_24: 1538290806
+      throne_front_view 93x169_25: -1162691848
+      throne_front_view 93x169_26: 681041489
+      throne_front_view 93x169_27: 966645563
+      throne_front_view 93x169_28: -1687099590
+      throne_front_view 93x169_29: -1388962569
+      throne_front_view 93x169_3: 1373510437
+      throne_front_view 93x169_30: -551595211
+      throne_front_view 93x169_31: 1424453194
+      throne_front_view 93x169_32: -1403761350
+      throne_front_view 93x169_33: -1479080547
+      throne_front_view 93x169_34: -2053408264
+      throne_front_view 93x169_35: 2075591475
+      throne_front_view 93x169_36: -601658039
+      throne_front_view 93x169_37: -986682158
+      throne_front_view 93x169_38: 1002118216
+      throne_front_view 93x169_39: 847591687
+      throne_front_view 93x169_4: -2001811285
+      throne_front_view 93x169_40: -1966172343
+      throne_front_view 93x169_41: 1370411378
+      throne_front_view 93x169_42: -515290861
+      throne_front_view 93x169_43: -1063197222
+      throne_front_view 93x169_44: 114985461
+      throne_front_view 93x169_45: 1700002663
+      throne_front_view 93x169_46: 1760839505
+      throne_front_view 93x169_47: 555551788
+      throne_front_view 93x169_48: 1740477852
+      throne_front_view 93x169_49: 1923318250
+      throne_front_view 93x169_5: -1614612323
+      throne_front_view 93x169_50: 1836905120
+      throne_front_view 93x169_51: -1562701054
+      throne_front_view 93x169_52: 1868584484
+      throne_front_view 93x169_53: 1580242540
+      throne_front_view 93x169_54: 2022753482
+      throne_front_view 93x169_55: 1305842765
+      throne_front_view 93x169_56: 1027440121
+      throne_front_view 93x169_57: -169581905
+      throne_front_view 93x169_58: -571456439
+      throne_front_view 93x169_59: 694839317
+      throne_front_view 93x169_6: -1557675791
+      throne_front_view 93x169_60: -1287336344
+      throne_front_view 93x169_61: 1559212786
+      throne_front_view 93x169_62: 163264417
+      throne_front_view 93x169_63: 301664823
+      throne_front_view 93x169_64: -1116169656
+      throne_front_view 93x169_65: -1360412178
+      throne_front_view 93x169_66: 389677460
+      throne_front_view 93x169_67: 1604081671
+      throne_front_view 93x169_68: 1051252924
+      throne_front_view 93x169_69: -1786978250
+      throne_front_view 93x169_7: 1406993000
+      throne_front_view 93x169_70: 2065784015
+      throne_front_view 93x169_71: -1768875917
+      throne_front_view 93x169_72: -856434376
+      throne_front_view 93x169_73: 1236167198
+      throne_front_view 93x169_74: 700952805
+      throne_front_view 93x169_75: -1661817704
+      throne_front_view 93x169_76: 1820303002
+      throne_front_view 93x169_77: 87344465
+      throne_front_view 93x169_78: -514077056
+      throne_front_view 93x169_79: 1997731205
+      throne_front_view 93x169_8: -651296772
+      throne_front_view 93x169_80: -1673806784
+      throne_front_view 93x169_81: -2088504235
+      throne_front_view 93x169_82: -1139257978
+      throne_front_view 93x169_83: 798315456
+      throne_front_view 93x169_84: 275880062
+      throne_front_view 93x169_85: -2013973736
+      throne_front_view 93x169_86: 652696278
+      throne_front_view 93x169_87: -804321983
+      throne_front_view 93x169_88: -1808765745
+      throne_front_view 93x169_89: 1183996632
+      throne_front_view 93x169_9: 1942569189
+      throne_front_view 93x169_90: 1951236672
+      throne_front_view 93x169_91: -1560181174
+      throne_front_view 93x169_92: 1039450913
+      throne_front_view 93x169_93: -1847089371
+      throne_front_view 93x169_94: 1829930687
+      throne_front_view 93x169_95: 1058369237
+      throne_front_view 93x169_96: 1789418320
+      throne_front_view 93x169_97: 357630837
+      throne_front_view 93x169_98: 1608199606
+      throne_front_view 93x169_99: 262674440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
