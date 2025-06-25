@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -5,6 +6,9 @@ public class PlayerController : MonoBehaviour
     [Header("Horizontal Move")]
     [SerializeField]
     private float walkspeed = 1;
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashTime;
+    [SerializeField] private float dashCooldown;
     
     [Header("Jump")]
     [SerializeField]
@@ -25,11 +29,15 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D rb;
     private float xAxis;
+    private float gravity;
     Animator anim;
-
+    
     public static PlayerController Instance;
+    private static readonly int ToDash = Animator.StringToHash("ToDash");
     PlayerStateList pState;
 
+    private bool canDash = true;
+    private bool dashed;
 
     private void Awake()
     {
@@ -50,16 +58,20 @@ public class PlayerController : MonoBehaviour
         
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        gravity = rb.gravityScale;
     }
 
     // Update is called once per frame
     void Update()
     {
         GetInputs();
+        UpdateJumpVariables();
+        if (pState.isDash) return;
         Move();
         Jump();
         Flip();
-        UpdateJumpVariables();
+        StartDash();
     }
     
     void GetInputs()
@@ -71,6 +83,34 @@ public class PlayerController : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(walkspeed * xAxis, rb.linearVelocity.y);
         anim.SetBool("IsWalk", rb.linearVelocity.x != 0 && Grounded());
+    }
+
+    void StartDash()
+    {
+        if (Input.GetButtonDown("Dash") && canDash && !dashed)
+        {
+            StartCoroutine(Dash());
+            dashed = true;
+        }
+
+        if (Grounded())
+        {
+            dashed = false;
+        }
+    }
+    
+    IEnumerator Dash()
+    {
+        canDash = false;
+        pState.isDash = true;
+        anim.SetTrigger("ToDash");
+        rb.gravityScale = 0;
+        rb.linearVelocity = new Vector2(transform.localScale.x * dashSpeed, 0);
+        yield return new WaitForSeconds(dashTime);
+        rb.gravityScale = gravity;
+        pState.isDash = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 
     void Flip()
