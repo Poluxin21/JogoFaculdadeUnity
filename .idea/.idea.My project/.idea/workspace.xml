@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff8b2bd-f7e2-400d-a256-0c4babd672a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/HeroKnight/Idle/HeroKnight_Idle_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/HeroKnight/Idle/HeroKnight_Idle_0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="6ff8b2bd-f7e2-400d-a256-0c4babd672a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,8 +109,17 @@
       <updated>1749311574615</updated>
       <workItem from="1749311574617" duration="2730000" />
       <workItem from="1749315800046" duration="329000" />
-      <workItem from="1750361408598" duration="4019000" />
+      <workItem from="1750361408598" duration="4694000" />
     </task>
+    <task id="LOCAL-00001" summary="Programação do player&#10;-&gt; Arrumado bug do pulo&#10;-&gt; Adicionado Double Jump&#10;-&gt; Adicionado jump buffer&#10;-&gt; Adicionado Coyote times&#10;-&gt; Adicionado animação do player com transição&#10;-&gt; Arrumado velocidade e força de pulo bugada">
+      <option name="closed" value="true" />
+      <created>1750365881753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750365881753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +135,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Programação do player&#10;-&gt; Arrumado bug do pulo&#10;-&gt; Adicionado Double Jump&#10;-&gt; Adicionado jump buffer&#10;-&gt; Adicionado Coyote times&#10;-&gt; Adicionado animação do player com transição&#10;-&gt; Arrumado velocidade e força de pulo bugada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programação do player&#10;-&gt; Arrumado bug do pulo&#10;-&gt; Adicionado Double Jump&#10;-&gt; Adicionado jump buffer&#10;-&gt; Adicionado Coyote times&#10;-&gt; Adicionado animação do player com transição&#10;-&gt; Arrumado velocidade e força de pulo bugada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
