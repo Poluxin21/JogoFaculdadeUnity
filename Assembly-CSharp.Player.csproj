@@ -61,7 +61,9 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\6000.0.41f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Enemy\Enemy.cs" />
     <Compile Include="Assets\Player\CameraFollow.cs" />
+    <Compile Include="Assets\Enemy\EnemyChase.cs" />
     <Compile Include="Assets\Player\PlayerStateList.cs" />
     <Compile Include="Assets\Player\PlayerController.cs" />
   </ItemGroup>
