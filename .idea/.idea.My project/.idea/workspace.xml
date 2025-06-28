@@ -114,6 +114,7 @@
       <workItem from="1749315800046" duration="329000" />
       <workItem from="1750361408598" duration="4694000" />
       <workItem from="1750810480212" duration="3964000" />
+      <workItem from="1751153034001" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="Programação do player&#10;-&gt; Arrumado bug do pulo&#10;-&gt; Adicionado Double Jump&#10;-&gt; Adicionado jump buffer&#10;-&gt; Adicionado Coyote times&#10;-&gt; Adicionado animação do player com transição&#10;-&gt; Arrumado velocidade e força de pulo bugada">
       <option name="closed" value="true" />
@@ -131,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750878027969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge">
+      <option name="closed" value="true" />
+      <created>1751153334270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751153334270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
