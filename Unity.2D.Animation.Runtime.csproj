@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F9E4FCF2-AD8C-A075-9C58-D4C246B832BC}</ProjectGuid>
+    <ProjectGuid>{F7B32FC5-AF66-A062-CB63-0DCE794FFC84}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Animation.Runtime</AssemblyName>
@@ -1107,35 +1107,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{9D85D7BB-856D-E897-6866-A0B0BA9C23BC}</Project>
+      <Project>{875B599B-6F10-251D-A486-7E02B3425EE5}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{335DC6D7-3A40-8369-168C-66082C48E1E5}</Project>
+      <Project>{3B40CC90-3210-79B7-FC15-FCA471AE855D}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{42A50384-3F9B-F360-FB94-BD35A21DC755}</Project>
+      <Project>{879A5FB7-FEB7-73E1-23B0-12AC1A34EFF4}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{D9A41616-9087-2FC0-2F39-F55F609484FB}</Project>
+      <Project>{127259AA-6E7A-EE2C-D746-A4779AF6A1FF}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{7153267A-7C51-F684-1260-71643556A9E4}</Project>
+      <Project>{60B2ECD4-611C-4346-F4B8-526B73BC8CDF}</Project>
       <Name>Unity.Collections</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{63B3EAD6-3B99-7CA6-6DB8-6FB29529B355}</Project>
+      <Project>{8A9C3D40-5A72-7931-BFBB-44E49C839697}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6E39EFB8-550F-B780-D5C0-8A6C3ACDBDAE}</Project>
+      <Project>{E3FD3A06-B52C-9701-401C-322DDA15D43C}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{2B8DE879-BD1A-140B-B6C1-3063AED8BD40}</Project>
+      <Project>{F6C2D342-273F-D470-7608-2DC464F1EC11}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

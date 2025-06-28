@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E9D9889B-9A52-C8FC-2B22-2068258F84FC}</ProjectGuid>
+    <ProjectGuid>{F966DCB0-5748-7B25-7186-9262CA8A473F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.Core.Runtime.Shared</AssemblyName>
@@ -858,11 +858,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{6FEE6CA1-62C6-9EB1-4562-583CC20587F1}</Project>
+      <Project>{71DFD20A-6059-E778-3530-FD013FB366F0}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{D41C80D4-E46E-881F-C017-E011CF231B90}</Project>
+      <Project>{0715A4F8-3BDC-738F-8B1F-24C77B65FEBE}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9224078-137D-557C-3D78-59D4E46A7446}</ProjectGuid>
+    <ProjectGuid>{5E37C385-5C2A-5313-580A-67C60C7ADE7D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Rendering.LightTransport.Runtime</AssemblyName>
@@ -925,19 +925,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{CDCDEB12-361D-B52E-F823-BF3B7EDE7DB5}</Project>
+      <Project>{2C26B377-2342-8031-FE55-D96749A26AA6}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.Player.csproj">
-      <Project>{95A20893-D1FD-C949-AE2C-F1999984E8F8}</Project>
+      <Project>{858C89D5-A8B1-B19A-1EDE-8175E87643A9}</Project>
       <Name>Unity.Collections.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{32802DAC-E9B1-7E63-83DE-72D95B6DDC15}</Project>
+      <Project>{1D248434-561A-951E-7A3F-292F0624AECC}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{D41C80D4-E46E-881F-C017-E011CF231B90}</Project>
+      <Project>{0715A4F8-3BDC-738F-8B1F-24C77B65FEBE}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

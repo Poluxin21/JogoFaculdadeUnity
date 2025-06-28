@@ -5,14 +5,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Horizontal Move")] [SerializeField]
+    [Header("Horizontal Move")]
+    [SerializeField]
     private float walkspeed = 1;
 
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashTime;
     [SerializeField] private float dashCooldown;
 
-    [Header("Jump")] [SerializeField] private float jumpForce = 45f;
+    [Header("Jump")][SerializeField] private float jumpForce = 45f;
     private int jumpBufferCount = 0;
     [SerializeField] private int jumpBufferFrames;
     private float coyoteTimeCounter = 0;
@@ -20,7 +21,8 @@ public class PlayerController : MonoBehaviour
     private int airJumpCounter = 0;
     [SerializeField] private int maxAirJumps;
 
-    [Header("Ground Check")] [SerializeField]
+    [Header("Ground Check")]
+    [SerializeField]
     private Transform groundCheckPoint;
 
     [SerializeField] private float groundCheckY = 0.2f;
@@ -30,7 +32,8 @@ public class PlayerController : MonoBehaviour
     [Header("Attack")] private bool attack = false;
     private float timeBtAttack, timeSAtk;
 
-    [Header("Attack Settings:")] [SerializeField]
+    [Header("Attack Settings:")]
+    [SerializeField]
     private Transform SideAttackTransform;
 
     [SerializeField] private Vector2 SideAttackArea;
@@ -53,14 +56,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float recoilYSpeed = 100;
 
     private int stepsXRecoiled, stepsYRecoiled;
-    [Space(5)] 
-    
-    
+    [Space(5)]
+
+
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
     [Space(5)]
-    
+
     private Rigidbody2D rb;
     private float xAxis, yAxis;
     private float gravity;
@@ -85,7 +88,7 @@ public class PlayerController : MonoBehaviour
         {
             Instance = this;
         }
-        
+
         health = maxHealth;
     }
 
@@ -358,7 +361,7 @@ public class PlayerController : MonoBehaviour
         stepsYRecoiled = 0;
         pState.recoilingY = false;
     }
-    
+
     public void TakeDamage(float _damage)
     {
         health -= Mathf.RoundToInt(_damage);
@@ -373,7 +376,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         pState.invincible = false;
     }
-    
+
     void ClampHealth()
     {
         health = Mathf.Clamp(health, 0, maxHealth);
