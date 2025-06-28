@@ -118,10 +118,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
+        width: 1914
         height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: caixa_marrom
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 537
+        width: 441
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b21ffc2a563df4e80bef623b52e9e7
+      internalID: 1131811065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9c922edde0095a344828a72998190c60
     internalID: 0
     vertices: []
     indices: 
@@ -148,6 +170,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      caixa_marrom: 1131811065
       saveload_ground_0: 6912457982345406182
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

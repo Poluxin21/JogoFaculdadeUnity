@@ -113,15 +113,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: game_menu_0
+      name: livro_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1924
-        height: 1080
+        x: 242
+        y: 112
+        width: 1441
+        height: 877
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1d0f727b009e6e44da6b9383e2351680
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      game_menu_0: 5855338801758335430
+      livro_0: 5855338801758335430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
