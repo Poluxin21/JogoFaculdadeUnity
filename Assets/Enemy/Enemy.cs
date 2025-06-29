@@ -8,14 +8,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected bool isRecoiling = false;
 
     [SerializeField] protected float speed;
+
     [SerializeField] protected float damage;
-
-    // Novo: dano bônus se player estiver de costas
-    [SerializeField] protected float bonusBackstabDamage = 10f;
-
-    // Novo: cooldown entre ataques
-    [SerializeField] private float attackCooldown = 1f;
-    private float lastAttackTime = -999f;
 
     protected float recoilTimer;
     protected Rigidbody2D rb;
@@ -25,18 +19,16 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
     // Update is called once per frame
     protected virtual void Update()
     {
-        if (health <= 0)
+        if(health <= 0)
         {
             Destroy(gameObject);
         }
-
-        if (isRecoiling)
+        if(isRecoiling)
         {
-            if (recoilTimer < recoilLength)
+            if(recoilTimer < recoilLength)
             {
                 recoilTimer += Time.deltaTime;
             }
@@ -51,42 +43,22 @@ public class Enemy : MonoBehaviour
     public virtual void EnemyHit(float _damageDone, Vector2 _hitDirection, float _hitForce)
     {
         health -= _damageDone;
-        if (!isRecoiling)
+        if(!isRecoiling)
         {
             rb.AddForce(-_hitForce * recoilFactor * _hitDirection);
             isRecoiling = true;
         }
     }
-
-    protected void OnTriggerStay2D(Collider2D _other)
+    protected void OnCollisionStay2D (Collision2D _other)
     {
-        if (_other.CompareTag("Player") && !PlayerController.Instance.pState.invincible)
+        if(_other.gameObject.CompareTag("Player") && !PlayerController.Instance.pState.invincible)
         {
-            if (Time.time - lastAttackTime >= attackCooldown)
-            {
-                Attack();
-                PlayerController.Instance.HitStopTime(0, 5, 0.5f);
-                lastAttackTime = Time.time;
-            }
+            Attack();
         }
     }
-
     protected virtual void Attack()
     {
-        float finalDamage = damage;
-
-        Vector2 toPlayer = PlayerController.Instance.transform.position - transform.position;
-        float directionToPlayer = Mathf.Sign(toPlayer.x);
-
-        bool playerDeCostas = (directionToPlayer > 0 && !PlayerController.Instance.pState.lookingRight) ||
-                              (directionToPlayer < 0 && PlayerController.Instance.pState.lookingRight);
-
-        if (playerDeCostas)
-        {
-            finalDamage += bonusBackstabDamage;
-            Debug.Log("Backstab! Dano aumentado.");
-        }
-
-        PlayerController.Instance.TakeDamage(finalDamage);
+        PlayerController.Instance.TakeDamage(damage);
     }
+    
 }

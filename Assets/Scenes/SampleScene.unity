@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 270071737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0.06, y: -0.225, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 638857100}
   m_Layer: 7
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -856,8 +856,6 @@ MonoBehaviour:
   isRecoiling: 1
   speed: 2
   damage: 1
-  bonusBackstabDamage: 10
-  attackCooldown: 1
 --- !u!61 &638857100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1573,12 +1571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02ae18193170d147b12b777e7745b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkspeed: 5
+  walkspeed: 6
   dashSpeed: 10
   dashTime: 0.4
   dashCooldown: 1
   jumpForce: 25
-  jumpBufferFrames: 8
+  jumpBufferFrames: 0
   coyoteTime: 0.1
   maxAirJumps: 1
   groundCheckPoint: {fileID: 270071738}
@@ -1588,7 +1586,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   SideAttackTransform: {fileID: 1715132709}
-  SideAttackArea: {x: 0.9, y: 2}
+  SideAttackArea: {x: 1.3, y: 2}
   UpAttackTransform: {fileID: 2074430857}
   UpAttackArea: {x: 2, y: 1}
   DownAttackTransform: {fileID: 965717415}
@@ -1603,7 +1601,11 @@ MonoBehaviour:
   recoilYSpeed: 12
   health: 0
   maxHealth: 8
-  hitFlashSpeed: 0
+  hitFlashSpeed: 1
+  timeToHeal: 0
+  mana: 10
+  manaDrainSpeed: 5
+  manaGain: 3
   pState: {fileID: 0}
 --- !u!50 &1201126113
 Rigidbody2D:
@@ -1792,6 +1794,7 @@ MonoBehaviour:
   recoilingY: 0
   lookingRight: 0
   invincible: 0
+  healing: 0
 --- !u!1 &1537323224
 GameObject:
   m_ObjectHideFlags: 0

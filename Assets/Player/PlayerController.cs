@@ -65,6 +65,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float hitFlashSpeed;
     
 
+    float healTimer;
+    [SerializeField] float timeToHeal;
+    
+    [Header("Mana Settings")]
+    [SerializeField] float mana;
+    [SerializeField] float manaDrainSpeed;
+    [SerializeField] float manaGain;
+
     public delegate void OnHealthChangedDelegate();
     [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
     [Space(5)]
@@ -112,6 +120,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
 
         gravity = rb.gravityScale;
+        Mana = mana;
     }
 
     private void OnDrawGizmos()
@@ -127,19 +136,23 @@ public class PlayerController : MonoBehaviour
     {
         GetInputs();
         UpdateJumpVariables();
+        
         if (pState.isDash) return;
+        RestoreTimeScale();
+        FlashWhileInvincible();
         Move();
+        Heal();
+        if (pState.healing) return;
         Jump();
         Flip();
         StartDash();
         Attack();
         RestoreTimeScale();
-        FlashWhileInvincible();
     }
 
     private void FixedUpdate()
     {
-        if (pState.isDash) return;
+        if (pState.isDash || pState.healing) return;
         Recoil();
     }
 
@@ -152,6 +165,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
+        if (pState.healing) rb.linearVelocity = new Vector2(0, 0);
         rb.linearVelocity = new Vector2(walkspeed * xAxis, rb.linearVelocity.y);
         anim.SetBool("IsWalk", rb.linearVelocity.x != 0 && Grounded());
     }
@@ -215,7 +229,13 @@ public class PlayerController : MonoBehaviour
                     _recoilStrength);
                 hitEnemies.Add(e);
             }
+            
+            if (objectsToHit[i].CompareTag("Enemy"))
+            {
+                Mana += manaGain;
+            }
         }
+        
     }
 
     void FlashWhileInvincible()
@@ -451,5 +471,39 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSecondsRealtime(_delay);
         restoreTime = true;
     }
+    
+    void Heal()
+    {
+        if (Input.GetButton("Healing") && Health < maxHealth && Mana > 0 && Grounded() && !pState.isDash)
+        {
+            pState.healing = true;
 
+            healTimer += Time.deltaTime;
+            if (healTimer >= timeToHeal)
+            {
+                Health++;
+                healTimer = 0;
+            }
+            Mana -= Time.deltaTime * manaDrainSpeed;
+        }
+        else
+        {
+            pState.healing = false;
+            healTimer = 0;
+        }
+    }
+
+    
+    float Mana
+    {
+        get { return mana; }
+        set
+        {
+            if (mana != value)
+            {
+                mana = Mathf.Clamp(value, 0, 1);
+
+            }
+        }
+    }
 }
