@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
+    [SerializeField] float hitFlashSpeed;
     [Space(5)]
 
     private Rigidbody2D rb;
@@ -73,9 +74,13 @@ public class PlayerController : MonoBehaviour
     private static readonly int ToDash = Animator.StringToHash("ToDash");
     // PlayerStateList pState;
     [HideInInspector] public PlayerStateList pState;
+    private SpriteRenderer sr;
 
     private bool canDash = true;
     private bool dashed;
+    
+    bool restoreTime;
+    float restoreTimeSpeed;
 
 
     private void Awake()
@@ -89,7 +94,7 @@ public class PlayerController : MonoBehaviour
             Instance = this;
         }
 
-        health = maxHealth;
+        Health = maxHealth;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -97,6 +102,8 @@ public class PlayerController : MonoBehaviour
     {
         pState = GetComponent<PlayerStateList>();
 
+        sr = GetComponent<SpriteRenderer>();
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -122,8 +129,15 @@ public class PlayerController : MonoBehaviour
         Flip();
         StartDash();
         Attack();
-        Recoil();
+        RestoreTimeScale();
+        FlashWhileInvincible();
     }
+    
+    private void FixedUpdate()
+    {
+        if (pState.isDash) return;
+        Recoil();
+    } 
 
     void GetInputs()
     {
@@ -152,30 +166,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // ReSharper disable Unity.PerformanceAnalysis
     void Attack()
     {
         timeSAtk += Time.deltaTime;
+
         if (attack && timeSAtk >= timeBtAttack)
         {
             timeSAtk = 0;
             anim.SetTrigger("ToAttack");
-        }
 
-        if (yAxis == 0 || yAxis < 0 && Grounded())
-        {
-            Hit(SideAttackTransform, SideAttackArea, ref pState.recoilingX, recoilXSpeed);
+            if ((yAxis == 0 || (yAxis < 0 && Grounded())))
+            {
+                Hit(SideAttackTransform, SideAttackArea, ref pState.recoilingX, recoilXSpeed);
+            }
+            else if (yAxis > 0)
+            {
+                Hit(UpAttackTransform, UpAttackArea, ref pState.recoilingY, recoilYSpeed);
+            }
+            else if (yAxis < 0 && !Grounded())
+            {
+                Hit(DownAttackTransform, DownAttackArea, ref pState.recoilingY, recoilYSpeed);
+            }
         }
-        else if (yAxis > 0)
-        {
-            Hit(UpAttackTransform, UpAttackArea, ref pState.recoilingY, recoilYSpeed);
-        }
-        else if (yAxis < 0 && !Grounded())
-        {
-            Hit(DownAttackTransform, DownAttackArea, ref pState.recoilingY, recoilYSpeed);
-        }
-
     }
+
 
     void Hit(Transform _attackTransform, Vector2 _attackArea, ref bool _recoilDir, float _recoilStrength)
     {
@@ -199,6 +213,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    
+     void FlashWhileInvincible()
+        {
+            sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
+        }
 
     IEnumerator Dash()
     {
@@ -364,7 +383,7 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
-        health -= Mathf.RoundToInt(_damage);
+        Health -= Mathf.RoundToInt(_damage);
         StartCoroutine(StopTakingDamage());
     }
 
@@ -372,13 +391,56 @@ public class PlayerController : MonoBehaviour
     {
         pState.invincible = true;
         anim.SetTrigger("TakeDamage");
-        ClampHealth();
         yield return new WaitForSeconds(1f);
         pState.invincible = false;
     }
 
-    void ClampHealth()
+    public int Health
     {
-        health = Mathf.Clamp(health, 0, maxHealth);
+        get { return health; }
+        set
+        {
+            if (health != value)
+            {
+                health = Mathf.Clamp(value, 0, maxHealth);
+            }
+        }
     }
+    
+    void RestoreTimeScale()
+    {
+        if (restoreTime)
+        {
+            if (Time.timeScale < 1)
+            {
+                Time.timeScale += Time.unscaledDeltaTime * restoreTimeSpeed;
+            }
+            else
+            {
+                Time.timeScale = 1;
+                restoreTime = false;
+            }
+        }
+    }
+
+    public void HitStopTime(float _newTimeScale, int _restoreSpeed, float _delay)
+    {
+        restoreTimeSpeed = _restoreSpeed;
+        if (_delay > 0)
+        {
+            StopCoroutine(StartTimeAgain(_delay));
+            StartCoroutine(StartTimeAgain(_delay));
+        }
+        else
+        {
+            restoreTime = true;
+        }
+        Time.timeScale = _newTimeScale;
+    }
+    IEnumerator StartTimeAgain(float _delay)
+    {
+        yield return new WaitForSecondsRealtime(_delay);
+        restoreTime = true;
+    }
+
 }

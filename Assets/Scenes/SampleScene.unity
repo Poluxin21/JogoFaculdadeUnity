@@ -563,11 +563,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  recoilLength: 2
-  recoilFactor: 2
-  isRecoiling: 0
+  recoilLength: 5
+  recoilFactor: 5
+  isRecoiling: 1
   speed: 2
   damage: 1
+  bonusBackstabDamage: 10
+  attackCooldown: 1
 --- !u!61 &638857100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -639,7 +641,7 @@ Transform:
   m_GameObject: {fileID: 965717414}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.366, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -828,21 +830,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   SideAttackTransform: {fileID: 1715132709}
-  SideAttackArea: {x: 1.5, y: 2.5}
+  SideAttackArea: {x: 0.9, y: 2}
   UpAttackTransform: {fileID: 2074430857}
-  UpAttackArea: {x: 2, y: 2}
+  UpAttackArea: {x: 2, y: 1}
   DownAttackTransform: {fileID: 965717415}
-  DownAttackArea: {x: 2, y: 2}
+  DownAttackArea: {x: 2, y: 1}
   attackableLayerMask:
     serializedVersion: 2
     m_Bits: 128
   damage: 1
   recoilXSteps: 5
   recoilYSteps: 5
-  recoilXSpeed: 50
-  recoilYSpeed: 50
+  recoilXSpeed: 12
+  recoilYSpeed: 12
   health: 0
   maxHealth: 100
+  hitFlashSpeed: 0
   pState: {fileID: 0}
 --- !u!50 &1201126113
 Rigidbody2D:
@@ -1056,7 +1059,7 @@ Transform:
   m_GameObject: {fileID: 1715132708}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.412, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1221,7 +1224,7 @@ Transform:
   m_GameObject: {fileID: 2074430856}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
