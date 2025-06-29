@@ -5,28 +5,29 @@ using UnityEngine;
 
 public class Gatilho_Alavancas : MonoBehaviour
 {
-    // Referência ao Animator da alavanca
-    public Animator animator;
+    [Header("Referências da Alavanca")]
+    public Animator animator; // Referência ao Animator da alavanca
 
-    // Tipo de evento associado à alavanca
-    public TipoEvento eventoTipo;
+    [Header("Configurações de Evento")]
+    public TipoEvento eventoTipo; // Tipo de evento associado à alavanca
+    public Gerenciamento_Eventos ativaEvento; // Referência ao objeto que gerencia o evento
 
-    // Enumeração para tipos de evento
+    [Header("Audios das alavancas")]
+    // Referência ao Fonte de Áudio que tocará o audio
+    public AudioSource fonteAudio;
+
     public enum TipoEvento
     {
         Portão,
         Barreira
     }
 
-    // Referência ao objeto que gerencia o evento
-    public Gerenciamento_Eventos ativaEvento;
+    [Header("Controle de Estado do Jogador")]
+    private bool jogadorContato = false; // Variável para verificar se o jogador está em contato com a alavanca
+    private bool nãoAtivaNovamente = false; // Impede que a alavanca seja ativada novamente após sua primeira ativação
 
-    // Variável para verificar se o jogador está em contato com a alavanca
-    public bool jogadorContato = false;
-    private bool nãoAtivaNovamente = false;
-
-    // Variável para o nome do botão de interação
-    public string botaoInteracao = "Attack"; // Valor padrão: "Attack"
+    [Header("Configurações de Interação")]
+    public string botaoInteracao = "Attack"; // Variável para o nome do botão de interação (valor padrão: "Attack")
 
     private void OnTriggerEnter2D(Collider2D outro)
     {
@@ -51,9 +52,11 @@ public class Gatilho_Alavancas : MonoBehaviour
         // Verifica se o jogador está em contato e pressionou o botão de interação
         if (jogadorContato && Input.GetButtonDown(botaoInteracao))
         {
-            nãoAtivaNovamente = true;
+            nãoAtivaNovamente = true; // Impede que a alavanca seja ativada novamente
             // Atualiza a animação da alavanca
-            animator.SetBool("estado", true);
+            fonteAudio.Play();
+            animator.SetBool("estado", true);  
+
 
             // Notifica o sistema de eventos
             switch (eventoTipo)
@@ -73,9 +76,10 @@ public class Gatilho_Alavancas : MonoBehaviour
 
     private void Update()
     {
-        if(nãoAtivaNovamente == true)
+        // Chama o método botao() apenas se a alavanca ainda não tiver sido ativada
+        if (!nãoAtivaNovamente)
         {
-            botao(); // Chama o método botao() a cada frame
+            botao();
         }
     }
 }

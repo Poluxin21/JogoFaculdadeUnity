@@ -29,4 +29,9 @@ public class MenuFadeController : MonoBehaviour
         // Carrega a nova cena
         SceneManager.LoadScene(sceneToLoad);
     }
+
+    public void irCena(string _sceneToLoad)
+    {
+        SceneManager.LoadScene(_sceneToLoad);
+    }
 }
