@@ -63,6 +63,10 @@ public class PlayerController : MonoBehaviour
     public int health;
     public int maxHealth;
     [SerializeField] float hitFlashSpeed;
+    
+
+    public delegate void OnHealthChangedDelegate();
+    [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
     [Space(5)]
 
     private Rigidbody2D rb;
@@ -403,6 +407,11 @@ public class PlayerController : MonoBehaviour
             if (health != value)
             {
                 health = Mathf.Clamp(value, 0, maxHealth);
+
+                if (onHealthChangedCallback != null)
+                {
+                    onHealthChangedCallback.Invoke();
+                }
             }
         }
     }
