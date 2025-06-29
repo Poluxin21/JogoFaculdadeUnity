@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff8b2bd-f7e2-400d-a256-0c4babd672a5" name="Changes" comment="" />
+    <list default="true" id="6ff8b2bd-f7e2-400d-a256-0c4babd672a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +121,8 @@
       <workItem from="1750361408598" duration="4694000" />
       <workItem from="1750810480212" duration="3964000" />
       <workItem from="1751153034001" duration="372000" />
+      <workItem from="1751214921115" duration="1307000" />
+      <workItem from="1751225199886" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Programação do player&#10;-&gt; Arrumado bug do pulo&#10;-&gt; Adicionado Double Jump&#10;-&gt; Adicionado jump buffer&#10;-&gt; Adicionado Coyote times&#10;-&gt; Adicionado animação do player com transição&#10;-&gt; Arrumado velocidade e força de pulo bugada">
       <option name="closed" value="true" />
@@ -187,12 +194,12 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Player/PlayerController.cs</url>
           <line>89</line>
-          <properties documentPath="D:\projects\Unity\My project\Assets\Player\PlayerController.cs" containingFunctionPresentation="Method 'StartDash'">
+          <properties documentPath="D:\projects\Unity\My project\Assets\Player\PlayerController.cs" containingFunctionPresentation="Method 'Awake'">
             <startOffsets>
-              <option value="2289" />
+              <option value="2537" />
             </startOffsets>
             <endOffsets>
-              <option value="2343" />
+              <option value="2557" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
