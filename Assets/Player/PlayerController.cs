@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
     private bool canDash = true;
     private bool dashed;
-    
+
     bool restoreTime;
     float restoreTimeSpeed;
 
@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
         pState = GetComponent<PlayerStateList>();
 
         sr = GetComponent<SpriteRenderer>();
-        
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -132,12 +132,12 @@ public class PlayerController : MonoBehaviour
         RestoreTimeScale();
         FlashWhileInvincible();
     }
-    
+
     private void FixedUpdate()
     {
         if (pState.isDash) return;
         Recoil();
-    } 
+    }
 
     void GetInputs()
     {
@@ -213,11 +213,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
-     void FlashWhileInvincible()
-        {
-            sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
-        }
+
+    void FlashWhileInvincible()
+    {
+        sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
+    }
 
     IEnumerator Dash()
     {
@@ -406,7 +406,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
+
     void RestoreTimeScale()
     {
         if (restoreTime)
