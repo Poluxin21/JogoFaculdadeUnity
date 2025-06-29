@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HUD\ConfigMenu.cs" />
+    <Compile Include="Assets\Sprites\Objetos\Alavanca\Gerenciamento_Eventos.cs" />
+    <Compile Include="Assets\Sprites\Objetos\Alavanca\Gatilho_Alavanca.cs" />
     <Compile Include="Assets\Enemy\Enemy.cs" />
     <Compile Include="Assets\HUD\FadeUI.cs" />
     <Compile Include="Assets\Audios\GerenciadorDeMusica.cs" />
