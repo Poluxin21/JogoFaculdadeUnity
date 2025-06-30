@@ -9,7 +9,6 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] protected float speed;
 
-    
     [SerializeField] protected float damage;
 
     protected float recoilTimer;
@@ -50,10 +49,9 @@ public class Enemy : MonoBehaviour
             isRecoiling = true;
         }
     }
-    
-    protected void OnTriggerStay2D(Collider2D _other)
+    protected void OnCollisionStay2D (Collision2D _other)
     {
-        if(_other.CompareTag("Player") && !PlayerController.Instance.pState.invincible)
+        if(_other.gameObject.CompareTag("Player") && !PlayerController.Instance.pState.invincible)
         {
             Attack();
         }

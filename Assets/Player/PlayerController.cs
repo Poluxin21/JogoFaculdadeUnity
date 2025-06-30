@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -62,6 +63,20 @@ public class PlayerController : MonoBehaviour
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
+    [SerializeField] float hitFlashSpeed;
+    
+
+    float healTimer;
+    [SerializeField] float timeToHeal;
+    
+    [Header("Mana Settings")]
+    [SerializeField] Image manaStorage;
+    [SerializeField] float mana;
+    [SerializeField] float manaDrainSpeed;
+    [SerializeField] float manaGain;
+
+    public delegate void OnHealthChangedDelegate();
+    [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
     [Space(5)]
 
     private Rigidbody2D rb;
@@ -73,9 +88,13 @@ public class PlayerController : MonoBehaviour
     private static readonly int ToDash = Animator.StringToHash("ToDash");
     // PlayerStateList pState;
     [HideInInspector] public PlayerStateList pState;
+    private SpriteRenderer sr;
 
     private bool canDash = true;
     private bool dashed;
+
+    bool restoreTime;
+    float restoreTimeSpeed;
 
 
     private void Awake()
@@ -89,7 +108,7 @@ public class PlayerController : MonoBehaviour
             Instance = this;
         }
 
-        health = maxHealth;
+        Health = maxHealth;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -97,10 +116,14 @@ public class PlayerController : MonoBehaviour
     {
         pState = GetComponent<PlayerStateList>();
 
+        sr = GetComponent<SpriteRenderer>();
+
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
         gravity = rb.gravityScale;
+        Mana = mana;
+        manaStorage.fillAmount = Mana;
     }
 
     private void OnDrawGizmos()
@@ -115,13 +138,30 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         GetInputs();
-        UpdateJumpVariables();
+    
+        if (jumpBufferFrames <= 0)
+        {
+            Debug.LogWarning("jumpBufferFrames deve ser maior que 0! Definindo para 10.");
+            jumpBufferFrames = 10;
+        }
+    
         if (pState.isDash) return;
+        RestoreTimeScale();
+        FlashWhileInvincible();
         Move();
         Jump();
+        UpdateJumpVariables();
+        Heal();
+        if (pState.healing) return;
         Flip();
         StartDash();
         Attack();
+        RestoreTimeScale();
+    }
+
+    private void FixedUpdate()
+    {
+        if (pState.isDash || pState.healing) return;
         Recoil();
     }
 
@@ -134,6 +174,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
+        if (pState.healing) rb.linearVelocity = new Vector2(0, 0);
         rb.linearVelocity = new Vector2(walkspeed * xAxis, rb.linearVelocity.y);
         anim.SetBool("IsWalk", rb.linearVelocity.x != 0 && Grounded());
     }
@@ -152,30 +193,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // ReSharper disable Unity.PerformanceAnalysis
     void Attack()
     {
         timeSAtk += Time.deltaTime;
+
         if (attack && timeSAtk >= timeBtAttack)
         {
             timeSAtk = 0;
             anim.SetTrigger("ToAttack");
-        }
 
-        if (yAxis == 0 || yAxis < 0 && Grounded())
-        {
-            Hit(SideAttackTransform, SideAttackArea, ref pState.recoilingX, recoilXSpeed);
+            if ((yAxis == 0 || (yAxis < 0 && Grounded())))
+            {
+                Hit(SideAttackTransform, SideAttackArea, ref pState.recoilingX, recoilXSpeed);
+            }
+            else if (yAxis > 0)
+            {
+                Hit(UpAttackTransform, UpAttackArea, ref pState.recoilingY, recoilYSpeed);
+            }
+            else if (yAxis < 0 && !Grounded())
+            {
+                Hit(DownAttackTransform, DownAttackArea, ref pState.recoilingY, recoilYSpeed);
+            }
         }
-        else if (yAxis > 0)
-        {
-            Hit(UpAttackTransform, UpAttackArea, ref pState.recoilingY, recoilYSpeed);
-        }
-        else if (yAxis < 0 && !Grounded())
-        {
-            Hit(DownAttackTransform, DownAttackArea, ref pState.recoilingY, recoilYSpeed);
-        }
-
     }
+
 
     void Hit(Transform _attackTransform, Vector2 _attackArea, ref bool _recoilDir, float _recoilStrength)
     {
@@ -197,7 +238,18 @@ public class PlayerController : MonoBehaviour
                     _recoilStrength);
                 hitEnemies.Add(e);
             }
+            
+            if (objectsToHit[i].CompareTag("Enemy"))
+            {
+                Mana += manaGain;
+            }
         }
+        
+    }
+
+    void FlashWhileInvincible()
+    {
+        sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
     }
 
     IEnumerator Dash()
@@ -246,6 +298,15 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
+        if (Input.GetButtonDown("Jump"))
+        {
+            Debug.Log("Jump input detectado!");
+            Debug.Log($"Grounded: {Grounded()}");
+            Debug.Log($"jumpBufferCount: {jumpBufferCount}");
+            Debug.Log($"coyoteTimeCounter: {coyoteTimeCounter}");
+            Debug.Log($"pState.isJump: {pState.isJump}");
+        }
+
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
@@ -254,16 +315,19 @@ public class PlayerController : MonoBehaviour
 
         if (!pState.isJump)
         {
-            if (jumpBufferCount > 0 && coyoteTimeCounter > 0)
+            if (jumpBufferCount > 0 && (Grounded() || coyoteTimeCounter > 0))
             {
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+                Debug.Log("Executando pulo normal!");
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 pState.isJump = true;
+                jumpBufferCount = 0;
             }
             else if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump"))
             {
+                Debug.Log("Executando pulo no ar!");
                 pState.isJump = true;
                 airJumpCounter++;
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             }
         }
 
@@ -287,7 +351,7 @@ public class PlayerController : MonoBehaviour
         {
             jumpBufferCount = jumpBufferFrames;
         }
-        else
+        else if (jumpBufferCount > 0)
         {
             jumpBufferCount--;
         }
@@ -364,7 +428,7 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
-        health -= Mathf.RoundToInt(_damage);
+        Health -= Mathf.RoundToInt(_damage);
         StartCoroutine(StopTakingDamage());
     }
 
@@ -372,13 +436,95 @@ public class PlayerController : MonoBehaviour
     {
         pState.invincible = true;
         anim.SetTrigger("TakeDamage");
-        ClampHealth();
         yield return new WaitForSeconds(1f);
         pState.invincible = false;
     }
 
-    void ClampHealth()
+    public int Health
     {
-        health = Mathf.Clamp(health, 0, maxHealth);
+        get { return health; }
+        set
+        {
+            if (health != value)
+            {
+                health = Mathf.Clamp(value, 0, maxHealth);
+
+                if (onHealthChangedCallback != null)
+                {
+                    onHealthChangedCallback.Invoke();
+                }
+            }
+        }
+    }
+
+    void RestoreTimeScale()
+    {
+        if (restoreTime)
+        {
+            if (Time.timeScale < 1)
+            {
+                Time.timeScale += Time.unscaledDeltaTime * restoreTimeSpeed;
+            }
+            else
+            {
+                Time.timeScale = 1;
+                restoreTime = false;
+            }
+        }
+    }
+
+    public void HitStopTime(float _newTimeScale, int _restoreSpeed, float _delay)
+    {
+        restoreTimeSpeed = _restoreSpeed;
+        if (_delay > 0)
+        {
+            StopCoroutine(StartTimeAgain(_delay));
+            StartCoroutine(StartTimeAgain(_delay));
+        }
+        else
+        {
+            restoreTime = true;
+        }
+        Time.timeScale = _newTimeScale;
+    }
+    IEnumerator StartTimeAgain(float _delay)
+    {
+        yield return new WaitForSecondsRealtime(_delay);
+        restoreTime = true;
+    }
+    
+    void Heal()
+    {
+        if (Input.GetButton("Healing") && Health < maxHealth && Mana > 0 && Grounded() && !pState.isDash)
+        {
+            pState.healing = true;
+
+            healTimer += Time.deltaTime;
+            if (healTimer >= timeToHeal)
+            {
+                Health++;
+                healTimer = 0;
+            }
+            Mana -= Time.deltaTime * manaDrainSpeed;
+        }
+        else
+        {
+            pState.healing = false;
+            healTimer = 0;
+        }
+    }
+
+    
+    float Mana
+    {
+        get { return mana; }
+        set
+        {
+            if (mana != value)
+            {
+                mana = Mathf.Clamp(value, 0, 1);
+                manaStorage.fillAmount = Mana;
+            }
+        }
     }
 }
