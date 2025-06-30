@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sala_do_trono_0: 8341361762886897158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
