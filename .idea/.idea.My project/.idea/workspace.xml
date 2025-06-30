@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff8b2bd-f7e2-400d-a256-0c4babd672a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Enemy/EnemyMage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Enemy/EnemyMage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Enemy/MageProjectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Enemy/MageProjectile.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.My project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemy/EnemyChase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy/EnemyChase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player/PlayerStateList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/PlayerStateList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/projects/Unity/My project/Assets/Player/HeroKnight/Idle/Player.controller" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/projects/Unity/My project/Assets/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/projects/Unity/My project/Assets/inimigos/comuns/Magos - EVil Wizard 2/Animation - Feiticeiro/Idle_Feiticeiro.anim" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/projects/Unity/My project/Assets/inimigos/comuns/Magos - EVil Wizard 2/Idle.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/projects/Unity/My project/ProjectSettings/InputManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -128,7 +134,7 @@
       <workItem from="1750810480212" duration="3964000" />
       <workItem from="1751153034001" duration="372000" />
       <workItem from="1751214921115" duration="1307000" />
-      <workItem from="1751225199886" duration="4810000" />
+      <workItem from="1751225199886" duration="20037000" />
     </task>
     <task id="LOCAL-00001" summary="Programação do player&#10;-&gt; Arrumado bug do pulo&#10;-&gt; Adicionado Double Jump&#10;-&gt; Adicionado jump buffer&#10;-&gt; Adicionado Coyote times&#10;-&gt; Adicionado animação do player com transição&#10;-&gt; Arrumado velocidade e força de pulo bugada">
       <option name="closed" value="true" />
