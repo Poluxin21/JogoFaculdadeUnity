@@ -53,6 +53,9 @@ TagManager:
   - name: personagens
     uniqueID: 801170877
     locked: 0
+  - name: Barreiras
+    uniqueID: 1602080377
+    locked: 0
   - name: frente
     uniqueID: 1861801907
     locked: 0
