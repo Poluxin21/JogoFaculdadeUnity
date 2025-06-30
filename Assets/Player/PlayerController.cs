@@ -138,15 +138,21 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         GetInputs();
-        UpdateJumpVariables();
-        
+    
+        if (jumpBufferFrames <= 0)
+        {
+            Debug.LogWarning("jumpBufferFrames deve ser maior que 0! Definindo para 10.");
+            jumpBufferFrames = 10;
+        }
+    
         if (pState.isDash) return;
         RestoreTimeScale();
         FlashWhileInvincible();
         Move();
+        Jump();
+        UpdateJumpVariables();
         Heal();
         if (pState.healing) return;
-        Jump();
         Flip();
         StartDash();
         Attack();
@@ -292,24 +298,41 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
+        // Debug para ver se está detectando o input
+        if (Input.GetButtonDown("Jump"))
+        {
+            Debug.Log("Jump input detectado!");
+            Debug.Log($"Grounded: {Grounded()}");
+            Debug.Log($"jumpBufferCount: {jumpBufferCount}");
+            Debug.Log($"coyoteTimeCounter: {coyoteTimeCounter}");
+            Debug.Log($"pState.isJump: {pState.isJump}");
+        }
+
+        // Corta o pulo se soltar o botão
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
             pState.isJump = false;
         }
 
+        // Lógica principal do pulo
         if (!pState.isJump)
         {
-            if (jumpBufferCount > 0 && coyoteTimeCounter > 0)
+            // Pulo normal (no chão ou coyote time)
+            if (jumpBufferCount > 0 && (Grounded() || coyoteTimeCounter > 0))
             {
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+                Debug.Log("Executando pulo normal!");
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 pState.isJump = true;
+                jumpBufferCount = 0; // Limpa o buffer após usar
             }
+            // Pulo no ar
             else if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump"))
             {
+                Debug.Log("Executando pulo no ar!");
                 pState.isJump = true;
                 airJumpCounter++;
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             }
         }
 
@@ -333,7 +356,7 @@ public class PlayerController : MonoBehaviour
         {
             jumpBufferCount = jumpBufferFrames;
         }
-        else
+        else if (jumpBufferCount > 0)
         {
             jumpBufferCount--;
         }
