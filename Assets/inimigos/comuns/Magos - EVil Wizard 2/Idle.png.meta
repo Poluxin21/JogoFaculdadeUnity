@@ -169,7 +169,7 @@ TextureImporter:
         width: 57
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,32 +205,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 83
-        width: 57
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3280fc31e6ea3743a3c3164753629c1
-      internalID: -1083775115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Idle_3
       rect:
         serializedVersion: 2
-        x: 857
+        x: 853
         y: 83
         width: 57
         height: 95
@@ -252,7 +230,7 @@ TextureImporter:
       name: Idle_4
       rect:
         serializedVersion: 2
-        x: 1108
+        x: 1103
         y: 83
         width: 57
         height: 95
@@ -271,10 +249,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: Idle_2
       rect:
         serializedVersion: 2
-        x: 1356
+        x: 605
         y: 83
         width: 57
         height: 95
@@ -296,7 +274,7 @@ TextureImporter:
       name: Idle_6
       rect:
         serializedVersion: 2
-        x: 1604
+        x: 1601
         y: 83
         width: 57
         height: 95
@@ -315,10 +293,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_7
+      name: Idle_5
       rect:
         serializedVersion: 2
-        x: 1857
+        x: 1352
         y: 83
         width: 57
         height: 95
@@ -330,8 +308,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 366fd2a32fa2ecc438becc29f3d0c372
-      internalID: -1241164427
+      spriteID: b1bc5c69dfd26594c95628798373cd0f
+      internalID: -2055793278435719954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 83
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a30e939fd844b46982fd2009cb8fb0
+      internalID: -2017107389029466533
       vertices: []
       indices: 
       edges: []
