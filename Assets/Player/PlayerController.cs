@@ -298,7 +298,6 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        // Debug para ver se está detectando o input
         if (Input.GetButtonDown("Jump"))
         {
             Debug.Log("Jump input detectado!");
@@ -308,25 +307,21 @@ public class PlayerController : MonoBehaviour
             Debug.Log($"pState.isJump: {pState.isJump}");
         }
 
-        // Corta o pulo se soltar o botão
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
             pState.isJump = false;
         }
 
-        // Lógica principal do pulo
         if (!pState.isJump)
         {
-            // Pulo normal (no chão ou coyote time)
             if (jumpBufferCount > 0 && (Grounded() || coyoteTimeCounter > 0))
             {
                 Debug.Log("Executando pulo normal!");
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 pState.isJump = true;
-                jumpBufferCount = 0; // Limpa o buffer após usar
+                jumpBufferCount = 0;
             }
-            // Pulo no ar
             else if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump"))
             {
                 Debug.Log("Executando pulo no ar!");
