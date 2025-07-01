@@ -8,4 +8,5 @@ public class PlayerStateList : MonoBehaviour
     public bool lookingRight = false;
     public bool invincible = false;
     public bool healing = false;
+    public bool alive;
 }
