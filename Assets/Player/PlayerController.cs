@@ -48,7 +48,6 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float damage;
 
-
     [Header("Recoil Settings:")]
     [SerializeField] private int recoilXSteps = 5;
     [SerializeField] private int recoilYSteps = 5;
@@ -59,16 +58,15 @@ public class PlayerController : MonoBehaviour
     private int stepsXRecoiled, stepsYRecoiled;
     [Space(5)]
 
-
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
     [SerializeField] float hitFlashSpeed;
-    
+    [SerializeField] float invincibilityTime = 1f; // Tempo de invencibilidade após tomar dano
 
     float healTimer;
     [SerializeField] float timeToHeal;
-    
+
     [Header("Mana Settings")]
     [SerializeField] Image manaStorage;
     [SerializeField] float mana;
@@ -86,7 +84,6 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     private static readonly int ToDash = Animator.StringToHash("ToDash");
-    // PlayerStateList pState;
     [HideInInspector] public PlayerStateList pState;
     private SpriteRenderer sr;
 
@@ -95,7 +92,6 @@ public class PlayerController : MonoBehaviour
 
     bool restoreTime;
     float restoreTimeSpeed;
-
 
     private void Awake()
     {
@@ -111,13 +107,10 @@ public class PlayerController : MonoBehaviour
         Health = maxHealth;
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         pState = GetComponent<PlayerStateList>();
-
         sr = GetComponent<SpriteRenderer>();
-
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -134,17 +127,16 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireCube(DownAttackTransform.position, DownAttackArea);
     }
 
-    // Update is called once per frame
     void Update()
     {
         GetInputs();
-    
+
         if (jumpBufferFrames <= 0)
         {
             Debug.LogWarning("jumpBufferFrames deve ser maior que 0! Definindo para 10.");
             jumpBufferFrames = 10;
         }
-    
+
         if (pState.isDash) return;
         RestoreTimeScale();
         FlashWhileInvincible();
@@ -217,7 +209,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     void Hit(Transform _attackTransform, Vector2 _attackArea, ref bool _recoilDir, float _recoilStrength)
     {
         Collider2D[] objectsToHit =
@@ -238,13 +229,12 @@ public class PlayerController : MonoBehaviour
                     _recoilStrength);
                 hitEnemies.Add(e);
             }
-            
+
             if (objectsToHit[i].CompareTag("Enemy"))
             {
                 Mana += manaGain;
             }
         }
-        
     }
 
     void FlashWhileInvincible()
@@ -426,18 +416,29 @@ public class PlayerController : MonoBehaviour
         pState.recoilingY = false;
     }
 
+    // CORREÇÃO: Método TakeDamage corrigido
     public void TakeDamage(float _damage)
     {
-        Health -= Mathf.RoundToInt(_damage);
-        StartCoroutine(StopTakingDamage());
+        // Só toma dano se não estiver invencível
+        if (!pState.invincible)
+        {
+            Debug.Log($"Player tomou {_damage} de dano! Vida atual: {Health}");
+            Health -= Mathf.RoundToInt(_damage);
+            StartCoroutine(StopTakingDamage());
+        }
+        else
+        {
+            Debug.Log("Player está invencível, dano ignorado!");
+        }
     }
 
     IEnumerator StopTakingDamage()
     {
         pState.invincible = true;
         anim.SetTrigger("TakeDamage");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(invincibilityTime); // Usar variável configurável
         pState.invincible = false;
+        Debug.Log("Player não está mais invencível!");
     }
 
     public int Health
@@ -453,8 +454,24 @@ public class PlayerController : MonoBehaviour
                 {
                     onHealthChangedCallback.Invoke();
                 }
+
+                // Verificar se o player morreu
+                if (health <= 0)
+                {
+                    Die();
+                }
             }
         }
+    }
+
+    // CORREÇÃO: Método Die adicionado
+    void Die()
+    {
+        Debug.Log("Player morreu!");
+        anim.SetTrigger("Death");
+        // Desabilitar controles
+        enabled = false;
+        // Adicionar aqui lógica de morte (restart level, game over screen, etc.)
     }
 
     void RestoreTimeScale()
@@ -487,12 +504,13 @@ public class PlayerController : MonoBehaviour
         }
         Time.timeScale = _newTimeScale;
     }
+
     IEnumerator StartTimeAgain(float _delay)
     {
         yield return new WaitForSecondsRealtime(_delay);
         restoreTime = true;
     }
-    
+
     void Heal()
     {
         if (Input.GetButton("Healing") && Health < maxHealth && Mana > 0 && Grounded() && !pState.isDash)
@@ -514,7 +532,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
     float Mana
     {
         get { return mana; }

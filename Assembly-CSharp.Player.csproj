@@ -76,6 +76,7 @@
     <Compile Include="Assets\Player\PlayerStateList.cs" />
     <Compile Include="Assets\Enemy\GolemGuardião\GolemGuardiaoEnemy.cs" />
     <Compile Include="Assets\Audios\GatilhoDeArea.cs" />
+    <Compile Include="Assets\Enemy\Cavaleiro_Negro\BlackKnightBoss.cs" />
     <Compile Include="Assets\Enemy\MageProjectile.cs" />
     <Compile Include="Assets\Enemy\GolemEnemy.cs" />
     <Compile Include="Assets\Player\PlayerController.cs" />
