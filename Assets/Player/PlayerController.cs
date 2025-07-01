@@ -16,9 +16,9 @@ public class PlayerController : MonoBehaviour
 
     [Header("Jump")][SerializeField] private float jumpForce = 45f;
     private int jumpBufferCount = 0;
-    [SerializeField] private int jumpBufferFrames;
+    [SerializeField] private int jumpBufferFrames = 10;
     private float coyoteTimeCounter = 0;
-    [SerializeField] private float coyoteTime;
+    [SerializeField] private float coyoteTime = 0.2f;
     private int airJumpCounter = 0;
     [SerializeField] private int maxAirJumps;
 
@@ -26,9 +26,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform groundCheckPoint;
 
-    [SerializeField] private float groundCheckY = 0.2f;
-    [SerializeField] private float groundCheckX = 0.5f;
+    [SerializeField] private float groundCheckY = 0.1f; // Reduzido para evitar atravessar
+    [SerializeField] private float groundCheckX = 0.3f; // Ajustado
     [SerializeField] private LayerMask whatIsGround;
+
+    // Mï¿½ltiplos mï¿½todos de detecï¿½ï¿½o para Composite Collider Outline
+    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private bool useCircleCast = true;
+    [SerializeField] private bool useBoxCast = true; // Mï¿½todo adicional
+    [SerializeField] private Vector2 boxCastSize = new Vector2(0.8f, 0.1f);
 
     [Header("Attack")] private bool attack = false;
     private float timeBtAttack, timeSAtk;
@@ -62,7 +68,6 @@ public class PlayerController : MonoBehaviour
     public int health;
     public int maxHealth;
     [SerializeField] float hitFlashSpeed;
-    [SerializeField] float invincibilityTime = 1f; // Tempo de invencibilidade após tomar dano
 
     float healTimer;
     [SerializeField] float timeToHeal;
@@ -89,6 +94,7 @@ public class PlayerController : MonoBehaviour
 
     private bool canDash = true;
     private bool dashed;
+    private bool wasGrounded; // Para detectar mudanï¿½as no estado de chï¿½o
 
     bool restoreTime;
     float restoreTimeSpeed;
@@ -117,38 +123,68 @@ public class PlayerController : MonoBehaviour
         gravity = rb.gravityScale;
         Mana = mana;
         manaStorage.fillAmount = Mana;
+
+        // Validaï¿½ï¿½o de valores padrï¿½o
+        if (jumpBufferFrames <= 0) jumpBufferFrames = 10;
+        if (coyoteTime <= 0) coyoteTime = 0.2f;
+        if (groundCheckY <= 0) groundCheckY = 0.1f;
+        if (groundCheckRadius <= 0) groundCheckRadius = 0.15f;
+        if (boxCastSize.x <= 0) boxCastSize.x = 0.8f;
+        if (boxCastSize.y <= 0) boxCastSize.y = 0.1f;
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(SideAttackTransform.position, SideAttackArea);
-        Gizmos.DrawWireCube(UpAttackTransform.position, UpAttackArea);
-        Gizmos.DrawWireCube(DownAttackTransform.position, DownAttackArea);
+        if (SideAttackTransform != null) Gizmos.DrawWireCube(SideAttackTransform.position, SideAttackArea);
+        if (UpAttackTransform != null) Gizmos.DrawWireCube(UpAttackTransform.position, UpAttackArea);
+        if (DownAttackTransform != null) Gizmos.DrawWireCube(DownAttackTransform.position, DownAttackArea);
+
+        // Desenhar ï¿½rea de detecï¿½ï¿½o de chï¿½o
+        if (groundCheckPoint != null)
+        {
+            Gizmos.color = Color.green;
+
+            if (useCircleCast)
+            {
+                Gizmos.DrawWireSphere(groundCheckPoint.position, groundCheckRadius);
+            }
+
+            if (useBoxCast)
+            {
+                Gizmos.color = Color.blue;
+                Gizmos.DrawWireCube(groundCheckPoint.position + Vector3.down * 0.05f, boxCastSize);
+            }
+
+            // Raycasts de backup
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawLine(groundCheckPoint.position,
+                groundCheckPoint.position + Vector3.down * groundCheckY);
+            Gizmos.DrawLine(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
+                groundCheckPoint.position + new Vector3(groundCheckX, -groundCheckY, 0));
+            Gizmos.DrawLine(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
+                groundCheckPoint.position + new Vector3(-groundCheckX, -groundCheckY, 0));
+        }
     }
 
     void Update()
     {
         GetInputs();
 
-        if (jumpBufferFrames <= 0)
-        {
-            Debug.LogWarning("jumpBufferFrames deve ser maior que 0! Definindo para 10.");
-            jumpBufferFrames = 10;
-        }
-
         if (pState.isDash) return;
+
         RestoreTimeScale();
         FlashWhileInvincible();
         Move();
         Jump();
         UpdateJumpVariables();
         Heal();
+
         if (pState.healing) return;
+
         Flip();
         StartDash();
         Attack();
-        RestoreTimeScale();
     }
 
     private void FixedUpdate()
@@ -166,7 +202,12 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        if (pState.healing) rb.linearVelocity = new Vector2(0, 0);
+        if (pState.healing)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            return;
+        }
+
         rb.linearVelocity = new Vector2(walkspeed * xAxis, rb.linearVelocity.y);
         anim.SetBool("IsWalk", rb.linearVelocity.x != 0 && Grounded());
     }
@@ -239,7 +280,9 @@ public class PlayerController : MonoBehaviour
 
     void FlashWhileInvincible()
     {
-        sr.material.color = pState.invincible ? Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) : Color.white;
+        sr.material.color = pState.invincible ?
+            Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) :
+            Color.white;
     }
 
     IEnumerator Dash()
@@ -248,10 +291,16 @@ public class PlayerController : MonoBehaviour
         pState.isDash = true;
         anim.SetTrigger("ToDash");
         rb.gravityScale = 0;
-        rb.linearVelocity = new Vector2(transform.localScale.x * dashSpeed, 0);
+
+        // Melhorar direï¿½ï¿½o do dash
+        float dashDirection = pState.lookingRight ? 1f : -1f;
+        rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0);
+
         yield return new WaitForSeconds(dashTime);
+
         rb.gravityScale = gravity;
         pState.isDash = false;
+
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
@@ -260,73 +309,112 @@ public class PlayerController : MonoBehaviour
     {
         if (xAxis < 0)
         {
-            transform.localScale = new Vector2(-3, transform.localScale.y);
+            transform.localScale = new Vector2(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
             pState.lookingRight = false;
         }
         else if (xAxis > 0)
         {
-            transform.localScale = new Vector2(3, transform.localScale.y);
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
             pState.lookingRight = true;
         }
     }
 
     public bool Grounded()
     {
-        if (Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
-            || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
-                Vector2.down, groundCheckY, whatIsGround)
-            || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
-                Vector2.down, groundCheckY, whatIsGround))
+        if (groundCheckPoint == null) return false;
+
+        bool isGrounded = false;
+
+        // Mï¿½todo 1: BoxCast (melhor para Composite Collider Outline)
+        if (useBoxCast)
         {
-            return true;
+            RaycastHit2D boxHit = Physics2D.BoxCast(
+                groundCheckPoint.position,
+                boxCastSize,
+                0f,
+                Vector2.down,
+                0.1f,
+                whatIsGround
+            );
+            if (boxHit.collider != null)
+            {
+                isGrounded = true;
+            }
         }
-        else
+
+        // Mï¿½todo 2: CircleCast como backup
+        if (!isGrounded && useCircleCast)
         {
-            return false;
+            isGrounded = Physics2D.OverlapCircle(
+                groundCheckPoint.position + Vector3.down * 0.05f,
+                groundCheckRadius,
+                whatIsGround
+            );
         }
+
+        // Mï¿½todo 3: Raycasts mï¿½ltiplos como ï¿½ltimo recurso
+        if (!isGrounded)
+        {
+            isGrounded = Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
+                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
+                    Vector2.down, groundCheckY, whatIsGround)
+                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
+                    Vector2.down, groundCheckY, whatIsGround)
+                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX * 0.5f, 0, 0),
+                    Vector2.down, groundCheckY, whatIsGround)
+                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX * 0.5f, 0, 0),
+                    Vector2.down, groundCheckY, whatIsGround);
+        }
+
+        return isGrounded;
     }
 
     void Jump()
     {
+        // Debug logs apenas quando necessï¿½rio
         if (Input.GetButtonDown("Jump"))
         {
-            Debug.Log("Jump input detectado!");
-            Debug.Log($"Grounded: {Grounded()}");
-            Debug.Log($"jumpBufferCount: {jumpBufferCount}");
-            Debug.Log($"coyoteTimeCounter: {coyoteTimeCounter}");
-            Debug.Log($"pState.isJump: {pState.isJump}");
+            Debug.Log($"Jump - Grounded: {Grounded()}, Buffer: {jumpBufferCount}, Coyote: {coyoteTimeCounter:F2}");
         }
 
+        // Pulo variï¿½vel - soltar o botï¿½o reduz a forï¿½a
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
             pState.isJump = false;
         }
 
         if (!pState.isJump)
         {
+            // Pulo normal (chï¿½o ou coyote time)
             if (jumpBufferCount > 0 && (Grounded() || coyoteTimeCounter > 0))
             {
-                Debug.Log("Executando pulo normal!");
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-                pState.isJump = true;
+                PerformJump();
                 jumpBufferCount = 0;
             }
+            // Pulo no ar
             else if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump"))
             {
-                Debug.Log("Executando pulo no ar!");
-                pState.isJump = true;
+                PerformJump();
                 airJumpCounter++;
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             }
         }
 
         anim.SetBool("isJump", !Grounded());
     }
 
+    void PerformJump()
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        pState.isJump = true;
+        Debug.Log($"Pulo executado! Velocidade Y: {rb.linearVelocity.y}");
+    }
+
     void UpdateJumpVariables()
     {
-        if (Grounded())
+        bool currentlyGrounded = Grounded();
+
+        if (currentlyGrounded)
         {
             pState.isJump = false;
             coyoteTimeCounter = coyoteTime;
@@ -337,6 +425,7 @@ public class PlayerController : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
+        // Jump buffer
         if (Input.GetButtonDown("Jump"))
         {
             jumpBufferCount = jumpBufferFrames;
@@ -345,6 +434,8 @@ public class PlayerController : MonoBehaviour
         {
             jumpBufferCount--;
         }
+
+        wasGrounded = currentlyGrounded;
     }
 
     void Recoil()
@@ -353,11 +444,11 @@ public class PlayerController : MonoBehaviour
         {
             if (pState.lookingRight)
             {
-                rb.linearVelocity = new Vector2(-recoilXSpeed, 0);
+                rb.linearVelocity = new Vector2(-recoilXSpeed, rb.linearVelocity.y);
             }
             else
             {
-                rb.linearVelocity = new Vector2(recoilXSpeed, 0);
+                rb.linearVelocity = new Vector2(recoilXSpeed, rb.linearVelocity.y);
             }
         }
 
@@ -416,10 +507,10 @@ public class PlayerController : MonoBehaviour
         pState.recoilingY = false;
     }
 
-    // CORREÇÃO: Método TakeDamage corrigido
+    // CORREï¿½ï¿½O: Mï¿½todo TakeDamage corrigido
     public void TakeDamage(float _damage)
     {
-        // Só toma dano se não estiver invencível
+        // Sï¿½ toma dano se nï¿½o estiver invencï¿½vel
         if (!pState.invincible)
         {
             Debug.Log($"Player tomou {_damage} de dano! Vida atual: {Health}");
@@ -428,7 +519,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Player está invencível, dano ignorado!");
+            Debug.Log("Player estï¿½ invencï¿½vel, dano ignorado!");
         }
     }
 
@@ -436,9 +527,9 @@ public class PlayerController : MonoBehaviour
     {
         pState.invincible = true;
         anim.SetTrigger("TakeDamage");
-        yield return new WaitForSeconds(invincibilityTime); // Usar variável configurável
+        yield return new WaitForSeconds(invincibilityTime); // Usar variï¿½vel configurï¿½vel
         pState.invincible = false;
-        Debug.Log("Player não está mais invencível!");
+        Debug.Log("Player nï¿½o estï¿½ mais invencï¿½vel!");
     }
 
     public int Health
@@ -464,14 +555,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // CORREÇÃO: Método Die adicionado
+    // CORREï¿½ï¿½O: Mï¿½todo Die adicionado
     void Die()
     {
         Debug.Log("Player morreu!");
         anim.SetTrigger("Death");
         // Desabilitar controles
         enabled = false;
-        // Adicionar aqui lógica de morte (restart level, game over screen, etc.)
+        // Adicionar aqui lï¿½gica de morte (restart level, game over screen, etc.)
     }
 
     void RestoreTimeScale()
