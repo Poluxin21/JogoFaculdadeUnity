@@ -35,6 +35,9 @@ public class WanderingArmor : Enemy
     private float loseTargetTimer = 0f;
     private Transform playerTransform;
 
+    // Variável para controlar mudanças de estado de animação
+    private AIState previousAIState;
+
     protected override void Start()
     {
         base.Start();
@@ -47,6 +50,8 @@ public class WanderingArmor : Enemy
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
             playerTransform = player.transform;
+
+        previousAIState = currentAIState;
     }
 
     private void SetupPatrolPoints()
@@ -70,8 +75,8 @@ public class WanderingArmor : Enemy
         aoeTimer -= Time.deltaTime;
         if (aoeTimer <= 0)
         {
-            // if (animator != null)
-                // animator.SetTrigger("AoEAttack");
+            if (animator != null)
+                animator.SetTrigger("attack");
             Invoke(nameof(ExecuteAoEAttack), 0.5f);
             aoeTimer = aoeCooldown;
         }
@@ -79,6 +84,13 @@ public class WanderingArmor : Enemy
 
     private void UpdateAI()
     {
+        // Detecta mudança de estado para limpar animações
+        if (previousAIState != currentAIState)
+        {
+            ResetAllAnimations();
+            previousAIState = currentAIState;
+        }
+
         switch (currentAIState)
         {
             case AIState.Patrolling:
@@ -90,6 +102,16 @@ public class WanderingArmor : Enemy
             case AIState.Returning:
                 HandleReturning();
                 break;
+        }
+    }
+
+    // Método para resetar todas as animações
+    private void ResetAllAnimations()
+    {
+        if (animator != null)
+        {
+            animator.SetBool("walk", false);
+            animator.SetBool("run", false);
         }
     }
 
@@ -133,8 +155,12 @@ public class WanderingArmor : Enemy
         
         FlipSprite(targetPosition);
         
+        // Garante que apenas a animação de corrida está ativa
         if (animator != null)
+        {
+            animator.SetBool("walk", false);
             animator.SetBool("run", true);
+        }
     }
 
     private void HandleReturning()
@@ -153,13 +179,19 @@ public class WanderingArmor : Enemy
             FlipSprite(lastPatrolPosition);
             
             if (animator != null)
+            {
+                animator.SetBool("run", false);
                 animator.SetBool("walk", true);
+            }
         }
         else
         {
             currentAIState = AIState.Patrolling;
             if (animator != null)
+            {
                 animator.SetBool("walk", false);
+                animator.SetBool("run", false);
+            }
         }
     }
 
@@ -191,8 +223,12 @@ public class WanderingArmor : Enemy
         currentAIState = AIState.Chasing;
         loseTargetTimer = 0f;
         
+        // Limpa animações antigas e define a nova
         if (animator != null)
+        {
+            animator.SetBool("walk", false);
             animator.SetBool("run", true);
+        }
     }
 
     private void StartReturning()
@@ -201,7 +237,10 @@ public class WanderingArmor : Enemy
         loseTargetTimer = 0f;
         
         if (animator != null)
+        {
+            animator.SetBool("run", false);
             animator.SetBool("walk", true);
+        }
     }
 
     private void Patrol()
@@ -216,7 +255,10 @@ public class WanderingArmor : Enemy
             FlipSprite(targetPosition);
             
             if (animator != null)
+            {
+                animator.SetBool("run", false);
                 animator.SetBool("walk", true);
+            }
         }
         else if (!IsWaiting())
         {
@@ -257,7 +299,10 @@ public class WanderingArmor : Enemy
         waitTimer = waitTimeAtPoint;
         
         if (animator != null)
+        {
             animator.SetBool("walk", false);
+            animator.SetBool("run", false);
+        }
         
         if (currentPatrolState == PatrolState.GoingLeft)
             currentPatrolState = PatrolState.WaitingLeft;

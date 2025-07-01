@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     [Header("Horizontal Move")]
-    [SerializeField]
-    private float walkspeed = 1;
+    [SerializeField] private float walkspeed = 1;
 
     [SerializeField] private float dashSpeed;
     [SerializeField] private float dashTime;
     [SerializeField] private float dashCooldown;
 
-    [Header("Jump")][SerializeField] private float jumpForce = 45f;
+    [Header("Jump")]
+    [SerializeField] private float jumpForce = 45f;
     private int jumpBufferCount = 0;
     [SerializeField] private int jumpBufferFrames = 10;
     private float coyoteTimeCounter = 0;
@@ -23,51 +23,41 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int maxAirJumps;
 
     [Header("Ground Check")]
-    [SerializeField]
-    private Transform groundCheckPoint;
-
-    [SerializeField] private float groundCheckY = 0.1f; // Reduzido para evitar atravessar
-    [SerializeField] private float groundCheckX = 0.3f; // Ajustado
+    [SerializeField] private Transform groundCheckPoint;
+    [SerializeField] private float groundCheckY = 0.1f;
+    [SerializeField] private float groundCheckX = 0.3f;
     [SerializeField] private LayerMask whatIsGround;
-
-    // M˙ltiplos mÈtodos de detecÁ„o para Composite Collider Outline
     [SerializeField] private float groundCheckRadius = 0.15f;
     [SerializeField] private bool useCircleCast = true;
-    [SerializeField] private bool useBoxCast = true; // MÈtodo adicional
+    [SerializeField] private bool useBoxCast = true;
     [SerializeField] private Vector2 boxCastSize = new Vector2(0.8f, 0.1f);
 
-    [Header("Attack")] private bool attack = false;
-    private float timeBtAttack, timeSAtk;
+    [Header("Attack")]
+    [SerializeField] private float timeBetweenAttacks = 0.5f; // Tempo fixo entre ataques
+    [SerializeField] private float attackDuration = 0.3f; // Dura√ß√£o da anima√ß√£o de ataque
+    private float attackTimer = 0f;
+    private bool isAttacking = false;
 
-    [Header("Attack Settings:")]
-    [SerializeField]
-    private Transform SideAttackTransform;
-
+    [Header("Attack Settings")]
+    [SerializeField] private Transform SideAttackTransform;
     [SerializeField] private Vector2 SideAttackArea;
-
     [SerializeField] private Transform UpAttackTransform;
     [SerializeField] private Vector2 UpAttackArea;
-
     [SerializeField] private Transform DownAttackTransform;
     [SerializeField] private Vector2 DownAttackArea;
     [SerializeField] private LayerMask attackableLayerMask;
-
     [SerializeField] private float damage;
 
-    [Header("Recoil Settings:")]
-    [SerializeField] private int recoilXSteps = 5;
-    [SerializeField] private int recoilYSteps = 5;
-
-    [SerializeField] private float recoilXSpeed = 100;
-    [SerializeField] private float recoilYSpeed = 100;
-
-    private int stepsXRecoiled, stepsYRecoiled;
-    [Space(5)]
+    [Header("Recoil Settings")]
+    [SerializeField] private float recoilDuration = 0.2f; // Dura√ß√£o fixa do recoil
+    [SerializeField] private float recoilForce = 15f; // For√ßa do recoil
+    private float recoilTimer = 0f;
 
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
     [SerializeField] float hitFlashSpeed;
+    [SerializeField] private float invincibilityDuration = 1f; // Dura√ß√£o da invencibilidade
 
     float healTimer;
     [SerializeField] float timeToHeal;
@@ -80,7 +70,6 @@ public class PlayerController : MonoBehaviour
 
     public delegate void OnHealthChangedDelegate();
     [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
-    [Space(5)]
 
     private Rigidbody2D rb;
     private float xAxis, yAxis;
@@ -88,13 +77,12 @@ public class PlayerController : MonoBehaviour
     Animator anim;
 
     public static PlayerController Instance;
-    private static readonly int ToDash = Animator.StringToHash("ToDash");
     [HideInInspector] public PlayerStateList pState;
     private SpriteRenderer sr;
 
     private bool canDash = true;
     private bool dashed;
-    private bool wasGrounded; // Para detectar mudanÁas no estado de ch„o
+    private bool wasGrounded;
 
     bool restoreTime;
     float restoreTimeSpeed;
@@ -123,14 +111,15 @@ public class PlayerController : MonoBehaviour
         gravity = rb.gravityScale;
         Mana = mana;
         manaStorage.fillAmount = Mana;
-
-        // ValidaÁ„o de valores padr„o
+        
+        // Valida√ß√µes de seguran√ßa
         if (jumpBufferFrames <= 0) jumpBufferFrames = 10;
         if (coyoteTime <= 0) coyoteTime = 0.2f;
         if (groundCheckY <= 0) groundCheckY = 0.1f;
         if (groundCheckRadius <= 0) groundCheckRadius = 0.15f;
-        if (boxCastSize.x <= 0) boxCastSize.x = 0.8f;
-        if (boxCastSize.y <= 0) boxCastSize.y = 0.1f;
+        if (timeBetweenAttacks <= 0) timeBetweenAttacks = 0.5f;
+        if (attackDuration <= 0) attackDuration = 0.3f;
+        if (recoilDuration <= 0) recoilDuration = 0.2f;
     }
 
     private void OnDrawGizmos()
@@ -140,11 +129,9 @@ public class PlayerController : MonoBehaviour
         if (UpAttackTransform != null) Gizmos.DrawWireCube(UpAttackTransform.position, UpAttackArea);
         if (DownAttackTransform != null) Gizmos.DrawWireCube(DownAttackTransform.position, DownAttackArea);
 
-        // Desenhar ·rea de detecÁ„o de ch„o
         if (groundCheckPoint != null)
         {
             Gizmos.color = Color.green;
-
             if (useCircleCast)
             {
                 Gizmos.DrawWireSphere(groundCheckPoint.position, groundCheckRadius);
@@ -156,7 +143,6 @@ public class PlayerController : MonoBehaviour
                 Gizmos.DrawWireCube(groundCheckPoint.position + Vector3.down * 0.05f, boxCastSize);
             }
 
-            // Raycasts de backup
             Gizmos.color = Color.yellow;
             Gizmos.DrawLine(groundCheckPoint.position,
                 groundCheckPoint.position + Vector3.down * groundCheckY);
@@ -173,6 +159,7 @@ public class PlayerController : MonoBehaviour
 
         if (pState.isDash) return;
 
+        UpdateTimers();
         RestoreTimeScale();
         FlashWhileInvincible();
         Move();
@@ -190,19 +177,33 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         if (pState.isDash || pState.healing) return;
-        Recoil();
+        HandleRecoil();
     }
 
     void GetInputs()
     {
         xAxis = Input.GetAxisRaw("Horizontal");
         yAxis = Input.GetAxisRaw("Vertical");
-        attack = Input.GetButtonDown("Attack");
+    }
+
+    private void UpdateTimers()
+    {
+        if (attackTimer > 0)
+            attackTimer -= Time.deltaTime;
+        
+        if (recoilTimer > 0)
+            recoilTimer -= Time.deltaTime;
+        
+        // Controle de estado de ataque
+        if (isAttacking && attackTimer <= (timeBetweenAttacks - attackDuration))
+        {
+            isAttacking = false;
+        }
     }
 
     private void Move()
     {
-        if (pState.healing)
+        if (pState.healing || isAttacking || recoilTimer > 0)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             return;
@@ -214,7 +215,7 @@ public class PlayerController : MonoBehaviour
 
     void StartDash()
     {
-        if (Input.GetButtonDown("Dash") && canDash && !dashed)
+        if (Input.GetButtonDown("Dash") && canDash && !dashed && !isAttacking)
         {
             StartCoroutine(Dash());
             dashed = true;
@@ -228,53 +229,102 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        timeSAtk += Time.deltaTime;
-
-        if (attack && timeSAtk >= timeBtAttack)
+        // S√≥ pode atacar se n√£o estiver atacando e o timer permitir
+        if (Input.GetButtonDown("Attack") && attackTimer <= 0 && !isAttacking)
         {
-            timeSAtk = 0;
+            isAttacking = true;
+            attackTimer = timeBetweenAttacks;
+            
             anim.SetTrigger("ToAttack");
 
-            if ((yAxis == 0 || (yAxis < 0 && Grounded())))
+            // Determina dire√ß√£o do ataque baseado no input
+            if (yAxis == 0 || (yAxis < 0 && Grounded()))
             {
-                Hit(SideAttackTransform, SideAttackArea, ref pState.recoilingX, recoilXSpeed);
+                // Ataque lateral
+                StartCoroutine(ExecuteAttackAfterDelay(SideAttackTransform, SideAttackArea, 0.1f));
             }
             else if (yAxis > 0)
             {
-                Hit(UpAttackTransform, UpAttackArea, ref pState.recoilingY, recoilYSpeed);
+                // Ataque para cima
+                StartCoroutine(ExecuteAttackAfterDelay(UpAttackTransform, UpAttackArea, 0.1f));
             }
             else if (yAxis < 0 && !Grounded())
             {
-                Hit(DownAttackTransform, DownAttackArea, ref pState.recoilingY, recoilYSpeed);
+                // Ataque para baixo (no ar)
+                StartCoroutine(ExecuteAttackAfterDelay(DownAttackTransform, DownAttackArea, 0.1f));
             }
         }
     }
 
-    void Hit(Transform _attackTransform, Vector2 _attackArea, ref bool _recoilDir, float _recoilStrength)
+    private IEnumerator ExecuteAttackAfterDelay(Transform attackTransform, Vector2 attackArea, float delay)
     {
-        Collider2D[] objectsToHit =
-            Physics2D.OverlapBoxAll(_attackTransform.position, _attackArea, 0, attackableLayerMask);
+        yield return new WaitForSeconds(delay);
+        Hit(attackTransform, attackArea);
+    }
+
+    void Hit(Transform _attackTransform, Vector2 _attackArea)
+    {
+        Collider2D[] objectsToHit = Physics2D.OverlapBoxAll(_attackTransform.position, _attackArea, 0, attackableLayerMask);
         List<Enemy> hitEnemies = new List<Enemy>();
 
-        if (objectsToHit.Length > 0)
-        {
-            _recoilDir = true;
-        }
+        bool hitSomething = false;
 
         for (int i = 0; i < objectsToHit.Length; i++)
         {
             Enemy e = objectsToHit[i].GetComponent<Enemy>();
             if (e && !hitEnemies.Contains(e))
             {
-                e.EnemyHit(damage, (transform.position - objectsToHit[i].transform.position).normalized,
-                    _recoilStrength);
+                // Calcula dire√ß√£o do knockback
+                Vector2 knockbackDirection = (objectsToHit[i].transform.position - transform.position).normalized;
+                
+                e.EnemyHit(damage, knockbackDirection, recoilForce);
                 hitEnemies.Add(e);
-            }
+                hitSomething = true;
 
-            if (objectsToHit[i].CompareTag("Enemy"))
-            {
+                // Ganha mana ao acertar inimigo
                 Mana += manaGain;
+                
+                // Hit stop effect
+                HitStopTime(0.1f, 50, 0.05f);
             }
+        }
+
+        // Aplica recoil no player se acertou algo
+        if (hitSomething)
+        {
+            ApplyRecoil();
+        }
+    }
+
+    private void ApplyRecoil()
+    {
+        recoilTimer = recoilDuration;
+        
+        // Recoil baseado na dire√ß√£o que o player est√° olhando
+        Vector2 recoilDirection = pState.lookingRight ? Vector2.left : Vector2.right;
+        
+        // Se for ataque para baixo, adiciona impulso para cima
+        if (yAxis < 0 && !Grounded())
+        {
+            recoilDirection = Vector2.up;
+        }
+        
+        rb.linearVelocity = new Vector2(recoilDirection.x * recoilForce, 
+                                       recoilDirection.y > 0 ? recoilForce : rb.linearVelocity.y);
+    }
+
+    private void HandleRecoil()
+    {
+        // O recoil agora √© controlado pelo timer, n√£o por steps
+        if (recoilTimer <= 0)
+        {
+            // Restaura controle normal
+            rb.gravityScale = gravity;
+        }
+        else if (yAxis < 0 && !Grounded() && recoilTimer > 0)
+        {
+            // Mant√©m o player no ar durante recoil vertical
+            rb.gravityScale = 0;
         }
     }
 
@@ -292,7 +342,6 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("ToDash");
         rb.gravityScale = 0;
 
-        // Melhorar direÁ„o do dash
         float dashDirection = pState.lookingRight ? 1f : -1f;
         rb.linearVelocity = new Vector2(dashDirection * dashSpeed, 0);
 
@@ -325,7 +374,6 @@ public class PlayerController : MonoBehaviour
 
         bool isGrounded = false;
 
-        // MÈtodo 1: BoxCast (melhor para Composite Collider Outline)
         if (useBoxCast)
         {
             RaycastHit2D boxHit = Physics2D.BoxCast(
@@ -342,7 +390,6 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // MÈtodo 2: CircleCast como backup
         if (!isGrounded && useCircleCast)
         {
             isGrounded = Physics2D.OverlapCircle(
@@ -352,17 +399,12 @@ public class PlayerController : MonoBehaviour
             );
         }
 
-        // MÈtodo 3: Raycasts m˙ltiplos como ˙ltimo recurso
         if (!isGrounded)
         {
             isGrounded = Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
                 || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
                     Vector2.down, groundCheckY, whatIsGround)
                 || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
-                    Vector2.down, groundCheckY, whatIsGround)
-                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX * 0.5f, 0, 0),
-                    Vector2.down, groundCheckY, whatIsGround)
-                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX * 0.5f, 0, 0),
                     Vector2.down, groundCheckY, whatIsGround);
         }
 
@@ -371,13 +413,6 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        // Debug logs apenas quando necess·rio
-        if (Input.GetButtonDown("Jump"))
-        {
-            Debug.Log($"Jump - Grounded: {Grounded()}, Buffer: {jumpBufferCount}, Coyote: {coyoteTimeCounter:F2}");
-        }
-
-        // Pulo vari·vel - soltar o bot„o reduz a forÁa
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
@@ -386,13 +421,11 @@ public class PlayerController : MonoBehaviour
 
         if (!pState.isJump)
         {
-            // Pulo normal (ch„o ou coyote time)
             if (jumpBufferCount > 0 && (Grounded() || coyoteTimeCounter > 0))
             {
                 PerformJump();
                 jumpBufferCount = 0;
             }
-            // Pulo no ar
             else if (!Grounded() && airJumpCounter < maxAirJumps && Input.GetButtonDown("Jump"))
             {
                 PerformJump();
@@ -407,7 +440,6 @@ public class PlayerController : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         pState.isJump = true;
-        Debug.Log($"Pulo executado! Velocidade Y: {rb.linearVelocity.y}");
     }
 
     void UpdateJumpVariables()
@@ -425,7 +457,6 @@ public class PlayerController : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-        // Jump buffer
         if (Input.GetButtonDown("Jump"))
         {
             jumpBufferCount = jumpBufferFrames;
@@ -438,77 +469,10 @@ public class PlayerController : MonoBehaviour
         wasGrounded = currentlyGrounded;
     }
 
-    void Recoil()
-    {
-        if (pState.recoilingX)
-        {
-            if (pState.lookingRight)
-            {
-                rb.linearVelocity = new Vector2(-recoilXSpeed, rb.linearVelocity.y);
-            }
-            else
-            {
-                rb.linearVelocity = new Vector2(recoilXSpeed, rb.linearVelocity.y);
-            }
-        }
-
-        if (pState.recoilingY)
-        {
-            rb.gravityScale = 0;
-            if (yAxis < 0)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, recoilYSpeed);
-            }
-            else
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, -recoilYSpeed);
-            }
-
-            airJumpCounter = 0;
-        }
-        else
-        {
-            rb.gravityScale = gravity;
-        }
-
-        if (pState.recoilingX && stepsXRecoiled < recoilXSteps)
-        {
-            stepsXRecoiled++;
-        }
-        else
-        {
-            StopRecoilX();
-        }
-
-        if (pState.recoilingY && stepsYRecoiled < recoilYSteps)
-        {
-            stepsYRecoiled++;
-        }
-        else
-        {
-            StopRecoilY();
-        }
-
-        if (Grounded())
-        {
-            StopRecoilY();
-        }
-    }
-
-    void StopRecoilX()
-    {
-        stepsXRecoiled = 0;
-        pState.recoilingX = false;
-    }
-
-    void StopRecoilY()
-    {
-        stepsYRecoiled = 0;
-        pState.recoilingY = false;
-    }
-
     public void TakeDamage(float _damage)
     {
+        if (pState.invincible) return;
+        
         Health -= Mathf.RoundToInt(_damage);
         StartCoroutine(StopTakingDamage());
     }
@@ -517,7 +481,7 @@ public class PlayerController : MonoBehaviour
     {
         pState.invincible = true;
         anim.SetTrigger("TakeDamage");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(invincibilityDuration);
         pState.invincible = false;
     }
 
@@ -577,7 +541,7 @@ public class PlayerController : MonoBehaviour
 
     void Heal()
     {
-        if (Input.GetButton("Healing") && Health < maxHealth && Mana > 0 && Grounded() && !pState.isDash)
+        if (Input.GetButton("Healing") && Health < maxHealth && Mana > 0 && Grounded() && !pState.isDash && !isAttacking)
         {
             pState.healing = true;
 
@@ -594,6 +558,14 @@ public class PlayerController : MonoBehaviour
             pState.healing = false;
             healTimer = 0;
         }
+    }
+    IEnumerator Death()
+    {
+        pState.alive = false;
+        Time.timeScale = 1f;
+        anim.SetTrigger("Death");
+        
+        yield return new WaitForSeconds(0.9f);
     }
 
     float Mana
