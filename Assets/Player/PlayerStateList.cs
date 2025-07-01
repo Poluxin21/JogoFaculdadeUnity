@@ -9,4 +9,5 @@ public class PlayerStateList : MonoBehaviour
     public bool invincible = false;
     public bool healing = false;
     public bool alive;
+    public bool cutScene = false;
 }
