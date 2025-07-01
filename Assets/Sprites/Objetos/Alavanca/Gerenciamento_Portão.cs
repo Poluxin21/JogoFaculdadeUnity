@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Gerenciamento_Portão : MonoBehaviour
 {
@@ -56,5 +58,10 @@ public class Gerenciamento_Portão : MonoBehaviour
             }
             Debug.Log("Não está na porta.");
         }
+    }
+
+    public void IrParaCena(string _nomeCena)
+    {
+        SceneManager.LoadScene(_nomeCena);
     }
 }

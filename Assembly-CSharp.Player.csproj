@@ -67,6 +67,7 @@
     <Compile Include="Assets\Enemy\Enemy.cs" />
     <Compile Include="Assets\HUD\FadeUI.cs" />
     <Compile Include="Assets\Enemy\WarderingEnemy.cs" />
+    <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\Audios\GerenciadorDeMusica.cs" />
     <Compile Include="Assets\Enemy\EnemyMage.cs" />
     <Compile Include="Assets\HUD\MenuFadeController.cs" />
