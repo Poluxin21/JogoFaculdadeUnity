@@ -27,14 +27,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckY = 0.1f;
     [SerializeField] private float groundCheckX = 0.3f;
     [SerializeField] private LayerMask whatIsGround;
-    [SerializeField] private float groundCheckRadius = 0.15f;
-    [SerializeField] private bool useCircleCast = true;
-    [SerializeField] private bool useBoxCast = true;
-    [SerializeField] private Vector2 boxCastSize = new Vector2(0.8f, 0.1f);
 
     [Header("Attack")]
-    [SerializeField] private float timeBetweenAttacks = 0.5f; // Tempo fixo entre ataques
-    [SerializeField] private float attackDuration = 0.3f; // Duração da animação de ataque
+    [SerializeField] private float timeBetweenAttacks = 0.5f;
+    [SerializeField] private float attackDuration = 0.3f;
     private float attackTimer = 0f;
     private bool isAttacking = false;
 
@@ -49,15 +45,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float damage;
 
     [Header("Recoil Settings")]
-    [SerializeField] private float recoilDuration = 0.2f; // Duração fixa do recoil
-    [SerializeField] private float recoilForce = 15f; // Força do recoil
+    [SerializeField] private float recoilDuration = 0.2f;
+    [SerializeField] private float recoilForce = 15f;
     private float recoilTimer = 0f;
 
     [Header("Health Settings")]
     public int health;
     public int maxHealth;
     [SerializeField] float hitFlashSpeed;
-    [SerializeField] private float invincibilityDuration = 1f; // Duração da invencibilidade
+    [SerializeField] private float invincibilityDuration = 1f;
 
     float healTimer;
     [SerializeField] float timeToHeal;
@@ -92,34 +88,73 @@ public class PlayerController : MonoBehaviour
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
         else
         {
             Instance = this;
         }
 
-        Health = maxHealth;
-    }
-
-    void Start()
-    {
+        // Inicializar componentes primeiro
         pState = GetComponent<PlayerStateList>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        gravity = rb.gravityScale;
-        Mana = mana;
-        manaStorage.fillAmount = Mana;
-        
+        // Verificar se os componentes foram encontrados
+        if (pState == null)
+        {
+            Debug.LogError("PlayerStateList component not found on " + gameObject.name);
+        }
+        if (sr == null)
+        {
+            Debug.LogError("SpriteRenderer component not found on " + gameObject.name);
+        }
+        if (rb == null)
+        {
+            Debug.LogError("Rigidbody2D component not found on " + gameObject.name);
+        }
+        if (anim == null)
+        {
+            Debug.LogError("Animator component not found on " + gameObject.name);
+        }
+
+        // Inicializar health apenas uma vez
+        health = maxHealth;
+    }
+
+    void Start()
+    {
+        // Verificar se os componentes estão válidos antes de usar
+        if (rb != null)
+        {
+            gravity = rb.gravityScale;
+        }
+
+        // Inicializar mana
+        mana = Mathf.Clamp(mana, 0, 1);
+        if (manaStorage != null)
+        {
+            manaStorage.fillAmount = mana;
+        }
+        else
+        {
+            Debug.LogWarning("Mana Storage UI não está atribuído no inspector!");
+        }
+
         // Validações de segurança
         if (jumpBufferFrames <= 0) jumpBufferFrames = 10;
         if (coyoteTime <= 0) coyoteTime = 0.2f;
         if (groundCheckY <= 0) groundCheckY = 0.1f;
-        if (groundCheckRadius <= 0) groundCheckRadius = 0.15f;
         if (timeBetweenAttacks <= 0) timeBetweenAttacks = 0.5f;
         if (attackDuration <= 0) attackDuration = 0.3f;
         if (recoilDuration <= 0) recoilDuration = 0.2f;
+
+        // Verificar transforms de ataque
+        if (SideAttackTransform == null) Debug.LogWarning("SideAttackTransform não está atribuído!");
+        if (UpAttackTransform == null) Debug.LogWarning("UpAttackTransform não está atribuído!");
+        if (DownAttackTransform == null) Debug.LogWarning("DownAttackTransform não está atribuído!");
+        if (groundCheckPoint == null) Debug.LogWarning("GroundCheckPoint não está atribuído!");
     }
 
     private void OnDrawGizmos()
@@ -131,23 +166,14 @@ public class PlayerController : MonoBehaviour
 
         if (groundCheckPoint != null)
         {
-            Gizmos.color = Color.green;
-            if (useCircleCast)
-            {
-                Gizmos.DrawWireSphere(groundCheckPoint.position, groundCheckRadius);
-            }
-
-            if (useBoxCast)
-            {
-                Gizmos.color = Color.blue;
-                Gizmos.DrawWireCube(groundCheckPoint.position + Vector3.down * 0.05f, boxCastSize);
-            }
-
             Gizmos.color = Color.yellow;
+            // Linha central
             Gizmos.DrawLine(groundCheckPoint.position,
                 groundCheckPoint.position + Vector3.down * groundCheckY);
+            // Linha direita
             Gizmos.DrawLine(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
                 groundCheckPoint.position + new Vector3(groundCheckX, -groundCheckY, 0));
+            // Linha esquerda
             Gizmos.DrawLine(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
                 groundCheckPoint.position + new Vector3(-groundCheckX, -groundCheckY, 0));
         }
@@ -157,7 +183,7 @@ public class PlayerController : MonoBehaviour
     {
         GetInputs();
 
-        if (pState.isDash) return;
+        if (pState != null && pState.isDash) return;
 
         UpdateTimers();
         RestoreTimeScale();
@@ -167,7 +193,7 @@ public class PlayerController : MonoBehaviour
         UpdateJumpVariables();
         Heal();
 
-        if (pState.healing) return;
+        if (pState != null && pState.healing) return;
 
         Flip();
         StartDash();
@@ -176,7 +202,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (pState.isDash || pState.healing) return;
+        if (pState != null && (pState.isDash || pState.healing)) return;
         HandleRecoil();
     }
 
@@ -190,10 +216,10 @@ public class PlayerController : MonoBehaviour
     {
         if (attackTimer > 0)
             attackTimer -= Time.deltaTime;
-        
+
         if (recoilTimer > 0)
             recoilTimer -= Time.deltaTime;
-        
+
         // Controle de estado de ataque
         if (isAttacking && attackTimer <= (timeBetweenAttacks - attackDuration))
         {
@@ -203,14 +229,20 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        if (pState.healing || isAttacking || recoilTimer > 0)
+        if (rb == null) return;
+
+        if ((pState != null && pState.healing) || isAttacking || recoilTimer > 0)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             return;
         }
 
         rb.linearVelocity = new Vector2(walkspeed * xAxis, rb.linearVelocity.y);
-        anim.SetBool("IsWalk", rb.linearVelocity.x != 0 && Grounded());
+
+        if (anim != null)
+        {
+            anim.SetBool("IsWalk", rb.linearVelocity.x != 0 && Grounded());
+        }
     }
 
     void StartDash()
@@ -229,29 +261,30 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        // Só pode atacar se não estiver atacando e o timer permitir
         if (Input.GetButtonDown("Attack") && attackTimer <= 0 && !isAttacking)
         {
             isAttacking = true;
             attackTimer = timeBetweenAttacks;
-            
-            anim.SetTrigger("ToAttack");
 
-            // Determina direção do ataque baseado no input
+            if (anim != null)
+            {
+                anim.SetTrigger("ToAttack");
+            }
+
             if (yAxis == 0 || (yAxis < 0 && Grounded()))
             {
-                // Ataque lateral
-                StartCoroutine(ExecuteAttackAfterDelay(SideAttackTransform, SideAttackArea, 0.1f));
+                if (SideAttackTransform != null)
+                    StartCoroutine(ExecuteAttackAfterDelay(SideAttackTransform, SideAttackArea, 0.1f));
             }
             else if (yAxis > 0)
             {
-                // Ataque para cima
-                StartCoroutine(ExecuteAttackAfterDelay(UpAttackTransform, UpAttackArea, 0.1f));
+                if (UpAttackTransform != null)
+                    StartCoroutine(ExecuteAttackAfterDelay(UpAttackTransform, UpAttackArea, 0.1f));
             }
             else if (yAxis < 0 && !Grounded())
             {
-                // Ataque para baixo (no ar)
-                StartCoroutine(ExecuteAttackAfterDelay(DownAttackTransform, DownAttackArea, 0.1f));
+                if (DownAttackTransform != null)
+                    StartCoroutine(ExecuteAttackAfterDelay(DownAttackTransform, DownAttackArea, 0.1f));
             }
         }
     }
@@ -264,6 +297,8 @@ public class PlayerController : MonoBehaviour
 
     void Hit(Transform _attackTransform, Vector2 _attackArea)
     {
+        if (_attackTransform == null) return;
+
         Collider2D[] objectsToHit = Physics2D.OverlapBoxAll(_attackTransform.position, _attackArea, 0, attackableLayerMask);
         List<Enemy> hitEnemies = new List<Enemy>();
 
@@ -274,22 +309,17 @@ public class PlayerController : MonoBehaviour
             Enemy e = objectsToHit[i].GetComponent<Enemy>();
             if (e && !hitEnemies.Contains(e))
             {
-                // Calcula direção do knockback
                 Vector2 knockbackDirection = (objectsToHit[i].transform.position - transform.position).normalized;
-                
+
                 e.EnemyHit(damage, knockbackDirection, recoilForce);
                 hitEnemies.Add(e);
                 hitSomething = true;
 
-                // Ganha mana ao acertar inimigo
                 Mana += manaGain;
-                
-                // Hit stop effect
                 HitStopTime(0.1f, 50, 0.05f);
             }
         }
 
-        // Aplica recoil no player se acertou algo
         if (hitSomething)
         {
             ApplyRecoil();
@@ -298,38 +328,39 @@ public class PlayerController : MonoBehaviour
 
     private void ApplyRecoil()
     {
+        if (rb == null || pState == null) return;
+
         recoilTimer = recoilDuration;
-        
-        // Recoil baseado na direção que o player está olhando
+
         Vector2 recoilDirection = pState.lookingRight ? Vector2.left : Vector2.right;
-        
-        // Se for ataque para baixo, adiciona impulso para cima
+
         if (yAxis < 0 && !Grounded())
         {
             recoilDirection = Vector2.up;
         }
-        
-        rb.linearVelocity = new Vector2(recoilDirection.x * recoilForce, 
+
+        rb.linearVelocity = new Vector2(recoilDirection.x * recoilForce,
                                        recoilDirection.y > 0 ? recoilForce : rb.linearVelocity.y);
     }
 
     private void HandleRecoil()
     {
-        // O recoil agora é controlado pelo timer, não por steps
+        if (rb == null) return;
+
         if (recoilTimer <= 0)
         {
-            // Restaura controle normal
             rb.gravityScale = gravity;
         }
         else if (yAxis < 0 && !Grounded() && recoilTimer > 0)
         {
-            // Mantém o player no ar durante recoil vertical
             rb.gravityScale = 0;
         }
     }
 
     void FlashWhileInvincible()
     {
+        if (sr == null || pState == null) return;
+
         sr.material.color = pState.invincible ?
             Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time * hitFlashSpeed, 1.0f)) :
             Color.white;
@@ -337,6 +368,8 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Dash()
     {
+        if (rb == null || pState == null || anim == null) yield break;
+
         canDash = false;
         pState.isDash = true;
         anim.SetTrigger("ToDash");
@@ -356,6 +389,8 @@ public class PlayerController : MonoBehaviour
 
     void Flip()
     {
+        if (pState == null) return;
+
         if (xAxis < 0)
         {
             transform.localScale = new Vector2(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
@@ -372,54 +407,25 @@ public class PlayerController : MonoBehaviour
     {
         if (groundCheckPoint == null) return false;
 
-        bool isGrounded = false;
-
-        if (useBoxCast)
-        {
-            RaycastHit2D boxHit = Physics2D.BoxCast(
-                groundCheckPoint.position,
-                boxCastSize,
-                0f,
-                Vector2.down,
-                0.1f,
-                whatIsGround
-            );
-            if (boxHit.collider != null)
-            {
-                isGrounded = true;
-            }
-        }
-
-        if (!isGrounded && useCircleCast)
-        {
-            isGrounded = Physics2D.OverlapCircle(
-                groundCheckPoint.position + Vector3.down * 0.05f,
-                groundCheckRadius,
-                whatIsGround
-            );
-        }
-
-        if (!isGrounded)
-        {
-            isGrounded = Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
-                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
-                    Vector2.down, groundCheckY, whatIsGround)
-                || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
-                    Vector2.down, groundCheckY, whatIsGround);
-        }
-
-        return isGrounded;
+        // Verificação simples com 3 raycasts (centro, esquerda, direita)
+        return Physics2D.Raycast(groundCheckPoint.position, Vector2.down, groundCheckY, whatIsGround)
+            || Physics2D.Raycast(groundCheckPoint.position + new Vector3(groundCheckX, 0, 0),
+                Vector2.down, groundCheckY, whatIsGround)
+            || Physics2D.Raycast(groundCheckPoint.position + new Vector3(-groundCheckX, 0, 0),
+                Vector2.down, groundCheckY, whatIsGround);
     }
 
     void Jump()
     {
+        if (rb == null) return;
+
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-            pState.isJump = false;
+            if (pState != null) pState.isJump = false;
         }
 
-        if (!pState.isJump)
+        if (pState != null && !pState.isJump)
         {
             if (jumpBufferCount > 0 && (Grounded() || coyoteTimeCounter > 0))
             {
@@ -433,17 +439,24 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        anim.SetBool("isJump", !Grounded());
+        if (anim != null)
+        {
+            anim.SetBool("isJump", !Grounded());
+        }
     }
 
     void PerformJump()
     {
+        if (rb == null || pState == null) return;
+
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         pState.isJump = true;
     }
 
     void UpdateJumpVariables()
     {
+        if (pState == null) return;
+
         bool currentlyGrounded = Grounded();
 
         if (currentlyGrounded)
@@ -471,14 +484,16 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
-        if (pState.invincible) return;
-        
+        if (pState != null && pState.invincible) return;
+
         Health -= Mathf.RoundToInt(_damage);
         StartCoroutine(StopTakingDamage());
     }
 
     IEnumerator StopTakingDamage()
     {
+        if (pState == null || anim == null) yield break;
+
         pState.invincible = true;
         anim.SetTrigger("TakeDamage");
         yield return new WaitForSeconds(invincibilityDuration);
@@ -541,6 +556,8 @@ public class PlayerController : MonoBehaviour
 
     void Heal()
     {
+        if (pState == null) return;
+
         if (Input.GetButton("Healing") && Health < maxHealth && Mana > 0 && Grounded() && !pState.isDash && !isAttacking)
         {
             pState.healing = true;
@@ -559,12 +576,15 @@ public class PlayerController : MonoBehaviour
             healTimer = 0;
         }
     }
+
     IEnumerator Death()
     {
+        if (pState == null || anim == null) yield break;
+
         pState.alive = false;
         Time.timeScale = 1f;
         anim.SetTrigger("Death");
-        
+
         yield return new WaitForSeconds(0.9f);
     }
 
@@ -576,7 +596,10 @@ public class PlayerController : MonoBehaviour
             if (mana != value)
             {
                 mana = Mathf.Clamp(value, 0, 1);
-                manaStorage.fillAmount = Mana;
+                if (manaStorage != null)
+                {
+                    manaStorage.fillAmount = mana;
+                }
             }
         }
     }
