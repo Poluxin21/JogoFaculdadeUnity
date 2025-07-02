@@ -61,6 +61,7 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\6000.0.41f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Audios\Audios\GatilhoDeArea.cs" />
     <Compile Include="Assets\ProjetilCavaleiro.cs" />
     <Compile Include="Assets\CanvasMenuManager.cs" />
     <Compile Include="Assets\Player\HeartController.cs" />
@@ -68,11 +69,11 @@
     <Compile Include="Assets\PauseManager.cs" />
     <Compile Include="Assets\Enemy\RainhaNyarla.cs" />
     <Compile Include="Assets\HUD\ConfigMenu.cs" />
+    <Compile Include="Assets\Audios\Audios\GerenciadorDeMusica.cs" />
     <Compile Include="Assets\Sprites\Objetos\Alavanca\Gatilho_Alavanca.cs" />
     <Compile Include="Assets\Enemy\Enemy.cs" />
     <Compile Include="Assets\HUD\FadeUI.cs" />
     <Compile Include="Assets\Enemy\WarderingEnemy.cs" />
-    <Compile Include="Assets\Audios\GerenciadorDeMusica.cs" />
     <Compile Include="Assets\inimigos\chefes\Golem_Guardião\GolemGuardiao.cs" />
     <Compile Include="Assets\Enemy\EnemyMage.cs" />
     <Compile Include="Assets\HUD\MenuFadeController.cs" />
@@ -84,7 +85,6 @@
     <Compile Include="Assets\HitboxBoss.cs" />
     <Compile Include="Assets\Sprites\Objetos\Alavanca\Gerenciamento_Barreira.cs" />
     <Compile Include="Assets\ArenaController.cs" />
-    <Compile Include="Assets\Audios\GatilhoDeArea.cs" />
     <Compile Include="Assets\Sprites\Objetos\Alavanca\Gerenciamento_Portão.cs" />
     <Compile Include="Assets\Enemy\MageProjectile.cs" />
     <Compile Include="Assets\Enemy\GolemEnemy.cs" />
