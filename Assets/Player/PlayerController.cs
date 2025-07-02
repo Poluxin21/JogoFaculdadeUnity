@@ -64,6 +64,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float manaDrainSpeed;
     [SerializeField] float manaGain;
 
+    [Header("Death Settings")]
+    [SerializeField] private FadeUI deathPanel; // Referência ao DeathPanel
+    [SerializeField] private float deathPanelDelay = 1f; // Tempo antes do painel aparecer
+
     public delegate void OnHealthChangedDelegate();
     [HideInInspector] public OnHealthChangedDelegate onHealthChangedCallback;
 
@@ -121,6 +125,12 @@ public class PlayerController : MonoBehaviour
 
         // Inicializar health apenas uma vez
         health = maxHealth;
+
+        // Verificar se o deathPanel foi atribuído
+        if (deathPanel == null)
+        {
+            Debug.LogWarning("DeathPanel não está atribuído no PlayerController!");
+        }
     }
 
     void Start()
@@ -129,6 +139,12 @@ public class PlayerController : MonoBehaviour
         if (rb != null)
         {
             gravity = rb.gravityScale;
+        }
+
+        // Inicializar estado alive
+        if (pState != null)
+        {
+            pState.alive = true;
         }
 
         // Inicializar mana
@@ -181,7 +197,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (PauseManager.isPaused) return;
+
         if (pState.cutScene) return;
+
+        // Se o player não está vivo, não processa inputs nem ações
+        if (!pState.alive) return;
 
         GetInputs();
 
@@ -204,7 +225,12 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (PauseManager.isPaused) return;
+
         if (pState.cutScene) return;
+
+        // Se o player não está vivo, não processa física
+        if (!pState.alive) return;
 
         if (pState != null && (pState.isDash || pState.healing)) return;
         HandleRecoil();
@@ -537,6 +563,12 @@ public class PlayerController : MonoBehaviour
                 {
                     onHealthChangedCallback.Invoke();
                 }
+
+                // Verifica se o player morreu
+                if (health <= 0 && pState != null && pState.alive)
+                {
+                    StartCoroutine(Death());
+                }
             }
         }
     }
@@ -605,11 +637,37 @@ public class PlayerController : MonoBehaviour
     {
         if (pState == null || anim == null) yield break;
 
+        // Define que o player não está mais vivo
         pState.alive = false;
+
+        // Para o player completamente
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 0; // Remove a gravidade para não cair
+        }
+
+        // Restaura o tempo normal caso esteja alterado
         Time.timeScale = 1f;
+
+        // Ativa a animação de morte
         anim.SetTrigger("Death");
 
+        // Aguarda a animação de morte terminar
         yield return new WaitForSeconds(0.9f);
+
+        // Aguarda o delay adicional antes de mostrar o painel
+        yield return new WaitForSeconds(deathPanelDelay);
+
+        // Mostra o painel de morte com fade in
+        if (deathPanel != null)
+        {
+            deathPanel.FadeIn(1f); // Fade in de 1 segundo
+        }
+        else
+        {
+            Debug.LogError("DeathPanel não está atribuído no PlayerController!");
+        }
     }
 
     float Mana

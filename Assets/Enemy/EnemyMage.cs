@@ -24,6 +24,8 @@ public class EnemyMage : Enemy
     {
         base.Update();
 
+        if (PauseManager.isPaused) return;
+
         if (Vector2.Distance(transform.position, PlayerController.Instance.transform.position) <= visionRange)
         {
             LookAtPlayer();

@@ -66,6 +66,8 @@ public class WanderingArmor : Enemy
     {
         base.Update();
 
+        if (PauseManager.isPaused) return;
+
         if (!isRecoiling)
         {
             UpdateAI();

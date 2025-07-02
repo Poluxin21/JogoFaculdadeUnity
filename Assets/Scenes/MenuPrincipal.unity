@@ -2449,7 +2449,7 @@ GameObject:
   - component: {fileID: 959497425}
   - component: {fileID: 959497426}
   m_Layer: 5
-  m_Name: MenuPanel
+  m_Name: MenuCofigPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

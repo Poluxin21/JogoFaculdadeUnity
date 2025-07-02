@@ -102,6 +102,8 @@ public class GolemGuardiao : Enemy
     {
         base.Update();
 
+        if (PauseManager.isPaused) return;
+
         if (jogador == null || health <= 0)
             return;
 

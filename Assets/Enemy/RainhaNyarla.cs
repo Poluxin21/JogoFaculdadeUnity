@@ -58,6 +58,7 @@ public class RainhaNyarla : Enemy
     private bool recuperandoBarreira = false;
     private bool faseSupremo = false;
     private float tempoUltimoAtaque;
+    private bool facingRight = true; // Controla direção sem afetar símbolos
 
     private List<Transform> pontosDisponiveis;
 
@@ -95,8 +96,8 @@ public class RainhaNyarla : Enemy
 
         float distancia = Vector2.Distance(transform.position, jogador.position);
 
-        // Se não tem barreira ativa, pode atacar
-        if (!barreiraAtiva && Time.time - tempoUltimoAtaque >= tempoEntreAtaques)
+        // CORREÇÃO: Permite atacar mesmo com barreira ativa (boss ataca enquanto se defende)
+        if (Time.time - tempoUltimoAtaque >= tempoEntreAtaques)
         {
             if (distancia <= distanciaAtaqueMagico)
             {
@@ -104,7 +105,7 @@ public class RainhaNyarla : Enemy
             }
         }
 
-        // Sempre olha para o jogador (boss mago estático)
+        // Controla direção apenas visualmente
         VirarParaJogador();
     }
 
@@ -123,11 +124,28 @@ public class RainhaNyarla : Enemy
         {
             if (simbolosBarreira[i] != null)
             {
-                simbolosBarreira[i].SetActive(i < simbolosNecessarios);
+                // Reativa o símbolo se necessário
+                if (i < simbolosNecessarios)
+                {
+                    SimboloBarreira simboloScript = simbolosBarreira[i].GetComponent<SimboloBarreira>();
+                    if (simboloScript != null)
+                    {
+                        simboloScript.ReativarSimbolo();
+                    }
+                    else
+                    {
+                        simbolosBarreira[i].SetActive(true);
+                    }
+                }
+                else
+                {
+                    simbolosBarreira[i].SetActive(false);
+                }
             }
         }
 
-        animator.SetBool("BarreiraAtiva", true);
+        if (animator != null)
+            animator.SetBool("BarreiraAtiva", true);
         Debug.Log($"Barreira {barreiraAtual} ativada com {simbolosNecessarios} símbolos!");
     }
 
@@ -147,12 +165,6 @@ public class RainhaNyarla : Enemy
         simbolosDestruidos++;
         Debug.Log($"Símbolo destruído! {simbolosDestruidos}/{GetSimbolosNecessarios()}");
 
-        // Desativa o símbolo visualmente
-        if (simbolosDestruidos <= simbolosBarreira.Length && simbolosBarreira[simbolosDestruidos - 1] != null)
-        {
-            simbolosBarreira[simbolosDestruidos - 1].SetActive(false);
-        }
-
         // Verifica se quebrou a barreira
         if (simbolosDestruidos >= GetSimbolosNecessarios())
         {
@@ -167,8 +179,11 @@ public class RainhaNyarla : Enemy
         if (barreira != null)
             barreira.SetActive(false);
 
-        animator.SetBool("BarreiraAtiva", false);
-        animator.SetTrigger("BarreiraQuebrada");
+        if (animator != null)
+        {
+            animator.SetBool("BarreiraAtiva", false);
+            animator.SetTrigger("BarreiraQuebrada");
+        }
 
         Debug.Log($"Barreira {barreiraAtual} quebrada!");
 
@@ -200,6 +215,15 @@ public class RainhaNyarla : Enemy
 
     void EscolherAtaque()
     {
+        // CORREÇÃO: Verifica se está na fase supremo
+        if (faseSupremo)
+        {
+            // Na fase supremo, só executa ataques supremos
+            if (!executandoAtaque)
+                StartCoroutine(ExecutarEstrelaSuprema());
+            return;
+        }
+
         switch (barreiraAtual)
         {
             case 1:
@@ -220,7 +244,8 @@ public class RainhaNyarla : Enemy
         tempoUltimoAtaque = Time.time;
 
         // Barragem simples - 1 projétil
-        animator.SetTrigger("AtaqueBarragem");
+        if (animator != null)
+            animator.SetTrigger("AtaqueBarragem");
 
         yield return new WaitForSeconds(0.3f);
 
@@ -272,7 +297,8 @@ public class RainhaNyarla : Enemy
 
     IEnumerator ExecutarBarragem(int quantidade, float dano)
     {
-        animator.SetTrigger("AtaqueBarragem");
+        if (animator != null)
+            animator.SetTrigger("AtaqueBarragem");
 
         yield return new WaitForSeconds(0.3f);
 
@@ -307,7 +333,8 @@ public class RainhaNyarla : Enemy
 
     IEnumerator ExecutarOndas(int quantidade, float dano)
     {
-        animator.SetTrigger("AtaqueOndas");
+        if (animator != null)
+            animator.SetTrigger("AtaqueOndas");
 
         yield return new WaitForSeconds(0.5f);
 
@@ -328,7 +355,10 @@ public class RainhaNyarla : Enemy
         if (barreira != null)
             barreira.SetActive(false);
 
-        animator.SetTrigger("FaseSupremo");
+        if (animator != null)
+            animator.SetTrigger("FaseSupremo");
+
+        // CORREÇÃO: Inicia imediatamente o ataque supremo
         StartCoroutine(ExecutarEstrelaSuprema());
     }
 
@@ -345,7 +375,23 @@ public class RainhaNyarla : Enemy
 
         // Aviso ao jogador
         Debug.Log("ATENÇÃO: Estrela Cadente Suprema carregando!");
-        animator.SetTrigger("CarregandoSupremo");
+        if (animator != null)
+            animator.SetTrigger("CarregandoSupremo");
+
+        // CORREÇÃO: Posiciona a área suprema na posição do jogador ANTES do delay
+        if (areaSupremo != null && jogador != null)
+        {
+            areaSupremo.transform.position = jogador.position;
+            areaSupremo.SetActive(true); // Mostra indicador visual
+
+            // Configura o dano mas não ativa a hitbox ainda
+            HitboxBoss hb = areaSupremo.GetComponent<HitboxBoss>();
+            if (hb != null)
+            {
+                hb.SetDano(danoSupremo);
+                hb.enabled = false; // Desativa temporariamente
+            }
+        }
 
         // Mostra indicadores nos pontos da estrela
         for (int i = 0; i < pontosEstrela.Length && i < 5; i++) // Máximo 5 pontos para estrela
@@ -359,15 +405,15 @@ public class RainhaNyarla : Enemy
 
         yield return new WaitForSeconds(tempoCarregamentoSupremo);
 
-        // Executa o ataque supremo
-        animator.SetTrigger("EstrelaSuprema");
+        // CORREÇÃO: Executa o ataque supremo ativando a hitbox
+        if (animator != null)
+            animator.SetTrigger("EstrelaSuprema");
 
         if (areaSupremo != null)
         {
-            areaSupremo.SetActive(true);
             HitboxBoss hb = areaSupremo.GetComponent<HitboxBoss>();
             if (hb != null)
-                hb.SetDano(danoSupremo);
+                hb.enabled = true; // Ativa a hitbox para causar dano
         }
 
         yield return new WaitForSeconds(duracaoSupremo);
@@ -379,7 +425,7 @@ public class RainhaNyarla : Enemy
         yield return new WaitForSeconds(2f);
 
         // 30% chance de usar supremo novamente, senão volta para barreira 3
-        if (Random.Range(0f, 1f) < 0.3f)
+        if (Random.Range(0f, 1f) < 0.3f && faseSupremo)
         {
             yield return new WaitForSeconds(3f); // Cooldown maior
             StartCoroutine(ExecutarEstrelaSuprema());
@@ -389,8 +435,9 @@ public class RainhaNyarla : Enemy
             barreiraAtual = 3;
             faseSupremo = false;
             AtivarBarreira();
-            executandoAtaque = false;
         }
+
+        executandoAtaque = false;
     }
 
     IEnumerator MostrarIndicadorPonto(Transform ponto, float duracao)
@@ -401,13 +448,48 @@ public class RainhaNyarla : Enemy
 
         yield return new WaitForSeconds(duracao);
 
-        // Cria explosão no ponto
-        LancarProjetilBarragem(ponto.position, danoSupremo);
+        // CORREÇÃO: Cria projétil do ponto da estrela em direção ao jogador
+        if (jogador != null)
+        {
+            LancarProjetilDosPontos(ponto.position, jogador.position, danoSupremo);
+        }
+    }
+
+    void LancarProjetilDosPontos(Vector3 origem, Vector3 alvo, float dano)
+    {
+        if (projetilBarragem != null)
+        {
+            // Cria o projétil na origem especificada (ponto da estrela)
+            GameObject proj = Instantiate(projetilBarragem, origem, Quaternion.identity);
+
+            // Configura direção do projétil
+            Vector2 direcao = (alvo - origem).normalized;
+            Rigidbody2D rbProj = proj.GetComponent<Rigidbody2D>();
+            if (rbProj != null)
+            {
+                rbProj.linearVelocity = direcao * 8f; // Velocidade do projétil
+            }
+
+            // Configura dano
+            HitboxBoss hb = proj.GetComponent<HitboxBoss>();
+            if (hb != null)
+                hb.SetDano(dano);
+
+            // Destrói após 3 segundos
+            Destroy(proj, 3f);
+
+            Debug.Log($"Projétil lançado do ponto {origem} em direção a {alvo} com dano {dano}");
+        }
+        else
+        {
+            Debug.LogWarning("ProjetilBarragem não está atribuído!");
+        }
     }
 
     IEnumerator Teletransportar(Vector3 posicaoDestino)
     {
-        animator.SetTrigger("Teletransporte");
+        if (animator != null)
+            animator.SetTrigger("Teletransporte");
 
         // Efeito visual de desaparecimento
         yield return new WaitForSeconds(0.2f);
@@ -425,10 +507,14 @@ public class RainhaNyarla : Enemy
     {
         if (projetilBarragem != null)
         {
-            GameObject proj = Instantiate(projetilBarragem, transform.position, Quaternion.identity);
+            // CORREÇÃO: Cria o projétil um pouco à frente do boss para evitar colisão
+            Vector2 direcaoLancamento = (alvo - transform.position).normalized;
+            Vector3 posicaoLancamento = transform.position + (Vector3)direcaoLancamento * 1f;
+
+            GameObject proj = Instantiate(projetilBarragem, posicaoLancamento, Quaternion.identity);
 
             // Configura direção do projétil
-            Vector2 direcao = (alvo - transform.position).normalized;
+            Vector2 direcao = (alvo - posicaoLancamento).normalized;
             Rigidbody2D rbProj = proj.GetComponent<Rigidbody2D>();
             if (rbProj != null)
             {
@@ -442,6 +528,12 @@ public class RainhaNyarla : Enemy
 
             // Destrói após 3 segundos
             Destroy(proj, 3f);
+
+            Debug.Log($"Projétil lançado em direção a {alvo} com dano {dano}");
+        }
+        else
+        {
+            Debug.LogWarning("ProjetilBarragem não está atribuído!");
         }
     }
 
@@ -468,18 +560,46 @@ public class RainhaNyarla : Enemy
                 hb.SetDano(dano);
 
             Destroy(onda, 4f);
+
+            Debug.Log($"Onda lançada com dano {dano}");
+        }
+        else
+        {
+            Debug.LogWarning("ProjetilOnda não está atribuído!");
         }
     }
 
+    // CORREÇÃO: Método de virar melhorado que não afeta os símbolos
     void VirarParaJogador()
     {
         if (jogador == null) return;
 
         Vector2 direcao = (jogador.position - transform.position).normalized;
-        if (direcao.x > 0)
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        else if (direcao.x < 0)
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+        // Controla apenas o sprite do boss, não os objetos filhos (símbolos)
+        if (direcao.x > 0 && !facingRight)
+        {
+            facingRight = true;
+            FlipSprite();
+        }
+        else if (direcao.x < 0 && facingRight)
+        {
+            facingRight = false;
+            FlipSprite();
+        }
+    }
+
+    void FlipSprite()
+    {
+        // CORREÇÃO: Vira apenas o sprite renderer do boss, não o transform inteiro
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        if (sr != null)
+        {
+            sr.flipX = !facingRight;
+        }
+
+        // Alternativa: se usar transform, usar apenas no sprite principal
+        // transform.localScale = new Vector3(facingRight ? 1 : -1, 1, 1);
     }
 
     public override void EnemyHit(float dano, Vector2 direcao, float forca)
@@ -503,6 +623,7 @@ public class RainhaNyarla : Enemy
     {
         executandoAtaque = false;
         barreiraAtiva = false;
+        faseSupremo = false;
 
         if (barreira != null)
             barreira.SetActive(false);
@@ -515,8 +636,12 @@ public class RainhaNyarla : Enemy
                 simbolo.SetActive(false);
         }
 
-        animator.SetTrigger("Morte");
-        GetComponent<Collider2D>().enabled = false;
+        if (animator != null)
+            animator.SetTrigger("Morte");
+
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+            col.enabled = false;
 
         Debug.Log("Rainha Nyarla derrotada!");
         Destroy(gameObject, 3f);

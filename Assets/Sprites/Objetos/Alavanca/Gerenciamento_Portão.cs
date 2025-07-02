@@ -7,7 +7,6 @@ public class Gerenciamento_Portão : MonoBehaviour
     public int alavancasAtivadas = 0; // Contador de alavancas ativadas
     public int condicao = 4; // Número mínimo de alavancas necessárias (configurável no Inspector)
     public Animator animatorPortão; // Referência ao Animator do portão
-    [SerializeField] private SceneTransition sceneTransition;
 
     [Header("Botão de Transição")]
     public GameObject botaoTransicao; // Objeto do botão que aparece/some
@@ -42,7 +41,7 @@ public class Gerenciamento_Portão : MonoBehaviour
         {
             if (botaoTransicao != null)
             {
-                botaoTransicao.SetActive(portaAberta); // Ativa o botão
+                botaoTransicao.SetActive(true);
             }
             Debug.Log("Está na porta.");
         }
@@ -54,7 +53,7 @@ public class Gerenciamento_Portão : MonoBehaviour
         {
             if (botaoTransicao != null)
             {
-                botaoTransicao.SetActive(false); // Desativa o botão
+                botaoTransicao.SetActive(false);
             }
             Debug.Log("Não está na porta.");
         }
