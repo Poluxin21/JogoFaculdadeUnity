@@ -50,11 +50,11 @@ TagManager:
   - name: fundo
     uniqueID: 4063868731
     locked: 0
-  - name: terreno
-    uniqueID: 3829869323
-    locked: 0
   - name: personagens
     uniqueID: 801170877
+    locked: 0
+  - name: terreno
+    uniqueID: 3829869323
     locked: 0
   - name: Barreiras
     uniqueID: 1602080377
