@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    //public SceneFader sceneFader; Esta classe SceneFader n foi criada antes, assim não sendo possivel fazer o codigo do UI gameover
+    public SceneFader sceneFader; //Esta classe n foi criada antes, assim não sendo possivel fazer o codigo do UI gameover
 
     public static UIManager instance;
 
-    [SerializeField] GameObject deathScreem;
+    [SerializeField] GameObject deathScreen;
 
     private void Awake()
     {
@@ -21,11 +21,11 @@ public class UIManager : MonoBehaviour
         {
             instance = this;
         }
+        DontDestroyOnLoad(gameObject);
     }
 
-    public IEnumerator ActivatsathScreenk()
+    private void Start()
     {
-        yield return new WaitForSeconds(0.8f);
-        
+        sceneFader = GetComponentInChildren<SceneFader>();
     }
 }

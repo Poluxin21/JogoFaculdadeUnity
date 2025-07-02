@@ -181,6 +181,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (pState.cutScene) return;
+
         GetInputs();
 
         if (pState != null && pState.isDash) return;
@@ -202,6 +204,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (pState.cutScene) return;
+
         if (pState != null && (pState.isDash || pState.healing)) return;
         HandleRecoil();
     }
@@ -385,6 +389,26 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+    }
+
+    public IEnumerator WalkIntoNewScene(Vector2 exitDir, float delay)
+    {
+        pState.cutScene = true;
+
+        if (exitDir.y != 0)
+        {
+            rb.linearVelocityY = jumpForce * exitDir.y;
+        }
+
+        if (exitDir.x != 0)
+        {
+            xAxis = exitDir.x > 0 ? 1 : -1;
+
+            Move();
+        }
+        Flip();
+        yield return new WaitForSeconds(delay);
+        pState.cutScene = false;
     }
 
     void Flip()

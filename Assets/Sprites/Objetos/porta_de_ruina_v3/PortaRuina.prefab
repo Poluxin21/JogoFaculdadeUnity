@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8503370758758185275}
   - component: {fileID: 3849500034479754087}
   - component: {fileID: 4953642829235363323}
+  - component: {fileID: 7180706018788737070}
   m_Layer: 0
   m_Name: PortaRuina
   m_TagString: Untagged
@@ -34,6 +35,7 @@ Transform:
   m_Children:
   - {fileID: 4797460804071088669}
   - {fileID: 4892395470527612059}
+  - {fileID: 3911809210221008855}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8503370758758185275
@@ -88,11 +90,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.000030517578, y: 0.05256939}
+  m_Offset: {x: -0.000030517578, y: -0.28624392}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -102,7 +104,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.531555, y: 11.343042}
+  m_Size: {x: 9.531555, y: 11.254657}
   m_EdgeRadius: 0
 --- !u!114 &4953642829235363323
 MonoBehaviour:
@@ -119,8 +121,57 @@ MonoBehaviour:
   alavancasAtivadas: 0
   condicao: 4
   "animatorPort\xE3o": {fileID: 8503370758758185275}
+  sceneTransition: {fileID: 7180706018788737070}
   botaoTransicao: {fileID: 0}
   portaAberta: 0
+--- !u!114 &7180706018788737070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525696573557817363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0307adb50ee754ca4b8934a5ef0925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionTo: mapa2(cenario3_cenario4)
+  startPoint: {fileID: 3911809210221008855}
+  exitDirection: {x: 1, y: 0}
+  exitTime: 0.25
+  liberado: 0
+--- !u!1 &2349017868958141891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3911809210221008855}
+  m_Layer: 0
+  m_Name: StartPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3911809210221008855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2349017868958141891}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4737966558481099877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2669539916033999283
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,8 +245,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -465097973
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 5813568052830843468, guid: 86616e4afbf8331448ff2817ba60bedb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -281,8 +332,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -465097973
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 5813568052830843468, guid: 86616e4afbf8331448ff2817ba60bedb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
