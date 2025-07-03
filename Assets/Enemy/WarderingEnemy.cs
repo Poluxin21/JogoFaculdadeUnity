@@ -66,7 +66,10 @@ public class WanderingArmor : Enemy
     {
         base.Update();
 
+
         if (PauseManager.isPaused) return;
+
+        if (PlayerController.Instance.pState.alive == false) return;
 
         if (!isRecoiling)
         {

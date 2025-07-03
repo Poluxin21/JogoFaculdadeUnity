@@ -9,20 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 4be5f72de23164d4ca1bd938db4eb699
   - enabled: 1
-    path: Assets/Scenes/mapa1(cenario1_cenario2).unity
-    guid: 535fe4898b9570b4ab0617b072ae648e
+    path: Assets/Scenes/mapa1_teste.unity
+    guid: d2cd68e3829847f4fa87903ad66d3cb7
   - enabled: 1
     path: Assets/Scenes/mapa2(cenario3_cenario4).unity
     guid: 9468b05bd69c50040bb8b5e4d915412f
-  - enabled: 1
-    path: Assets/Scenes/UI.unity
-    guid: c869851dcd68b8d42b6965d991a9b8ec
-  - enabled: 1
-    path: Assets/Scenes/UI2.unity
-    guid: 660e960faeb15894082dda787a25381e
-  - enabled: 1
-    path: Assets/Scenes/UI3.unity
-    guid: e4d7c7d4d782df24a97ecb2d7f7bca05
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

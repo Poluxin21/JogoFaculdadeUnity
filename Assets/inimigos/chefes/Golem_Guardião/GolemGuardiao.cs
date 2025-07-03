@@ -104,6 +104,8 @@ public class GolemGuardiao : Enemy
 
         if (PauseManager.isPaused) return;
 
+        if (PlayerController.Instance.pState.alive == false) return;
+
         if (jogador == null || health <= 0)
             return;
 

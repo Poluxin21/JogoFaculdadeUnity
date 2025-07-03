@@ -199,6 +199,8 @@ public class PlayerController : MonoBehaviour
     {
         if (PauseManager.isPaused) return;
 
+        if(pState.alive == false) return;
+
         if (pState.cutScene) return;
 
         // Se o player não está vivo, não processa inputs nem ações
@@ -226,6 +228,8 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         if (PauseManager.isPaused) return;
+
+        if (pState.alive == false) return;
 
         if (pState.cutScene) return;
 
@@ -671,8 +675,7 @@ public class PlayerController : MonoBehaviour
 
         // Mostra o painel de morte com fade in
         if (deathPanel != null)
-        {
-            
+        {   
             deathPanel.FadeIn(1f); // Fade in de 1 segundo
         }
         else

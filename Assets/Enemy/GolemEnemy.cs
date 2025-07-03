@@ -23,6 +23,8 @@ public class GolemEnemy : Enemy
 
         if (PauseManager.isPaused) return;
 
+        if (PlayerController.Instance.pState.alive == false) return;
+
         if (Vector2.Distance(transform.position, PlayerController.Instance.transform.position) <= detectionRange)
         {
             MoveTowardPlayer();

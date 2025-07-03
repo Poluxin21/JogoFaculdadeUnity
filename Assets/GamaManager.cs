@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class GamaManager : MonoBehaviour
 {
     private Transform respawnPoint;
