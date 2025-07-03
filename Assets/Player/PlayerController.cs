@@ -573,6 +573,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Respawn()
+    {
+        if (!pState.alive)
+        {
+            pState.alive = true;
+            health = maxHealth;
+            anim.Play("Idle_animPlayer"); // Forçar animação idle
+        }
+    }
+
     void RestoreTimeScale()
     {
         if (restoreTime)
@@ -662,6 +672,7 @@ public class PlayerController : MonoBehaviour
         // Mostra o painel de morte com fade in
         if (deathPanel != null)
         {
+            
             deathPanel.FadeIn(1f); // Fade in de 1 segundo
         }
         else

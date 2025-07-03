@@ -61,7 +61,7 @@ public class HeartController : MonoBehaviour
             heartFills[i] = temp.transform.Find("HeartFill").GetComponent<Image>();
         }
     }
-    void UpdateHeartsHUD()
+    public void UpdateHeartsHUD()
     {
         SetHeartContainers();
         SetFilledHearts();

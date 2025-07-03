@@ -65,10 +65,12 @@
     <Compile Include="Assets\ProjetilCavaleiro.cs" />
     <Compile Include="Assets\CanvasMenuManager.cs" />
     <Compile Include="Assets\Player\HeartController.cs" />
+    <Compile Include="Assets\GamaManager.cs" />
     <Compile Include="Assets\AreaDanoArena.cs" />
     <Compile Include="Assets\PauseManager.cs" />
     <Compile Include="Assets\Enemy\RainhaNyarla.cs" />
     <Compile Include="Assets\HUD\ConfigMenu.cs" />
+    <Compile Include="Assets\Banco.cs" />
     <Compile Include="Assets\Audios\Audios\GerenciadorDeMusica.cs" />
     <Compile Include="Assets\Sprites\Objetos\Alavanca\Gatilho_Alavanca.cs" />
     <Compile Include="Assets\Enemy\Enemy.cs" />

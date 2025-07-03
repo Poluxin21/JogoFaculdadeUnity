@@ -9,6 +9,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private FadeUI pauseButton;
     [SerializeField] private FadeUI statusPanel;
     [SerializeField] private float fadeDuration = 0.8f;
+    private bool menuConfigi = false;
 
     // Variável pública para outros scripts verificarem
     public static bool isPaused = false;
@@ -39,8 +40,8 @@ public class PauseManager : MonoBehaviour
 
     void Update()
     {
-        // Permite pausar/despausar com ESC (opcional)
-        if (Input.GetKeyDown(KeyCode.Tab))
+        // Permite pausar/despausar com TAB (opcional)
+        if (Input.GetKeyDown(KeyCode.Tab) && menuConfigi == false)
         {
             if (isPaused)
                 ResumeGame();
@@ -88,5 +89,11 @@ public class PauseManager : MonoBehaviour
             ResumeGame();
         else
             PauseGame();
+    }
+
+    public void MenuConfig()
+    {
+        if (menuConfigi) menuConfigi = false;
+        else menuConfigi = true;
     }
 }

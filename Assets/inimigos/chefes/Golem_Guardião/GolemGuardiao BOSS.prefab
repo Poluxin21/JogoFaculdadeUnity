@@ -165,7 +165,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 801170877
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: -1216320819126283352, guid: ed5c89e99a394404aa7373393bc64306, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -259,7 +259,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 801170877
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 6019432652294428514, guid: 5be95edc88e2c7549921cab8af9549f2, type: 3}
   m_Color: {r: 0.0076868534, g: 1, b: 0, a: 1}
@@ -352,14 +352,14 @@ MonoBehaviour:
   distanciaDeteccao: 12
   distanciaAtaqueMarreta: 3
   distanciaMaximaInvestida: 15
-  tempoEntreSequencias: 3
+  tempoEntreSequencias: 5
   danoMarreta: 2
   tempoAtivarHitboxMarreta: 0.8
-  duracaoHitboxMarreta: 0.4
+  duracaoHitboxMarreta: 0.5
   velocidadeAvanco: 4
   danoInvestida: 3
   velocidadeInvestida: 12
-  tempoPreparacaoInvestida: 0.09979958
+  tempoPreparacaoInvestida: 1
   duracaoInvestida: 0.8
   tempoImovel: 2
   ataquesParaImovel: 3
@@ -368,7 +368,7 @@ MonoBehaviour:
   hitboxMarreta: {fileID: 7904171745264006259}
   hitboxInvestida: {fileID: 6765754907105390763}
   indicadorInvestida: {fileID: 7387082462645169902}
-  ataquesNormaisSobrevividos: 30
+  ataquesNormaisSobrevividos: 0
 --- !u!50 &8691751681479014329
 Rigidbody2D:
   serializedVersion: 5
