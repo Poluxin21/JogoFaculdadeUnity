@@ -42,6 +42,9 @@ public class CavaleiroNegro : Enemy
     private PadraoAtaque padraoAtual;
     private List<PadraoAtaque> padroesDisponiveis;
 
+    /*[SerializeField] private FadeUI vitotiaPanel; // Referência ao DeathPanel
+    [SerializeField] private float vitotiaPanelDelay = 1f; // Tempo antes do painel aparecer*/
+
     public enum PadraoAtaque
     {
         AtaqueCorte,
@@ -412,6 +415,8 @@ public class CavaleiroNegro : Enemy
         animator.SetTrigger("Morte");
         
         GetComponent<Collider2D>().enabled = false;
+
+        //vitotiaPanel.FadeIn(vitotiaPanelDelay);
         
         Destroy(gameObject, 2f);
     }

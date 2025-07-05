@@ -40,7 +40,7 @@ public class GolemGuardiao : Enemy
     private bool executandoSequencia;
     private bool imovel;
     private int contadorAtaquesSequencia;
-    private PadraoAtaque proximoPadrao;
+    //private PadraoAtaque proximoPadrao = 0;
     private Vector2 direcaoInvestida;
     private Vector2 posicaoInicialInvestida;
 
@@ -66,7 +66,7 @@ public class GolemGuardiao : Enemy
         ConfigurarHitboxes();
 
         // Inicializa com ataque de marreta
-        proximoPadrao = PadraoAtaque.Marreta;
+        //proximoPadrao = PadraoAtaque.Marreta;
         contadorAtaquesSequencia = 0;
         tempoUltimaSequencia = -tempoEntreSequencias;
     }

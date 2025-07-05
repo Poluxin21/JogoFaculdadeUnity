@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class WanderingArmor : Enemy
@@ -402,7 +403,7 @@ public class WanderingArmor : Enemy
         if (Application.isPlaying)
         {
             Vector3 textPos = transform.position + Vector3.up * 2f;
-            UnityEditor.Handles.Label(textPos, $"Estado: {currentAIState}");
+            //Handles.Label(textPos, $"Estado: {currentAIState}");
         }
     }
 }

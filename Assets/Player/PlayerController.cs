@@ -671,12 +671,11 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
 
         // Aguarda o delay adicional antes de mostrar o painel
-        yield return new WaitForSeconds(deathPanelDelay);
 
         // Mostra o painel de morte com fade in
         if (deathPanel != null)
         {   
-            deathPanel.FadeIn(1f); // Fade in de 1 segundo
+            deathPanel.FadeIn(deathPanelDelay); // Fade in de 1 segundo
         }
         else
         {

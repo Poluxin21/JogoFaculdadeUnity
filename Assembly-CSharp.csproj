@@ -68,7 +68,6 @@
     <Compile Include="Assets\GamaManager.cs" />
     <Compile Include="Assets\AreaDanoArena.cs" />
     <Compile Include="Assets\PauseManager.cs" />
-    <Compile Include="Assets\Enemy\RainhaNyarla.cs" />
     <Compile Include="Assets\HUD\ConfigMenu.cs" />
     <Compile Include="Assets\Banco.cs" />
     <Compile Include="Assets\Audios\Audios\GerenciadorDeMusica.cs" />
@@ -83,7 +82,6 @@
     <Compile Include="Assets\Enemy\EnemyChase.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Player\PlayerStateList.cs" />
-    <Compile Include="Assets\SimboloBarreira.cs" />
     <Compile Include="Assets\HitboxBoss.cs" />
     <Compile Include="Assets\Sprites\Objetos\Alavanca\Gerenciamento_Barreira.cs" />
     <Compile Include="Assets\ArenaController.cs" />
